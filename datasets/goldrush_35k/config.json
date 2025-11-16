@@ -1,0 +1,593 @@
+{
+  "domain": {
+    "name": "Klondike Gold Rush Era",
+    "description": "This dataset explores the vibrant and harsh realities of a gold rush town in the Yukon during the late 19th century. It encompasses the daily lives of prospectors, merchants, and other inhabitants, detailing their struggles, triumphs, and the unique social dynamics born from the pursuit of fortune. The data will capture everything from mining techniques and economic activities to the challenges of the remote environment and the cultural tapestry of a boomtown.",
+    "time_span": null,
+    "scale": {
+      "target_documents": 50000,
+      "target_queries": 5000
+    }
+  },
+  "metadata_schema": {
+    "temporal": [
+      {
+        "name": "event_start_date",
+        "type": "date",
+        "range": "1896-08-01 to 1901-12-31",
+        "distribution": "uniform",
+        "description": "The earliest date of the primary event or period described within the document."
+      },
+      {
+        "name": "document_creation_date",
+        "type": "date",
+        "range": "1896-01-01 to 1910-12-31",
+        "distribution": "uniform",
+        "description": "The date when the document itself was created or published."
+      }
+    ],
+    "hierarchical": [],
+    "categorical": [
+      {
+        "name": "document_type",
+        "type": "enum",
+        "values": [
+          "Diary Entry",
+          "Newspaper Article",
+          "Official Government Report",
+          "Personal Letter",
+          "Photograph Description",
+          "Telegram",
+          "Mining Claim Document",
+          "Business Ledger",
+          "Advertisement",
+          "Court Transcript",
+          "Travel Journal",
+          "Map Annotation",
+          "Receipt/Invoice",
+          "Customs Declaration",
+          "Medical Record",
+          "Ship Manifest",
+          "Mining Regulation",
+          "Wanted Poster",
+          "Exploration Survey",
+          "Telegraph Message",
+          "Autobiographical Memoir",
+          "Oral History Transcript",
+          "Sermon Transcript",
+          "Legal Affidavit",
+          "Petition",
+          "Public Notice",
+          "Financial Statement",
+          "Inventory List",
+          "Will and Testament",
+          "Property Deed",
+          "Permit Application",
+          "Town Council Minutes",
+          "Brochure/Pamphlet",
+          "Cookbook Recipe",
+          "Song Lyric Sheet",
+          "School Record",
+          "Census Record",
+          "Journalistic Dispatch",
+          "Correspondence Log",
+          "Employment Contract"
+        ],
+        "distribution": "zipfian",
+        "description": "The primary category or format of the historical document."
+      },
+      {
+        "name": "settlement",
+        "type": "enum",
+        "values": [
+          "Dawson City",
+          "Skagway",
+          "Whitehorse",
+          "Dyea",
+          "Bonanza Creek",
+          "Hunker Creek",
+          "Eldorado Creek",
+          "Klondike River",
+          "Yukon River",
+          "Chilkoot Pass",
+          "White Pass",
+          "Lake Bennett",
+          "Lake Lindeman",
+          "Carcross",
+          "Fort Selkirk",
+          "Stewart River",
+          "Mayo Landing",
+          "Forty Mile",
+          "Circle City",
+          "Eagle City",
+          "Tagish",
+          "Log Cabin",
+          "Grand Forks",
+          "Bear Creek",
+          "Dominion Creek",
+          "Sulphur Creek",
+          "Gold Bottom Creek",
+          "Henderson Creek",
+          "Lorne Creek",
+          "Minto",
+          "Pelly Crossing",
+          "Rink Rapids",
+          "Little Salmon",
+          "Big Salmon",
+          "Indian River",
+          "Moosehide",
+          "Lousetown",
+          "Nugget City",
+          "Quartz Creek",
+          "Miller Creek"
+        ],
+        "distribution": "zipfian",
+        "description": "The primary gold rush settlement or location associated with the document's content."
+      },
+      {
+        "name": "stakeholder_role",
+        "type": "enum",
+        "values": [
+          "Prospector",
+          "Merchant",
+          "Government Official",
+          "Indigenous Person",
+          "Journalist",
+          "Transport Worker",
+          "Miner",
+          "Saloon Keeper",
+          "Banker",
+          "Lawyer",
+          "Doctor",
+          "Nurse",
+          "Cook",
+          "Laundry Worker",
+          "Entertainer",
+          "Gambler",
+          "Outfitter",
+          "Teamster",
+          "Steamboat Captain",
+          "Surveyor",
+          "Postmaster",
+          "Teacher",
+          "Missionary",
+          "Blacksmith",
+          "Carpenter",
+          "Photographer",
+          "Gold Buyer",
+          "Logger",
+          "Trapper",
+          "Police Officer",
+          "Customs Officer",
+          "Homesteader",
+          "Family Member",
+          "Waiter/Waitress",
+          "Miner (Hardrock)",
+          "Riverboat Pilot",
+          "Trail Guide",
+          "Union Organizer",
+          "Claim Jumper",
+          "Musician"
+        ],
+        "distribution": "zipfian",
+        "description": "The primary role or occupation of the person or group central to the document's content."
+      }
+    ],
+    "numerical": [
+      {
+        "name": "estimated_population",
+        "type": "int",
+        "range": [
+          100.0,
+          50000.0
+        ],
+        "distribution": "uniform",
+        "description": "An estimated population of the primary settlement mentioned, around the time of the document's events."
+      }
+    ],
+    "multi_valued": [
+      {
+        "name": "primary_themes",
+        "type": "array",
+        "element_type": "string",
+        "min_items": 1,
+        "max_items": 7,
+        "possible_values": [
+          "Mining Techniques",
+          "Economic Activities",
+          "Social Dynamics",
+          "Environmental Challenges",
+          "Transportation Routes",
+          "Indigenous Relations",
+          "Prospector Experiences",
+          "Boomtown Development",
+          "Gold Discovery and Claims",
+          "Yukon Geography",
+          "Supply Chains",
+          "Law and Order",
+          "Cultural Exchange",
+          "Hardship and Survival",
+          "Entrepreneurship",
+          "Government Regulations",
+          "Technological Innovations (Mining)",
+          "Gender Roles",
+          "International Impact",
+          "Legacy of the Gold Rush",
+          "Historical Figures",
+          "Daily Life in a Gold Rush Town",
+          "Health and Disease",
+          "Entertainment and Leisure",
+          "Infrastructure Development",
+          "Communication Methods",
+          "Wildlife and Nature",
+          "Resource Management",
+          "Winter Survival Strategies",
+          "Financial Speculation"
+        ],
+        "description": "Key overarching themes or subjects covered in the document."
+      }
+    ]
+  },
+  "document_types": [
+    {
+      "name": "Mining Claim Application",
+      "weight": 0.15,
+      "length_range": [
+        400,
+        800
+      ],
+      "avg_length_tokens": 600,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "event_start_date"
+      ],
+      "content_description": "Official document detailing a new mining claim, including location coordinates, prospector's name, witnesses, and initial registration details.",
+      "template_instructions": "Generate a formal application for a mining claim. Include a clear heading (e.g., 'MINING CLAIM APPLICATION - YUKON TERRITORY'). The document should state the 'document_creation_date' as the date of application and 'settlement' as the location of the mining recorder's office. Specify the 'stakeholder_role' of the applicant (e.g., 'Prospector' or 'Claimant'). The 'primary_themes' should be evident through the legal and mining-specific language. Detail the claim's location with approximate coordinates or descriptions relative to landmarks (e.g., 'commencing at a stake marked 'Discovery' on the left limit of Bonanza Creek, approximately 300 feet downstream from Claim #17'). Include the prospector's full name, a declaration of intent to work the claim, and spaces for witness signatures and the mining recorder's endorsement. Use precise, legalistic language typical of the late 19th century."
+    },
+    {
+      "name": "General Store Ledger Entry",
+      "weight": 0.15,
+      "length_range": [
+        500,
+        1000
+      ],
+      "avg_length_tokens": 750,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "event_start_date"
+      ],
+      "content_description": "Records of daily transactions at a general store, listing items sold, quantities, prices, customer names, and dates. Reflects economic activity.",
+      "template_instructions": "Create a series of ledger entries for a general store in a Klondike settlement. The 'document_creation_date' should represent the date of the transactions, and 'settlement' should be the store's location. The 'stakeholder_role' should be implied as the merchant or customer. 'primary_themes' should center on commerce and daily life. Each entry should include: Customer Name, Item Description (e.g., '50 lbs Flour', 'Pair of Leather Boots', 'Mining Pan'), Quantity, Unit Price (reflecting inflated Klondike prices), and Total Price. Indicate payment status (e.g., 'Paid Cash', 'On Account'). Include a variety of typical goods sold in the era. Maintain a factual, concise, and business-like tone."
+    },
+    {
+      "name": "Personal Letter/Telegram",
+      "weight": 0.12,
+      "length_range": [
+        600,
+        1500
+      ],
+      "avg_length_tokens": 1050,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "settlement",
+        "event_start_date"
+      ],
+      "content_description": "Correspondence between individuals, ranging from brief telegrams with urgent news to personal letters detailing daily life, family updates, or travel plans.",
+      "template_instructions": "Generate either a personal letter or a telegram. For a letter, include a 'document_creation_date', a salutation (e.g., 'My Dearest [Name]'), and a closing. The 'stakeholder_role' will be the sender. The 'primary_themes' should focus on personal experiences, daily life, and emotional reflections. Content should describe the arduous journey, living conditions, mining progress (or lack thereof), hopes, fears, and family news. For a telegram, use the 'document_creation_date', a 'To:' and 'From:' line, and a terse, urgent message, often capitalized with 'STOP' between phrases. 'settlement' can be included to indicate the sender's location. The tone should be informal and personal for letters, and urgent/terse for telegrams."
+    },
+    {
+      "name": "Assay Report",
+      "weight": 0.1,
+      "length_range": [
+        450,
+        900
+      ],
+      "avg_length_tokens": 675,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "event_start_date"
+      ],
+      "content_description": "Official laboratory analysis report detailing the gold content, purity, and weight of ore samples submitted by prospectors.",
+      "template_instructions": "Create a formal assay report from a Klondike assay office. The 'document_creation_date' should be the report date, and 'settlement' the location of the assay office. The 'stakeholder_role' could be the prospector (client) or the assayer (author). 'primary_themes' should highlight mining, science, and commerce. Include an official-looking heading (e.g., 'DAWSON ASSAY OFFICE - OFFICIAL REPORT'), a unique Report Number, the client's name, a description of the sample (e.g., 'Placer Gravel from Eldorado Creek, Claim #23'), the weight of the sample, the assay method used (e.g., 'Fire Assay'), and the detailed results: Gold Content (e.g., '0.85 oz per ton'), and Fineness (e.g., '895 fine'). Conclude with the assayer's signature. Maintain a scientific, formal, and precise tone."
+    },
+    {
+      "name": "Public Notice/Wanted Poster",
+      "weight": 0.08,
+      "length_range": [
+        400,
+        700
+      ],
+      "avg_length_tokens": 550,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "stakeholder_role",
+        "event_start_date"
+      ],
+      "content_description": "Official public announcements, wanted posters for criminals, notices of lost property, or general information posted in town.",
+      "template_instructions": "Generate either a public notice or a wanted poster. Both should feature a prominent, bold heading (e.g., 'PUBLIC NOTICE', 'WANTED'). The 'document_creation_date' should be the date of issue/posting, and 'settlement' the town where it's displayed. 'primary_themes' should include law & order or public information. For a public notice, include the issuing authority (e.g., 'By Order of the NWMP', 'Dawson City Council') and details about regulations, upcoming events, or warnings. For a wanted poster, provide a vivid physical description of the individual, the alleged crime, and a reward amount. The tone should be authoritative, direct, and urgent."
+    },
+    {
+      "name": "Prospector's Journal Entry",
+      "weight": 0.09,
+      "length_range": [
+        2500,
+        6000
+      ],
+      "avg_length_tokens": 4250,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "settlement",
+        "event_start_date"
+      ],
+      "content_description": "Detailed daily or weekly entries from a prospector's personal journal, chronicling their mining activities, findings, challenges, weather conditions, and personal reflections.",
+      "template_instructions": "Write a series of dated journal entries from the perspective of a Klondike prospector. Each entry should begin with the 'document_creation_date' and potentially the current 'settlement' or mining location. The 'stakeholder_role' is inherently the prospector. 'primary_themes' should encompass mining, daily life, and personal reflection. Detail the physical labor, techniques used (e.g., 'rocking the cradle', 'thawing the ground'), successes or failures in finding gold, descriptions of the harsh weather and environment, interactions with other miners, and personal thoughts on loneliness, hope, or despair. The tone should be informal, reflective, and often weary but determined."
+    },
+    {
+      "name": "Local Newspaper Article",
+      "weight": 0.08,
+      "length_range": [
+        2000,
+        5000
+      ],
+      "avg_length_tokens": 3500,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "stakeholder_role",
+        "event_start_date"
+      ],
+      "content_description": "Articles from local Klondike newspapers covering town events, significant gold strikes, social news, advertisements for businesses, and editorials.",
+      "template_instructions": "Generate a section of a local Klondike newspaper. Include a newspaper masthead (e.g., 'The Klondike Nugget') and the 'document_creation_date' as the publication date. The 'settlement' should be the town of publication. 'primary_themes' should cover news, commerce, and community life. Create several articles with distinct headlines: a major gold strike report, a social event announcement, a crime report, or an editorial on local issues. Interspersed within the articles, include small, period-appropriate advertisements for local businesses (general stores, saloons, assay offices). The tone should be informative, journalistic, sometimes sensationalist, and reflect the boomtown spirit."
+    },
+    {
+      "name": "Merchant's Inventory & Order List",
+      "weight": 0.07,
+      "length_range": [
+        3000,
+        7000
+      ],
+      "avg_length_tokens": 5000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "event_start_date"
+      ],
+      "content_description": "Detailed lists of goods in stock, incoming orders, and supplies needed by a merchant, reflecting the logistics and supply chain challenges of the era.",
+      "template_instructions": "Create a detailed inventory and order list for a general merchant in a Klondike town. The 'document_creation_date' should be the date the list was compiled, and 'settlement' the store's location. The 'stakeholder_role' is the merchant. 'primary_themes' should focus on commerce and logistics. Structure the document with sections for 'Current Stock' (Item, Quantity, Last Reorder Date), 'Incoming Shipments' (Item, Quantity, Supplier, Estimated Arrival), and 'Items to Reorder' (Item, Desired Quantity). Include a wide range of goods essential for Klondike life (foodstuffs, tools, clothing, building materials, medical supplies). Mention specific suppliers and logistical challenges (e.g., 'awaiting spring thaw shipment'). The tone should be factual, organized, and business-oriented."
+    },
+    {
+      "name": "Court Summons & Brief Testimony",
+      "weight": 0.06,
+      "length_range": [
+        2000,
+        4500
+      ],
+      "avg_length_tokens": 3250,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "stakeholder_role",
+        "event_start_date"
+      ],
+      "content_description": "Documents related to minor legal disputes, including summons, brief statements of complaint, and short transcripts of initial testimonies.",
+      "template_instructions": "Generate a court summons and a brief excerpt of testimony from a minor legal case. The 'document_creation_date' should be the date of the summons or testimony, and 'settlement' the location of the court. 'primary_themes' should clearly be law & order and justice. For the summons, include a court heading (e.g., 'Court of the Yukon Territory'), the case name (e.g., 'Plaintiff v. Defendant'), the reason for the summons (e.g., 'non-payment of debt', 'dispute over claim boundary'), and the date/time to appear. For the testimony, use a Q&A format with a witness, detailing a simple account related to the dispute. The language should be formal and legalistic for the summons, and direct for the testimony."
+    },
+    {
+      "name": "Official Government Report (Yukon Commissioner)",
+      "weight": 0.04,
+      "length_range": [
+        12000,
+        18000
+      ],
+      "avg_length_tokens": 15000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "event_start_date"
+      ],
+      "content_description": "Comprehensive reports from the Canadian government officials in the Yukon, detailing administrative challenges, population statistics, law enforcement issues, and infrastructure development.",
+      "template_instructions": "Create a comprehensive official report from the Yukon Commissioner to a higher authority (e.g., Minister of the Interior). The 'document_creation_date' should be the report date, 'settlement' should be Dawson City, and the 'stakeholder_role' is the Commissioner. 'primary_themes' should cover governance, infrastructure, and demographics. Structure the report with a formal introduction, distinct sections (e.g., 'Population Statistics', 'Mining Operations & Regulations', 'Law Enforcement & Order', 'Public Works', 'Indigenous Relations'), and a conclusion. Include specific details, statistics (even if estimated), administrative challenges, and recommendations. The tone should be formal, bureaucratic, and analytical, reflecting the challenges of governing a remote boomtown."
+    },
+    {
+      "name": "Mining Company Business Plan/Investment Proposal",
+      "weight": 0.03,
+      "length_range": [
+        10000,
+        16000
+      ],
+      "avg_length_tokens": 13000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "settlement",
+        "stakeholder_role",
+        "event_start_date"
+      ],
+      "content_description": "Detailed plans for establishing or expanding a mining operation or other large enterprise, including financial projections, operational strategies, and appeals for investment.",
+      "template_instructions": "Generate a detailed business plan or investment proposal for a mining company in the Klondike. The 'document_creation_date' is the date of the proposal. 'primary_themes' should focus on commerce, investment, and mining. Include sections such as an Executive Summary, Company Background, Market Analysis (gold prices, competition), Operational Plan (specific mining methods, equipment, labor needs), Financial Projections (startup costs, expected returns, revenue forecasts), Management Team, Risk Assessment, and a clear Investment Appeal. Incorporate specific details about proposed mining locations, estimated gold reserves, and the logistics of operating in the Yukon. The tone should be professional, persuasive, and optimistic, aimed at securing investment."
+    },
+    {
+      "name": "Personal Memoir/Extended Correspondence",
+      "weight": 0.02,
+      "length_range": [
+        15000,
+        20000
+      ],
+      "avg_length_tokens": 17500,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "stakeholder_role",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "settlement",
+        "event_start_date"
+      ],
+      "content_description": "An extensive personal account or a series of interconnected letters from an individual, detailing their entire experience in the Klondike over a significant period.",
+      "template_instructions": "Create an extensive personal memoir or a series of interconnected letters from an individual recounting their Klondike experience. The 'document_creation_date' can represent the period covered or the date of writing the memoir. The 'stakeholder_role' is the author/correspondent. 'primary_themes' should be personal narrative, history, and daily life. Detail the journey to the Klondike (e.g., Chilkoot Pass, river travel), initial impressions of the boomtowns, the daily struggles and triumphs of mining or other work, social interactions, challenges faced (health, financial), and reflections on the overall impact of the experience. Focus on sensory details, emotional depth, and a chronological narrative. The tone should be reflective, descriptive, and personal."
+    },
+    {
+      "name": "Geological Survey & Prospecting Analysis",
+      "weight": 0.005,
+      "length_range": [
+        25000,
+        35000
+      ],
+      "avg_length_tokens": 30000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "settlement",
+        "event_start_date"
+      ],
+      "content_description": "In-depth scientific reports on the geology of specific regions, detailing potential gold veins, soil composition, historical findings, and recommendations for prospecting.",
+      "template_instructions": "Generate an in-depth scientific geological survey and prospecting analysis report. The 'document_creation_date' should be the date of the report. 'primary_themes' should include science, mining, and environment. Structure the report with a Title Page, Abstract, Introduction (purpose, methodology), Regional Geology, Specific Area Analysis (e.g., 'Dominion Creek Basin'), detailing stratigraphy, structural geology, and mineralogy. Include sections on Gold Occurrence & Distribution, Historical Mining Context, and detailed Prospecting Recommendations (e.g., 'focus on bedrock contacts', 'test ancient river channels'). Incorporate scientific terminology, detailed descriptions of rock types and soil composition, and analysis of gold deposition theories. The tone should be highly technical, objective, and academic."
+    },
+    {
+      "name": "Full Trial Transcript (Major Case)",
+      "weight": 0.005,
+      "length_range": [
+        20000,
+        40000
+      ],
+      "avg_length_tokens": 30000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_creation_date",
+        "settlement",
+        "primary_themes"
+      ],
+      "optional_metadata": [
+        "stakeholder_role",
+        "event_start_date"
+      ],
+      "content_description": "Complete and detailed transcripts of significant legal proceedings, including all witness testimonies, cross-examinations, and judicial rulings.",
+      "template_instructions": "Create a full trial transcript for a major legal case in the Klondike. The 'document_creation_date' should be the date(s) of the trial, and 'settlement' the court's location. 'primary_themes' should be law & order and justice. Include a court heading (e.g., 'Supreme Court of the Yukon Territory'), the case name (e.g., 'R. v. [Defendant Name]'), and a list of 'Appearances' (Crown and Defense counsel) and the 'Presiding' judge. Detail verbatim Q&A for direct examination, cross-examination, and re-direct for multiple witnesses. Include opening statements, closing arguments, objections (with 'Sustained' or 'Overruled' notations), and the judicial ruling or verdict. The content should reflect the drama and legal intricacies of a significant case (e.g., murder, large-scale theft, major claim dispute). The tone must be formal, legal, and a precise record of proceedings."
+    }
+  ],
+  "query_patterns": [
+    {
+      "category": "Find by Stakeholder Role",
+      "weight": 0.25,
+      "description": "Users want to find documents or information related to a specific role in the Klondike Gold Rush (e.g., 'prospector', 'merchant', 'saloon owner').",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Documents from a Specific Settlement",
+      "weight": 0.2,
+      "description": "Users are interested in all records or events tied to a particular gold rush town (e.g., 'Dawson City', 'Skagway').",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Events/Records within a Date Range and Settlement",
+      "weight": 0.15,
+      "description": "Users are looking for information about occurrences or documents created within a specific time period and location.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Exploring Specific Themes by Document Type",
+      "weight": 0.15,
+      "description": "Users want to find a particular type of document (e.g., 'diary', 'newspaper article') that discusses certain key aspects of the era (e.g., 'mining techniques', 'economic activities', 'daily life').",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Population Dynamics and Social Impact",
+      "weight": 0.1,
+      "description": "Users aim to understand the social changes and population fluctuations in a specific settlement during a given period, focusing on related themes.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Comprehensive Historical Research",
+      "weight": 0.15,
+      "description": "Users need to find specific document types created by particular stakeholder roles in certain settlements within a date range, covering multiple themes. This is for in-depth research.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "domain": {
+    "name": "Veridian Bank: The Unraveling",
+    "description": "This dataset comprises internal communications, memos, and financial reports from Veridian Bank, a fictional financial institution, spanning a tumultuous three-year period. It captures the escalating internal power struggles, suspected corporate espionage, and the unraveling of a major investment fraud scheme that threatens to bring the institution to its knees.",
+    "time_span": null,
+    "scale": {
+      "target_documents": 100,
+      "target_queries": 10
+    }
+  },
+  "metadata_schema": {
+    "temporal": [
+      {
+        "name": "document_date",
+        "type": "date",
+        "range": "2021-01-01 to 2023-12-31",
+        "distribution": "uniform",
+        "description": "The date when the document was created or officially issued."
+      }
+    ],
+    "hierarchical": [],
+    "categorical": [
+      {
+        "name": "document_type",
+        "type": "enum",
+        "values": [
+          "Email",
+          "Internal Memo",
+          "Financial Report",
+          "Meeting Minutes",
+          "Legal Brief",
+          "Board Resolution",
+          "Audit Report",
+          "Correspondence"
+        ],
+        "distribution": "zipfian",
+        "description": "The type or format of the document."
+      },
+      {
+        "name": "author",
+        "type": "enum",
+        "values": [
+          "Evelyn Reed (Head of Risk Management)",
+          "Marcus Thorne (Chief Investment Officer)",
+          "Veridian Legal Dept.",
+          "CEO Office (Arthur Sterling)",
+          "Internal Audit Team",
+          "Sarah Chen (Compliance Officer)",
+          "David Miller (HR Director)",
+          "Board of Directors"
+        ],
+        "distribution": "zipfian",
+        "description": "The individual or entity responsible for creating or issuing the document."
+      },
+      {
+        "name": "department",
+        "type": "enum",
+        "values": [
+          "Finance",
+          "Legal",
+          "Executive Office",
+          "Compliance",
+          "Risk Management",
+          "Internal Audit",
+          "Human Resources",
+          "Investments"
+        ],
+        "distribution": "zipfian",
+        "description": "The department within Veridian Bank that created or is primarily associated with the document."
+      },
+      {
+        "name": "issue_category",
+        "type": "enum",
+        "values": [
+          "Investment Fraud",
+          "Corporate Espionage",
+          "Internal Power Struggle",
+          "Regulatory Non-Compliance",
+          "Whistleblower Report",
+          "Financial Misconduct",
+          "Data Breach",
+          "Market Manipulation"
+        ],
+        "distribution": "zipfian",
+        "description": "The primary theme or subject matter category the document relates to, concerning the bank's issues."
+      },
+      {
+        "name": "confidentiality_level",
+        "type": "enum",
+        "values": [
+          "Internal Only",
+          "Confidential",
+          "Highly Restricted",
+          "Public Disclosure (Draft)",
+          "Legal Privilege",
+          "Privileged & Confidential"
+        ],
+        "distribution": "zipfian",
+        "description": "The designated security or access level for the document."
+      }
+    ],
+    "numerical": [
+      {
+        "name": "risk_assessment_score",
+        "type": "int",
+        "range": [
+          1.0,
+          100.0
+        ],
+        "distribution": "normal",
+        "description": "A numerical score indicating the perceived risk level associated with the document's content or related events (e.g., 1-100)."
+      },
+      {
+        "name": "financial_impact_usd",
+        "type": "int",
+        "range": [
+          1000.0,
+          1000000000.0
+        ],
+        "distribution": "zipfian",
+        "description": "The estimated or reported financial amount (in USD) directly relevant to the document's content, such as fraud amounts or losses."
+      }
+    ],
+    "multi_valued": []
+  },
+  "document_types": [
+    {
+      "name": "Urgent Internal Memo",
+      "weight": 0.35,
+      "length_range": [
+        400,
+        1200
+      ],
+      "avg_length_tokens": 800,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "author",
+        "department",
+        "issue_category"
+      ],
+      "optional_metadata": [
+        "confidentiality_level"
+      ],
+      "content_description": "Quick communications, directives, and immediate updates on critical incidents, internal power plays, or early warnings of suspicious financial activities within Veridian Bank. These memos demand immediate attention and often relate to unfolding crises.",
+      "template_instructions": "Structure:\n- Header: 'URGENT INTERNAL MEMORANDUM'\n- To: [Relevant Department(s) or Executive(s)]\n- From: [author]\n- Date: [document_date]\n- Subject: Concise and urgent, reflecting [issue_category] (e.g., 'Immediate Action Required: Suspected Funds Diversion,' 'Urgent Update: Executive Staffing Change,' 'Preliminary Alert: Irregular Trading Patterns')\n- Body:\n    - Opening: State the urgent matter directly.\n    - Background: Briefly explain the context of the urgency.\n    - Key Information/Directives: Detail what is known, what actions are required, or what immediate changes are being implemented.\n    - Impact/Implication: Briefly touch upon potential consequences if applicable.\n    - Call to Action/Next Steps: Clearly state what recipients need to do or expect.\n- Footer: 'Confidentiality Level: [confidentiality_level, if present]' (or 'Strictly Confidential' if no optional metadata)\nTone: Urgent, formal, direct, authoritative, and serious. Conveys a sense of immediate concern and necessity for action.\nContent: Focus on critical, time-sensitive information. This could include:\n- Alerts about suspicious transactions or financial discrepancies.\n- Directives regarding new compliance measures or internal investigations.\n- Updates on internal power shifts or unexpected resignations/appointments.\n- Warnings about potential corporate espionage activities.\n- Use strong, action-oriented language.\nMetadata Integration:\n- document_date: Use for the memo's date.\n- author: Use as the sender of the memo.\n- department: Mention the author's department or the target department.\n- issue_category: Directly inform the subject line and the main topic of the memo.\n- confidentiality_level: If present, include in the footer or header to emphasize sensitivity.\nGood Document Example: A memo from the Head of Risk Management (author) on a specific date (document_date) to the Executive Committee (department), concerning 'Unauthorized Trading Activity Discovered' (issue_category), marked 'Highly Confidential' (confidentiality_level). It would detail the discovery, immediate actions taken, and a demand for an emergency meeting."
+    },
+    {
+      "name": "Preliminary Investigation Brief",
+      "weight": 0.3,
+      "length_range": [
+        2000,
+        7000
+      ],
+      "avg_length_tokens": 4500,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "author",
+        "department",
+        "issue_category",
+        "confidentiality_level"
+      ],
+      "optional_metadata": [
+        "risk_assessment_score",
+        "financial_impact_usd"
+      ],
+      "content_description": "Initial findings and summaries of ongoing investigations into corporate espionage, employee misconduct, or specific suspicious transactions related to the investment fraud scheme at Veridian Bank. These briefs provide an early assessment of the situation, outlining scope, initial evidence, and immediate concerns.",
+      "template_instructions": "Structure:\n- Header: 'PRELIMINARY INVESTIGATION BRIEF'\n- To: [Recipient(s), e.g., Legal Department, Executive Committee]\n- From: [author] (e.g., Lead Investigator, Head of Internal Audit)\n- Date: [document_date]\n- Subject: 'Preliminary Brief: [Issue Category] Investigation - Case ID [Generated ID]'\n- Executive Summary: A concise overview of the investigation's purpose, key preliminary findings, and immediate recommendations.\n- Background: Contextual information about how the investigation was initiated.\n- Scope of Investigation: What is being examined and what is excluded.\n- Methodology: Brief description of investigative techniques (e.g., document review, interviews).\n- Preliminary Findings:\n    - Detailed presentation of initial evidence, observations, and data.\n    - Connect findings to specific individuals, departments, or transactions.\n    - Use bullet points or numbered lists for clarity.\n- Initial Assessment of Risk: Discuss potential implications, including a high-level [risk_assessment_score] if available.\n- Preliminary Financial Impact: If [financial_impact_usd] is available, state the estimated impact.\n- Recommendations for Next Steps: Proposed actions, further investigative avenues, or immediate risk mitigation strategies.\n- Confidentiality Notice: 'This document is [confidentiality_level].'\nTone: Objective, analytical, formal, cautious, and factual. Avoid speculation; focus on observed evidence.\nContent: Focus on presenting evidence and observations logically.\n- Details of suspicious activities (e.g., unusual transfer patterns, discrepancies in reports).\n- Initial identification of persons of interest or affected accounts.\n- Early indications of fraud methods or espionage tactics.\n- Quantify potential impact where possible.\nMetadata Integration:\n- document_date: Use for the brief's date.\n- author: Use as the lead investigator or department head.\n- department: Indicate the department conducting or receiving the investigation.\n- issue_category: Central to the subject line and the focus of the brief.\n- confidentiality_level: Prominently displayed in the header/footer and notice.\n- risk_assessment_score: If present, incorporate into the 'Initial Assessment of Risk' section.\n- financial_impact_usd: If present, include in a dedicated section or within findings.\nGood Document Example: A brief from the Head of Internal Audit (author) on a specific date (document_date) regarding an 'Investigation into Irregularities in the Derivatives Trading Desk' (issue_category), marked 'Strictly Confidential' (confidentiality_level). It would outline preliminary findings of unauthorized trades, estimate a [financial_impact_usd], and suggest immediate suspension of certain employees."
+    },
+    {
+      "name": "Executive Committee Meeting Minutes",
+      "weight": 0.2,
+      "length_range": [
+        6000,
+        12000
+      ],
+      "avg_length_tokens": 9000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "department",
+        "confidentiality_level",
+        "issue_category"
+      ],
+      "optional_metadata": [
+        "author",
+        "risk_assessment_score"
+      ],
+      "content_description": "Official records of high-level discussions, strategic decisions, and responses by the executive committee regarding Veridian Bank's escalating crisis, including internal power dynamics, major fraud developments, and their implications. These minutes capture the critical decisions made at the highest level.",
+      "template_instructions": "Structure:\n- Header: 'VERIDIAN BANK - EXECUTIVE COMMITTEE MEETING MINUTES'\n- Date: [document_date]\n- Time: [Start Time] - [End Time] (e.g., 10:00 AM - 2:30 PM)\n- Location: Executive Boardroom, Veridian Tower\n- Attendees: List all executive members present (e.g., CEO, CFO, COO, Head of Legal, Head of Risk, etc.)\n- Absent: List any absent members.\n- Chair: [Name of Chair, e.g., CEO]\n- Minute Taker: [author, if present, otherwise 'Office of the Secretary']\n- Confidentiality Level: [confidentiality_level]\n- Meeting Objective: Brief statement of the meeting's primary focus, often related to [issue_category].\n- Agenda Items:\n    - Each item should have a clear heading.\n    - Discussion: Detailed summary of discussions, including key points raised by different executives, debates, and differing opinions. Attribute comments to specific attendees (e.g., 'CEO noted...', 'CFO expressed concerns...').\n    - Key Decisions: Explicitly state decisions made, including who is responsible for what and by when.\n    - Action Items: List specific tasks, responsible parties, and deadlines.\n    - Updates on Previous Action Items: Review progress on tasks from prior meetings.\n    - Risk Assessment Update: If [risk_assessment_score] is available, discuss its implications and any changes.\n- Next Meeting: Date and time of the subsequent meeting.\n- Adjournment: Time the meeting concluded.\nTone: Formal, objective, detailed, and precise. Captures the essence of high-stakes discussions without editorializing. Reflects power dynamics through attributed statements.\nContent:\n- Discussions about the investment fraud scheme: scope, impact, legal strategy, public relations.\n- Internal power struggles: debates over leadership, departmental responsibilities, blame allocation.\n- Strategic responses to the crisis: restructuring, financial measures, regulatory compliance.\n- Updates on investigations, legal proceedings, and financial recovery efforts.\n- Specific directives given to departments or individuals.\nMetadata Integration:\n- document_date: Use for the meeting date.\n- department: Implicitly 'Executive Committee' but can be used to indicate the primary focus area if relevant to the [issue_category].\n- confidentiality_level: Prominently displayed.\n- issue_category: Guides the primary focus and agenda items of the meeting.\n- author: If present, as the minute-taker.\n- risk_assessment_score: If present, discussed under a 'Risk Assessment Update' agenda item.\nGood Document Example: Minutes from an Executive Committee meeting (department) on a specific date (document_date), marked 'Top Secret' (confidentiality_level), discussing 'Emergency Response to Market Manipulation Allegations' (issue_category). It would detail heated debates between the CEO and Head of Legal regarding strategy, specific decisions on asset freezes, and assign tasks to various executives."
+    },
+    {
+      "name": "Comprehensive Fraud Audit Report",
+      "weight": 0.15,
+      "length_range": [
+        15000,
+        30000
+      ],
+      "avg_length_tokens": 22500,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "author",
+        "department",
+        "issue_category",
+        "confidentiality_level",
+        "risk_assessment_score",
+        "financial_impact_usd"
+      ],
+      "optional_metadata": [],
+      "content_description": "In-depth reports detailing the full scope of the investment fraud scheme at Veridian Bank, including forensic accounting findings, analysis of legal implications, and comprehensive recommendations for remediation and recovery efforts. These reports are the definitive account of the fraud.",
+      "template_instructions": "Structure:\n- Cover Page: 'COMPREHENSIVE FRAUD AUDIT REPORT - VERIDIAN BANK'\n- Report Title: 'Investigation into the [Issue Category] Fraud Scheme'\n- Date of Report: [document_date]\n- Prepared For: Executive Committee, Board of Directors\n- Prepared By: [author] (e.g., Forensic Audit Team, External Consulting Firm)\n- Department: [department] (e.g., Internal Audit, Legal Department)\n- Confidentiality Level: [confidentiality_level]\n- Executive Summary: A detailed, self-contained summary of the entire report, including key findings, total [financial_impact_usd], and primary recommendations.\n- Introduction: Purpose, scope, and methodology of the audit.\n- Background of the Fraud: Chronological account of how the fraud developed, key players, and initial indicators.\n- Forensic Accounting Findings:\n    - Detailed analysis of financial records, transactions, and accounts.\n    - Identification of specific fraudulent activities (e.g., shell companies, money laundering, false entries).\n    - Quantification of losses, illicit gains, and asset tracing.\n    - Use charts, tables, and specific transaction IDs.\n- Analysis of Legal Implications:\n    - Discussion of potential criminal and civil charges.\n    - Regulatory breaches and compliance failures.\n    - Assessment of liability for individuals and the institution.\n- Impact Assessment:\n    - Total [financial_impact_usd] (confirmed and estimated).\n    - Reputational damage.\n    - Operational disruption.\n    - [risk_assessment_score] detailing current and future risks.\n- Recommendations:\n    - Remediation: Actions to stop ongoing fraud and mitigate immediate damage.\n    - Recovery: Strategies for asset recovery, legal actions against perpetrators.\n    - Prevention: Recommendations for internal control improvements, policy changes, and enhanced oversight to prevent future occurrences.\n    - Compliance: Steps to ensure regulatory compliance and avoid penalties.\n- Appendices: (Placeholder for supporting documents, e.g., transaction logs, interview transcripts, legal opinions).\nTone: Highly formal, analytical, objective, forensic, and authoritative. Presents findings unequivocally, supported by extensive evidence.\nContent:\n- Deep dive into complex financial manipulations.\n- Identification of individuals and their roles in the fraud.\n- Detailed legal analysis of culpability and potential penalties.\n- Concrete, actionable recommendations for systemic changes.\n- Quantification of financial losses and potential recoveries.\nMetadata Integration:\n- document_date: Date of the final report.\n- author: The entity or individual responsible for preparing the comprehensive report.\n- department: The department overseeing or commissioning the audit.\n- issue_category: The central theme and subject of the entire report.\n- confidentiality_level: Crucial for such a sensitive document, prominently displayed.\n- risk_assessment_score: Integrated into the 'Impact Assessment' section, detailing the comprehensive risk profile.\n- financial_impact_usd: A cornerstone of the report, featured in the executive summary and detailed in the 'Impact Assessment' and 'Forensic Accounting Findings.'\nGood Document Example: A report from a Forensic Audit Team (author) on a specific date (document_date) commissioned by the Internal Audit Department (department), detailing the 'Multi-Year Ponzi Scheme within the Wealth Management Division' (issue_category). It would be marked 'Top Secret - Legal Privilege' (confidentiality_level), present a [risk_assessment_score] of 9.5/10, and meticulously quantify a [financial_impact_usd] of $500 million, outlining every step of the fraud and providing extensive recovery strategies."
+    }
+  ],
+  "query_patterns": [
+    {
+      "category": "Documents by Core Investigation Issue",
+      "weight": 0.25,
+      "description": "Users are performing initial searches for all documents directly related to the main problems: 'investment fraud,' 'corporate espionage,' or 'internal power struggles.'",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Key Player Communications",
+      "weight": 0.2,
+      "description": "Users need to quickly pull all communications (memos, internal communications) from specific individuals or departments suspected to be central to the unfolding crisis.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "specific",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "High-Risk Financial Impact Reports",
+      "weight": 0.15,
+      "description": "Investigators are searching for financial reports that indicate significant monetary losses or high-risk assessments, potentially linked to the fraud scheme.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "specific",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Confidential Communications within Critical Period",
+      "weight": 0.15,
+      "description": "Users want to review highly confidential internal communications (memos, internal reports) from a specific period when key events were unfolding, particularly those concerning sensitive issues.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "specific",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Investment Fraud Scheme Timeline Reconstruction",
+      "weight": 0.15,
+      "description": "Users are attempting to reconstruct the timeline of the investment fraud scheme, looking for a combination of internal memos, financial reports, and risk assessments from involved departments/authors, showing high financial impact and confidentiality over the three-year period.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "very_specific",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Cross-Departmental Power Struggle & Espionage Evidence",
+      "weight": 0.1,
+      "description": "Users are digging for evidence of corporate espionage and internal power struggles across different departments, looking for specific document types (e.g., internal memos, incident reports) with high risk assessments and varying confidentiality levels, potentially involving specific individuals.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "very_specific",
+      "ground_truth_count": 1
+    }
+  ]
+}

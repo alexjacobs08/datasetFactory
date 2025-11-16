@@ -1,0 +1,38 @@
+{
+  "start_time": "2025-11-13T00:27:55.353668",
+  "last_update": "2025-11-13T00:42:39.992940",
+  "phases": {
+    "document_generation": {
+      "phase": "document_generation",
+      "num_batches": 7,
+      "num_calls": 639,
+      "input_tokens": 1993421,
+      "output_tokens": 772713,
+      "total_tokens": 2766134,
+      "input_cost": 0.0049835525,
+      "output_cost": 0.028976737500000002,
+      "total_cost": 0.03396029,
+      "duration_seconds": 694.2371520996094
+    },
+    "query_generation": {
+      "phase": "query_generation",
+      "num_batches": 1,
+      "num_calls": 500,
+      "input_tokens": 1909043,
+      "output_tokens": 25623,
+      "total_tokens": 1934666,
+      "input_cost": 0.0047726075000000005,
+      "output_cost": 0.0009608625,
+      "total_cost": 0.005733470000000001,
+      "duration_seconds": 222.46279954910278
+    }
+  },
+  "total_calls": 1139,
+  "total_input_tokens": 3902464,
+  "total_output_tokens": 798336,
+  "total_tokens": 4700800,
+  "total_input_cost": 0.00975616,
+  "total_output_cost": 0.0299376,
+  "total_cost": 0.039693759999999995,
+  "total_duration_seconds": 916.6999516487122
+}

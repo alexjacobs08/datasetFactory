@@ -1,0 +1,126 @@
+# KLONDIKE GOLD RUSH TOWN LIFE: WORLD-BUILDING CONTEXT
+
+## 1. TEMPORAL STRUCTURE
+
+The Klondike Gold Rush erupted in August 1896 when George Carmack, Skookum Jim, and Dawson Charlie discovered gold on Bonanza Creek. News reached the outside world in July 1897 when the steamships Portland and Excelsior arrived in Seattle and San Francisco carrying fortune-laden miners, triggering mass migration.
+
+The peak years (1897-1899) saw frenzied claim staking, explosive town growth, and infrastructure scrambles. Dawson City transformed from wilderness to a metropolis of 30,000+ by summer 1898. The 1898-1899 winter marked the boom's zenith, with established businesses, entertainment districts, and functioning civic institutions.
+
+By 1900, the rush was cooling. Richest claims were exhausted or consolidated under corporate operations. Population declined as stampeders dispersed to new strikes in Nome, Alaska. The 1900-1905 period saw stabilization: remaining operations mechanized, towns contracted to sustainable sizes, and the Yukon transitioned from frontier chaos to territorial administration. Documents from 1896-1900 capture this compressed cycle from discovery through boom to early decline.
+
+## 2. ORGANIZATIONS & HIERARCHY
+
+**Government Bodies**: The North-West Mounted Police (NWMP) maintained order, with detachments at Dawson City, Tagish Post, and Chilkoot Pass. Gold Commissioner's Office administered mining claims and collected royalties. The Yukon Territory was established in 1898, with Dawson as capital.
+
+**Transportation Enterprises**: The White Pass & Yukon Route Railway (begun 1898) competed with traditional packers. Pacific Coast Steamship Company and Alaska Commercial Company operated river and coastal vessels. Bennett Lake & Klondike Navigation Company ran Yukon River steamboats.
+
+**Major Commercial Houses**: Alaska Commercial Company dominated early supply chains with posts throughout the region. North American Trading & Transportation Company (NAT&T) provided competition. Ladue Company operated sawmills and trading posts. The Bank of British North America (established Dawson 1898) and Canadian Bank of Commerce financed operations.
+
+**Social Institutions**: St. Mary's Hospital (run by Sisters of St. Ann) provided medical care. Good Samaritan Hospital served miners. The Dawson Daily News and Klondike Nugget competed for readership. Pioneer Hall and Palace Grand Theatre offered entertainment. Arctic Brotherhood (fraternal order) and Yukon Order of Pioneers provided mutual aid networks.
+
+**Mining Syndicates**: Large operations like Big Alex McDonald's holdings, Treadgold Concession, and various London-financed companies increasingly dominated productive claims by 1899-1900.
+
+## 3. KEY ENTITIES & CATEGORIES
+
+**Settlement Types - Major Categories**:
+
+*Boomtowns* (Dawson City, Grand Forks): Dawson City epitomized the type—from nothing to 30,000 residents in eighteen months. Front Street featured the Monte Carlo Saloon, Fairview Hotel, and Madame Tremblay's restaurant. The town had electric lighting (Dawson Electric Light & Power Company), telephone service, and running water by 1899. Grand Forks, at Bonanza-Eldorado junction, served 10,000 miners with hotels like the Gold Hill and supply warehouses.
+
+*Port Cities* (Skagway, Dyea): Gateway settlements where stampeders arrived by steamship. Skagway, dominated by Jefferson "Soapy" Smith's criminal syndicate until his 1898 death, featured the Pack Train Saloon and numerous outfitters like N.A. Fuller's store. Dyea served the Chilkoot Trail route before the White Pass Railway made Skagway dominant.
+
+*Mining Camps* (Bonanza Creek, Eldorado Creek, Hunker Creek): Immediate claim-site settlements with rough cabins, cookhouses, and equipment caches. Eldorado's claims (especially 16 Above, owned by Charley Anderson) were legendarily rich. These camps had transient populations of 100-2,000.
+
+**Remaining Settlement Types**: *Supply Posts* served as waypoints with basic provisions; *Trail Stops* offered shelter on treacherous routes; *Native Villages* like Moosehide maintained indigenous communities affected by the influx.
+
+**Geographic Locations - Major Sites**:
+
+*Dawson City*: The metropolis. Second Avenue held the Bank of Commerce and Commissioner's Office. Paradise Alley housed dance halls. The Klondike River meets Yukon River here.
+
+*Bonanza Creek*: The discovery site. Claims numbered by distance from Discovery Claim—"16 Above Bonanza" meant 16 claims upstream.
+
+*Chilkoot Pass* and *White Pass*: The notorious access routes. Chilkoot's "Golden Stairs" required 1,500-pound outfit hauls. White Pass, called "Dead Horse Trail," claimed 3,000 pack animals in 1897-98.
+
+**Other Locations**: Skagway and Dyea (coastal gateways), Forty Mile (pre-rush mining settlement), Klondike River confluence, Yukon Territory broadly.
+
+**Document Originators - Patterns**:
+
+*Print Media*: Klondike Nugget (established May 1898, weekly then daily), Dawson Daily News (1899), Skagway News, Dyea Trail—competitive papers with sensational coverage.
+
+*Personal Records*: Diaries (like Belinda Mulrooney's business records), letters home (often requesting supplies or reporting failures), memoirs (written retrospectively).
+
+*Official Documents*: Gold Commissioner's claim records, NWMP reports, government surveys.
+
+*Business Records*: Ledgers from outfitters, saloons (like Bill McPhee's Monte Carlo), hotels tracking credit extended to miners.
+
+**Main Occupations - Major Roles**:
+
+*Prospectors/Miners*: Distinction mattered—prospectors sought claims; miners worked them. Famous prospectors included Big Alex McDonald (who bought rather than staked), Swiftwater Bill Gates, and Belinda Mulrooney (rare female claim owner).
+
+*Merchants*: Critical roles. Arizona Charlie Meadows ran variety shows. Belinda Mulrooney built the Fairview Hotel. Thomas Lippy operated a YMCA outpost before striking gold.
+
+*Entertainers/Saloon Owners*: Diamond Tooth Gertie, Klondike Kate Rockwell (dancer), and various "percentage girls" worked dance halls. Bill McPhee's operations included gambling, drinking, and entertainment.
+
+**Occupation Patterns**: *Service sector* (laundresses like Martha Black who later became politician, cooks, hoteliers); *skilled trades* (blacksmiths for tool repair, carpenters commanding premium wages); *professionals* (Dr. Leonard Sugden, attorney Thomas Fawcett); *infrastructure* (steamboat captains like John Irving, telegraph operators connecting to Outside); *law enforcement* (NWMP Inspector Constantine, Superintendent Sam Steele).
+
+## 4. MEASUREMENTS & METRICS
+
+**Event Year (1896-1905)**: Tracks the rush's lifecycle. 1896-1897: discovery and initial staking. 1897-1898: mass stampede (estimated 100,000 set out; 30,000-40,000 reached Dawson). 1898-1899: peak operations. 1900+: decline and consolidation.
+
+**Population Estimates (100-35,000)**: Dramatic fluctuations characterized settlements. Dawson: 500 (fall 1897), 5,000 (spring 1898), 30,000-40,000 (summer 1898), 8,000 (1900). Mining camps varied seasonally—winter reduced populations as miners wintered in Dawson. Skagway peaked at 15,000-20,000 during 1897-98 stampede season.
+
+**Key Measurement Systems**:
+
+- *Troy ounces*: Gold measured in ounces, with prices around $16-17/oz
+- *Claim dimensions*: 500 feet along creek, bank to bank
+- *Distances*: Miles on trails (Dyea to Lake Bennett: 33 miles; Skagway to Bennett: 45 miles)
+- *Freight rates*: Cents per pound (peaked at $1/lb over Chilkoot Pass in winter 1897-98)
+- *Wages*: Daily rates ($15/day for skilled labor in 1898, $1.50/day Outside)
+- *Temperature*: Fahrenheit readings (-60°F common in winter; working conditions ceased below -50°F)
+- *Royalty rates*: 10% on gold output initially, later 2.5%
+- *Outfit requirements*: Canadian government mandated 1,150 pounds of provisions per person
+
+## 5. TERMINOLOGY & STANDARDS
+
+**Technical Terms**: *Cheechako* (newcomer/greenhorn), *sourdough* (experienced northerner), *stampede* (rush to new strike), *grubstake* (financial backing for prospector in exchange for share), *panning* vs. *sluicing* vs. *dredging* (extraction methods), *pay dirt* (gold-bearing gravel), *bedrock* (where gold settled), *laymen* (hired claim workers).
+
+**Mining Regulations**: The Dominion Mining Regulations (1898) governed claim staking. Claims required corner posts with discoverer's name and date. Annual representation work ($200 value) maintained claims. Free Miner's Certificate (cost: $10) was required to stake. Claim dimensions standardized at 500 feet creek length. Recording fees ($15) secured rights at Gold Commissioner's Office.
+
+**NWMP Regulations**: Superintendent Sam Steele's orders at Chilkoot Pass required proof of outfit before entry. Dawson City ordinances prohibited carrying firearms in town, regulated saloon hours, and banned Sunday operations (often ignored). Dance hall licenses required fees paid to Commissioner's Office.
+
+**Standards Bodies**: The Gold Commissioner's Office (William Ogilvie appointed 1898) administered regulations. Department of the Interior oversaw territorial management. NWMP enforced laws under Criminal Code of Canada. Dominion Land Surveyor certified claim boundaries.
+
+**Identifier Formats**: Claims identified by creek name and distance from Discovery: "27 Below Eldorado," "16 Above Bonanza." Free Miner's Certificates numbered sequentially. Lot numbers in Dawson City plats (Front Street lots commanded premiums). Steamer registration numbers for Yukon River vessels.
+
+## 6. RELATIONSHIPS & RULES
+
+**Co-occurrence Patterns**: Prospectors required merchants; both needed entertainers for morale. Saloon owners often held claims or grubstaked miners. Lawyers handled claim disputes. Doctors treated scurvy, frostbite, and typhoid. Photographers like E.A. Hegg documented scenes for Outside consumption.
+
+**Temporal Dependencies**: Spring breakup (May) enabled river navigation and fresh supply arrivals. Winter freeze-up (October) isolated communities until spring. Claim work followed seasons—winter: thawing frozen ground with fires; summer: sluicing thawed gravel.
+
+**Domain Rules**: "First in time, first in right" governed claim priority. Abandoned claims (no representation work) became available for restaking. Women could stake claims (unusual for era). Saloons closed during church hours (nominally). Credit extended based on claim prospects—rich claims meant unlimited credit.
+
+**Funding Sources**: 
+- *Grubstakes* from merchants or wealthy individuals
+- *Eastern/European investment syndicates* (London capital flowed in 1898-99)
+- *Bank loans* (Bank of British North America, Canadian Bank of Commerce)
+- *Partnership arrangements* (laymen worked for percentage)
+- *Personal savings* from Outside employment
+- *Claim sales* (productive claims sold for $10,000-$100,000+)
+
+**Career Paths**: Successful prospectors became mine operators employing laymen, or investors grubstaking others. Merchants expanded into hotels, transportation, or banking. Entertainers opened their own establishments. Failed miners became laborers, returned Outside, or moved to next strike.
+
+## 7. DOCUMENT TYPES
+
+**Prospector's Personal Correspondence (45%)**: Letters written on whatever paper available—often torn notebook pages or merchant stationery. Typical structure: greeting, current location/conditions, mining progress (or lack thereof), supply needs, closing sentiment. Tone ranges from optimistic ("pay dirt showing color") to desperate ("beans and bacon running low"). Common themes: weather hardships, claim disputes, loneliness, requests for tobacco/clothing/tools. Published nowhere—archived in family collections or historical societies. Examples include letters from Jack London (who mined Henderson Creek), letters preserved in Yukon Archives, and correspondence published in newspapers when particularly newsworthy.
+
+**Local Newspaper Article (35%)**: Standard newspaper format with sensational headlines. Front page: major strikes, crimes (like Soapy Smith shootout), government announcements. Inside pages: social columns (who arrived on which steamer), claim transfers, business advertisements. Tone: boosterish about town prospects, critical of government inefficiency, dramatic about crimes and disasters. 
+
+*Top-Tier Publications*: Klondike Nugget (Dawson's first paper, Gene Allen editor), Dawson Daily News (most comprehensive coverage).
+
+*Specialty Publications*: Skagway News (gateway focus), Dyea Trail (Chilkoot Pass route advocacy), Yukon Sun (shorter-lived competitor).
+
+*General Coverage*: Outside papers like Seattle Post-Intelligencer and San Francisco Examiner ran Klondike correspondents' dispatches, often reprinting local paper stories.
+
+**Gold Commissioner's Annual Report (20%)**: Formal government document structure: executive summary, statistical tables, narrative sections by topic, recommendations. Dry, bureaucratic tone with occasional editorial commentary. Sections cover: total claims registered (peaked 1898: 5,000+ active), gold royalties collected, population estimates, infrastructure development, legal cases adjudicated, recommendations for regulatory changes. Published by Department of the Interior, distributed to Parliament, archived in territorial records. Commissioner William Ogilvie's 1898-1899 reports are definitive sources. These documents provided Outside investors and government officials authoritative data on Klondike conditions, economic output, and administrative challenges.
+
+Reports circulated among mining syndicates evaluating investments, newspapers extracting statistics for articles, and government officials assessing territorial development needs. They represent the official counterpoint to sensational newspaper coverage and personal accounts.

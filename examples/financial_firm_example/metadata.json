@@ -1,0 +1,27 @@
+{
+  "domain": "Veridian Bank: The Unraveling",
+  "generation_date": "2025-11-16T13:02:32.307784",
+  "statistics": {
+    "total_documents": 100,
+    "total_queries": 3
+  },
+  "cost_breakdown": {
+    "config_generation": {
+      "tokens": 25164,
+      "cost_usd": 0.05
+    },
+    "world_building": {
+      "tokens": 5171,
+      "cost_usd": 0.06
+    },
+    "document_generation": {
+      "tokens": 431048,
+      "cost_usd": 0.02
+    },
+    "query_generation": {
+      "tokens": 11692,
+      "cost_usd": 0.0
+    },
+    "total_cost_usd": 0.13
+  }
+}

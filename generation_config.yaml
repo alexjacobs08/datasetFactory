@@ -1,0 +1,107 @@
+# DatasetFactory Generation Configuration
+# This file contains all generation-related settings with sensible defaults
+# API keys should still be set via environment variables for security
+
+# ============================================================================
+# MODEL TIERS - Configure each model tier separately
+# ============================================================================
+
+# Default model - Used for most generation tasks (fast, cheap)
+default_model:
+  model: groq:llama-3.1-8b-instant
+  temperature: 0.7
+  rate_limiting:
+    rpm: 1000      # Auto-detect (typically 60 for Gemini)
+    tpm: 250000      # Auto-detect (typically 500k for Gemini)
+    max_retries: null  # Auto-detect (3 for most providers)
+
+# Medium model - Used for balanced quality/speed tasks
+medium_model:
+  model: google-gla:gemini-2.5-flash
+  temperature: 0.7
+  rate_limiting:
+    rpm: null      # Auto-detect
+    tpm: null      # Auto-detect
+    max_retries: null  # Auto-detect
+
+# Premium model - Used for complex, high-quality tasks
+premium_model:
+  model: anthropic:claude-sonnet-4-5
+  temperature: 0.7
+  rate_limiting:
+    rpm: null      # Auto-detect
+    tpm: null      # Auto-detect
+    max_retries: null  # Auto-detect
+
+# ============================================================================
+# GLOBAL RATE LIMITING
+# ============================================================================
+rate_limiting:
+  # Enable rate limiting globally
+  enabled: true
+  
+  # Backoff settings (applies to all models)
+  initial_backoff: 1.0   # Initial wait time in seconds
+  max_backoff: 60.0      # Maximum wait time in seconds
+
+# ============================================================================
+# CONCURRENCY & PARALLELISM
+# ============================================================================
+concurrency:
+  # Maximum concurrent document generations
+  max_concurrent_generations: 10
+  
+  # Batch size for processing
+  batch_size: 10
+
+# ============================================================================
+# EXAMPLE CONFIGURATIONS
+# ============================================================================
+#
+# ALL GROQ (High Speed, Low Cost)
+# --------------------------------
+# default_model:
+#   model: groq:llama-3.1-8b-instant
+#   temperature: 0.7
+#   rate_limiting:
+#     rpm: 30
+#     tpm: 200000        # 80% of 250k limit
+#     max_retries: 8
+# medium_model:
+#   model: groq:llama-3.3-70b-versatile
+#   temperature: 0.7
+#   rate_limiting:
+#     rpm: 30
+#     tpm: 24000         # 80% of 30k limit
+#     max_retries: 8
+# premium_model:
+#   model: groq:llama-3.3-70b-versatile
+#   temperature: 0.7
+#   rate_limiting:
+#     rpm: 30
+#     tpm: 24000
+#     max_retries: 8
+#
+# MIXED PROVIDERS (Best of Each)
+# -------------------------------
+# default_model:
+#   model: groq:llama-3.1-8b-instant    # Fast bulk generation
+#   rate_limiting:
+#     rpm: 30
+#     tpm: 200000
+#     max_retries: 8
+# medium_model:
+#   model: openai:gpt-4o-mini           # Balanced quality
+#   rate_limiting:
+#     rpm: 30
+#     tpm: 200000
+#     max_retries: 3
+# premium_model:
+#   model: anthropic:claude-3-5-sonnet-20241022  # Best quality
+#   rate_limiting:
+#     rpm: 50
+#     tpm: 40000
+#     max_retries: 3
+#
+# ============================================================================
+

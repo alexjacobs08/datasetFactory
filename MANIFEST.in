@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include .env.example
+include pyproject.toml
+
+recursive-include src/dataset_factory *.py
+recursive-include src/dataset_factory py.typed
+
+exclude .gitignore
+exclude .python-version
+exclude uv.lock
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store
+

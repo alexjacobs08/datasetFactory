@@ -1,0 +1,27 @@
+{
+  "domain": "Klondike Echoes: Life in a Yukon Gold Town",
+  "generation_date": "2025-11-14T12:49:58.881265",
+  "statistics": {
+    "total_documents": 1000,
+    "total_queries": 98
+  },
+  "cost_breakdown": {
+    "config_generation": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "world_building": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "document_generation": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "query_generation": {
+      "tokens": 442431,
+      "cost_usd": 0.02
+    },
+    "total_cost_usd": 0.02
+  }
+}

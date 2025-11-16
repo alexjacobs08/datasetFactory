@@ -1,0 +1,27 @@
+{
+  "domain": "Klondike Gold Rush Era",
+  "generation_date": "2025-11-15T17:06:14.856003",
+  "statistics": {
+    "total_documents": 35099,
+    "total_queries": 4857
+  },
+  "cost_breakdown": {
+    "config_generation": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "world_building": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "document_generation": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "query_generation": {
+      "tokens": 16273092,
+      "cost_usd": 0.82
+    },
+    "total_cost_usd": 0.82
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "domain": {
+    "name": "Biomedical Literature and Clinical Trials",
+    "description": "This domain encompasses a comprehensive collection of medical research papers and clinical trial reports. It includes original research articles, review papers, and detailed clinical study protocols and results, focusing on various medical conditions, treatments, diagnostics, and public health initiatives. The dataset aims to provide insights into advancements, methodologies, and outcomes in the biomedical field.",
+    "time_span": null,
+    "scale": {
+      "target_documents": 5000,
+      "target_queries": 500
+    }
+  },
+  "metadata_schema": {
+    "temporal": [
+      {
+        "name": "publication_date",
+        "type": "date",
+        "range": "1990 to 2024",
+        "distribution": "exponential",
+        "description": "The date the document was officially published or released."
+      }
+    ],
+    "hierarchical": [],
+    "categorical": [
+      {
+        "name": "document_type",
+        "type": "enum",
+        "values": [
+          "Original Research Article",
+          "Review Article",
+          "Clinical Trial Protocol",
+          "Clinical Trial Report",
+          "Meta-Analysis",
+          "Systematic Review",
+          "Case Report",
+          "Conference Abstract",
+          "Editorial",
+          "Letter to the Editor",
+          "Practice Guideline",
+          "Book Chapter",
+          "Preprint",
+          "Commentary",
+          "Perspective",
+          "Short Communication",
+          "Technical Note"
+        ],
+        "distribution": "zipfian",
+        "description": "The type or format of the biomedical document."
+      },
+      {
+        "name": "medical_specialty",
+        "type": "enum",
+        "values": [
+          "Oncology",
+          "Cardiology",
+          "Neurology",
+          "Infectious Diseases",
+          "Pediatrics",
+          "Immunology",
+          "Dermatology",
+          "Gastroenterology",
+          "Endocrinology",
+          "Psychiatry",
+          "Orthopedics",
+          "Nephrology",
+          "Pulmonology",
+          "Rheumatology",
+          "Geriatrics",
+          "Ophthalmology",
+          "Otolaryngology",
+          "Urology",
+          "Hematology",
+          "Pharmacology",
+          "Public Health",
+          "Genetics",
+          "Emergency Medicine",
+          "Radiology",
+          "Anesthesiology"
+        ],
+        "distribution": "zipfian",
+        "description": "The primary medical or scientific discipline the document focuses on."
+      },
+      {
+        "name": "study_phase",
+        "type": "enum",
+        "values": [
+          "Pre-clinical",
+          "Phase 0",
+          "Phase I",
+          "Phase Ia",
+          "Phase Ib",
+          "Phase II",
+          "Phase IIa",
+          "Phase IIb",
+          "Phase III",
+          "Phase IIIa",
+          "Phase IIIb",
+          "Phase IV",
+          "Post-marketing Surveillance",
+          "Pilot Study",
+          "Bridging Study"
+        ],
+        "distribution": "zipfian",
+        "description": "The phase of a clinical trial, indicating its stage of development and testing."
+      }
+    ],
+    "numerical": [
+      {
+        "name": "journal_impact_factor",
+        "type": "float",
+        "range": [
+          0.1,
+          80.0
+        ],
+        "distribution": "exponential",
+        "description": "The latest reported impact factor of the journal where the document was published, indicating its average citation rate."
+      },
+      {
+        "name": "citation_count",
+        "type": "int",
+        "range": [
+          0.0,
+          10000.0
+        ],
+        "distribution": "zipfian",
+        "description": "The total number of times the document has been cited by other academic works."
+      }
+    ],
+    "multi_valued": [
+      {
+        "name": "authors",
+        "type": "array",
+        "element_type": "string",
+        "min_items": 1,
+        "max_items": 10,
+        "possible_values": [
+          "John Smith",
+          "Maria Garcia",
+          "David Lee",
+          "Sarah Jones",
+          "Michael Chen",
+          "Emily White",
+          "Robert Davis",
+          "Jessica Brown",
+          "William Green",
+          "Linda Hall",
+          "James Wilson",
+          "Patricia King",
+          "Charles Wright",
+          "Elizabeth Scott",
+          "Thomas Adams",
+          "Susan Baker",
+          "Daniel Nelson",
+          "Nancy Carter",
+          "Paul Mitchell",
+          "Lisa Perez",
+          "Mark Roberts",
+          "Karen Turner",
+          "Steven Phillips",
+          "Betty Campbell",
+          "Andrew Parker",
+          "Donna Evans",
+          "Joshua Edwards",
+          "George Cook",
+          "Laura Young",
+          "Kevin Moore"
+        ],
+        "description": "The primary authors or lead researchers responsible for the document."
+      }
+    ]
+  },
+  "document_types": [
+    {
+      "name": "Original Research Article",
+      "weight": 0.3,
+      "avg_length_tokens": 900,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "publication_date",
+        "medical_specialty",
+        "authors",
+        "journal_impact_factor",
+        "citation_count"
+      ],
+      "optional_metadata": [
+        "document_type"
+      ],
+      "content_description": "Reports primary research with methodology, results, discussion, and conclusions. Focuses on novel findings in a specific medical area.",
+      "template_instructions": "Generate a scientific research article with a formal, objective, and academic tone. Structure should include: \n1.  **Title**: A concise and informative title reflecting the research.\n2.  **Authors**: List authors with their affiliations.\n3.  **Abstract** (approx. 150-200 tokens): Summarize background, methods, key results, and conclusion.\n4.  **Introduction** (approx. 150-200 tokens): Provide background, state research gap, and articulate hypothesis/objectives.\n5.  **Methods** (approx. 150-200 tokens): Detail study design, participants, interventions, data collection, and statistical analysis. Include ethical considerations.\n6.  **Results** (approx. 150-200 tokens): Present findings clearly using descriptive text, often including hypothetical data points, p-values, or trends. Avoid interpretation here.\n7.  **Discussion** (approx. 150-200 tokens): Interpret results, relate to previous research, discuss limitations, and highlight clinical or scientific implications.\n8.  **Conclusion** (approx. 50-100 tokens): Briefly summarize the main findings and their significance.\n9.  **References**: A placeholder for a reference list.\n\n**Metadata Incorporation**: Use `publication_date` for the article's publication information. The `medical_specialty` metadata should guide the specific medical topic and terminology throughout the article. `authors` should be listed at the beginning. `journal_impact_factor` and `citation_count` are contextual metrics for the article's publication venue and impact; they should inform the overall rigor and perceived importance of the generated content, without being explicitly mentioned in the body.\n\n**Examples of good content**: A randomized controlled trial comparing two treatments for Type 2 Diabetes, an observational cohort study on lifestyle factors and cardiovascular disease risk, or a laboratory-based study identifying a novel biomarker for early cancer detection. Ensure scientific accuracy in hypothetical scenarios and logical flow."
+    },
+    {
+      "name": "Systematic Review",
+      "weight": 0.25,
+      "avg_length_tokens": 1000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "publication_date",
+        "medical_specialty",
+        "authors",
+        "citation_count"
+      ],
+      "optional_metadata": [
+        "journal_impact_factor"
+      ],
+      "content_description": "A comprehensive synthesis of existing research on a specific clinical question, often including a meta-analysis of quantitative data.",
+      "template_instructions": "Generate a systematic review with an analytical, critical, and formal scientific tone. The structure should be detailed:\n1.  **Title**: A clear title indicating the scope of the review.\n2.  **Authors**: List authors and their affiliations.\n3.  **Abstract** (approx. 150-200 tokens): State the objective, methods, key findings, and conclusion of the review.\n4.  **Introduction** (approx. 150-200 tokens): Provide background on the topic, state the clinical question (e.g., PICO format), and justify the need for a systematic review.\n5.  **Methods** (approx. 150-200 tokens): Detail the comprehensive search strategy (databases, keywords, date ranges), study selection process (inclusion/exclusion criteria), data extraction methods, risk of bias assessment, and statistical methods for meta-analysis (if applicable).\n6.  **Results** (approx. 200-250 tokens): Describe the search outcome (e.g., using a simplified PRISMA flow description). Summarize the characteristics of included studies and synthesize their findings. If meta-analysis, present hypothetical pooled effect sizes (e.g., Odds Ratio, Mean Difference) and discuss heterogeneity.\n7.  **Discussion** (approx. 150-200 tokens): Interpret the synthesized findings, discuss consistency or inconsistency with other evidence, highlight limitations of the review (e.g., quality of included studies), and discuss implications for clinical practice and future research.\n8.  **Conclusion** (approx. 50-100 tokens): Summarize the main message and key takeaways.\n9.  **References**: A placeholder for a reference list.\n\n**Metadata Incorporation**: Use `publication_date` for the review's publication information. The `medical_specialty` should define the specific area of medical inquiry. `authors` should be listed at the beginning. `citation_count` and `journal_impact_factor` are contextual metrics and should not be explicitly mentioned in the text but should inform the perceived depth and breadth of the review.\n\n**Examples of good content**: A systematic review and meta-analysis on the efficacy of various pharmacological interventions for generalized anxiety disorder, or a review of diagnostic accuracy studies for a new imaging technique in oncology. Emphasize thoroughness in describing the search and synthesis process."
+    },
+    {
+      "name": "Clinical Trial Protocol",
+      "weight": 0.2,
+      "avg_length_tokens": 800,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "publication_date",
+        "medical_specialty",
+        "study_phase",
+        "authors"
+      ],
+      "optional_metadata": [
+        "document_type"
+      ],
+      "content_description": "Outlines objectives, design, methodology, and statistical considerations for a clinical trial.",
+      "template_instructions": "Generate a detailed clinical trial protocol with a precise, formal, and instructive tone. The document should be structured as follows:\n1.  **Title Page**: Include the trial title, protocol version number and `publication_date` (as 'Protocol Version Date'), `authors` (as Principal Investigators/Study Team), and Sponsor details.\n2.  **Introduction** (approx. 50-100 tokens): Provide background information on the disease/condition, the rationale for the trial, and justification for the investigational intervention.\n3.  **Study Objectives** (approx. 50-100 tokens): Clearly state the primary and secondary objectives (e.g., to evaluate efficacy, safety, pharmacokinetics, or pharmacodynamics).\n4.  **Study Design** (approx. 100-150 tokens): Describe the overall design (e.g., randomized, double-blind, placebo-controlled, multi-center), the `study_phase` (e.g., Phase I, II, or III), and primary and secondary endpoints.\n5.  **Study Population** (approx. 100-150 tokens): Define detailed inclusion and exclusion criteria for study participants.\n6.  **Study Procedures/Interventions** (approx. 150-200 tokens): Provide a comprehensive description of the treatment arms, dosages, duration of treatment, follow-up schedule, and all assessments (e.g., clinical, laboratory, imaging).\n7.  **Statistical Considerations** (approx. 100-150 tokens): Outline the sample size calculation, the statistical analysis plan for primary and secondary endpoints, and methods for handling missing data.\n8.  **Ethical Considerations** (approx. 50-100 tokens): Address informed consent process, Institutional Review Board (IRB)/Ethics Committee approval, and data monitoring.\n9.  **Schedule of Events**: A placeholder for a detailed timeline of participant visits and assessments.\n\n**Metadata Incorporation**: `publication_date` should be used as the protocol version date. `medical_specialty` will determine the disease area and type of intervention. The `study_phase` must be explicitly stated in the 'Study Design' section. `authors` should be listed as key investigators on the title page.\n\n**Examples of good content**: A protocol for a Phase III randomized controlled trial evaluating a novel oral anticoagulant for stroke prevention in atrial fibrillation, or a Phase II trial protocol for a vaccine against a new infectious disease. Focus on clarity, precision, and adherence to ethical guidelines."
+    },
+    {
+      "name": "Clinical Study Report Summary",
+      "weight": 0.15,
+      "avg_length_tokens": 700,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "publication_date",
+        "medical_specialty",
+        "study_phase",
+        "authors"
+      ],
+      "optional_metadata": [
+        "document_type",
+        "citation_count"
+      ],
+      "content_description": "A concise summary of a completed clinical trial, covering its design, patient characteristics, efficacy, and safety results.",
+      "template_instructions": "Generate a concise clinical study report summary with a formal, objective, and factual tone. The summary should be structured as follows:\n1.  **Title**: A clear title indicating the trial and the intervention being studied.\n2.  **Authors**: List lead investigators or study team.\n3.  **Publication Date**: Mention the `publication_date` of the summary report.\n4.  **Abstract/Synopsis** (approx. 100-150 tokens): Provide an overview of the study objectives, key methods, principal efficacy, and safety results, and conclusions.\n5.  **Introduction** (approx. 50-100 tokens): Briefly state the background of the condition and the objectives of the trial.\n6.  **Methods** (approx. 100-150 tokens): Summarize the study design (e.g., randomized, double-blind), the characteristics of the study population (e.g., number of participants, demographics), and the interventions administered. Mention the `study_phase`.\n7.  **Results** (approx. 200-250 tokens): Present the key efficacy outcomes (e.g., primary endpoint, secondary endpoints with hypothetical p-values or confidence intervals) and detailed safety findings (e.g., incidence of adverse events, serious adverse events, lab abnormalities). Use clear, concise language and hypothetical data.\n8.  **Discussion/Conclusion** (approx. 100-150 tokens): Interpret the results, discuss their clinical significance, acknowledge strengths and limitations of the trial, and suggest future directions or implications for practice.\n\n**Metadata Incorporation**: The `publication_date` should be clearly stated. The `medical_specialty` will determine the disease area and intervention discussed. The `study_phase` should be explicitly mentioned within the Methods section. `authors` should be listed at the beginning of the report.\n\n**Examples of good content**: A summary report of a Phase III trial demonstrating the non-inferiority of a new antibiotic for hospital-acquired pneumonia, or a Phase II summary detailing the dose-response and safety profile of an investigational oncology drug. Focus on presenting key data and interpretations clearly and concisely."
+    },
+    {
+      "name": "Case Report",
+      "weight": 0.1,
+      "avg_length_tokens": 400,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "publication_date",
+        "medical_specialty",
+        "authors"
+      ],
+      "optional_metadata": [
+        "document_type",
+        "citation_count"
+      ],
+      "content_description": "Details symptoms, diagnosis, treatment, and follow-up for individual patient cases, often highlighting rare or unusual aspects.",
+      "template_instructions": "Generate a case report with a clinical, descriptive, and objective narrative tone. The document should be structured as follows:\n1.  **Title**: A descriptive title highlighting the unique aspect of the case.\n2.  **Authors**: List the reporting clinicians with their affiliations.\n3.  **Publication Date**: Mention the `publication_date` of the case report.\n4.  **Abstract** (approx. 50-75 tokens): Briefly summarize the unique patient presentation, diagnosis, intervention, and outcome.\n5.  **Introduction** (approx. 50-75 tokens): Briefly introduce the condition or the rarity/unusual presentation that makes this case noteworthy, providing minimal background.\n6.  **Case Presentation** (approx. 150-200 tokens): Provide a chronological description of the patient's anonymized demographic information, presenting symptoms, relevant medical history, diagnostic workup (e.g., lab values, imaging findings, physical exam results), the treatment provided, the clinical course, and the outcome. Use specific (hypothetical) clinical details.\n7.  **Discussion** (approx. 75-100 tokens): Explain why this case is important (e.g., rare presentation, unexpected side effect, novel treatment approach), link it to existing medical literature, and discuss its implications for clinical practice or understanding the disease.\n8.  **Conclusion** (approx. 25-50 tokens): Summarize the key learning point or take-home message from the case.\n\n**Metadata Incorporation**: The `publication_date` should be clearly stated. The `medical_specialty` will guide the clinical area, terminology, and specific conditions detailed in the report. `authors` should be listed at the beginning of the report.\n\n**Examples of good content**: A case report of an unusual dermatological manifestation of a systemic disease, a rare adverse drug reaction to a commonly used medication, or the successful management of a complex surgical case with an atypical presentation. Focus on detailing the patient's journey and the clinical rationale clearly."
+    }
+  ],
+  "query_patterns": [
+    {
+      "category": "Recent Publications",
+      "weight": 0.2,
+      "description": "Users are looking for the newest research articles or clinical trials published within a recent timeframe.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Search by Medical Specialty",
+      "weight": 0.2,
+      "description": "Users want to find all literature related to a specific medical field, such as 'Cardiology' or 'Oncology.'",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Specific Document Type Search",
+      "weight": 0.15,
+      "description": "Users want to filter results to a particular document type, like 'Review Paper' or 'Original Research Article.'",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Clinical Trials by Phase and Specialty",
+      "weight": 0.15,
+      "description": "Users need to find clinical trials of a specific phase (e.g., 'Phase 3') within a particular medical specialty.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "High-Impact Research in a Field",
+      "weight": 0.1,
+      "description": "Users are interested in finding highly cited research articles or review papers with a high journal impact factor within a specific medical specialty.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Author's Comprehensive Work in a Specific Area",
+      "weight": 0.1,
+      "description": "Users aim to find all research (across various document types) by a particular author, focusing on a specific medical specialty, potentially within a given publication date range.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Advanced Clinical Efficacy Search",
+      "weight": 0.1,
+      "description": "Users are looking for late-phase (Phase 3 or 4) clinical trials in a specific medical specialty, published recently in high-impact journals, indicating significant outcomes.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    }
+  ],
+  "generation_strategy": {
+    "template_generation": {
+      "num_base_templates_per_type": 15
+    },
+    "multiplication_dimensions": [
+      "document_type",
+      "medical_specialty",
+      "study_phase"
+    ]
+  }
+}

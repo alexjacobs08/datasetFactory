@@ -1,0 +1,27 @@
+{
+  "domain": "Project Nightingale: Cold War Espionage",
+  "generation_date": "2025-11-16T12:41:08.378620",
+  "statistics": {
+    "total_documents": 100,
+    "total_queries": 3
+  },
+  "cost_breakdown": {
+    "config_generation": {
+      "tokens": 26761,
+      "cost_usd": 0.05
+    },
+    "world_building": {
+      "tokens": 4938,
+      "cost_usd": 0.05
+    },
+    "document_generation": {
+      "tokens": 394313,
+      "cost_usd": 0.02
+    },
+    "query_generation": {
+      "tokens": 11504,
+      "cost_usd": 0.0
+    },
+    "total_cost_usd": 0.13
+  }
+}

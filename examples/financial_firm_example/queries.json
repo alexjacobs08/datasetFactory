@@ -1,0 +1,78 @@
+[
+  {
+    "id": "query_00000001",
+    "text": "What is the financial impact of the corporate espionage related to the investment fraud scheme at Veridian Bank?",
+    "filters": {
+      "financial_impact_usd": 268352524
+    },
+    "category": "Documents by Core Investigation Issue",
+    "relevant_doc_ids": [
+      "doc_00000003"
+    ],
+    "metadata": {
+      "author": "CEO Office (Arthur Sterling)",
+      "department": "Legal",
+      "issue_category": "Corporate Espionage",
+      "confidentiality_level": "Confidential",
+      "risk_assessment_score": 51,
+      "financial_impact_usd": 268352524,
+      "record_id": "PRE-000000"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 1.0
+    }
+  },
+  {
+    "id": "query_00000002",
+    "text": "What evidence supports the claim of Market Manipulation in the Meridian Fund?",
+    "filters": {
+      "issue_category": "Market Manipulation"
+    },
+    "category": "Documents by Core Investigation Issue",
+    "relevant_doc_ids": [
+      "doc_00000011"
+    ],
+    "metadata": {
+      "author": "Board of Directors",
+      "department": "Executive Office",
+      "issue_category": "Market Manipulation",
+      "confidentiality_level": "Legal Privilege",
+      "record_id": "URG-000008"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 5.0
+    }
+  },
+  {
+    "id": "query_00000000",
+    "text": "What are the similarities and unique features of the data breach at Veridian Bank compared to other high-profile financial sector breaches?",
+    "filters": {
+      "confidentiality_level": "Highly Restricted"
+    },
+    "category": "Documents by Core Investigation Issue",
+    "relevant_doc_ids": [
+      "doc_00000086"
+    ],
+    "metadata": {
+      "author": "Veridian Legal Dept.",
+      "department": "Internal Audit",
+      "issue_category": "Data Breach",
+      "confidentiality_level": "Highly Restricted",
+      "risk_assessment_score": 75,
+      "financial_impact_usd": 456482183,
+      "record_id": "PRE-000082"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 8.0
+    }
+  }
+]

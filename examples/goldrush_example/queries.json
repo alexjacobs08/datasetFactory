@@ -1,0 +1,91 @@
+[
+  {
+    "id": "query_00000000",
+    "text": "What statistics about claims and gold royalties are mentioned in the latest edition of the Dawson Daily News?",
+    "filters": {
+      "event_year": 1904
+    },
+    "category": "Search by Occupation",
+    "relevant_doc_ids": [
+      "doc_00000045"
+    ],
+    "metadata": {
+      "document_date": "2024-01-09",
+      "geographic_location": "Dawson City",
+      "settlement_type": "Supply Post",
+      "main_occupations": [
+        "Cook",
+        "Teamster/Packer"
+      ],
+      "event_year": 1904,
+      "population_estimate": 28832,
+      "record_id": "LOC-000039"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 7.000000000000001
+    }
+  },
+  {
+    "id": "query_00000001",
+    "text": "What was the population of Dawson City in September 1899?",
+    "filters": {
+      "main_occupations": [
+        "Law Enforcement"
+      ]
+    },
+    "category": "Search by Occupation",
+    "relevant_doc_ids": [
+      "doc_00000075"
+    ],
+    "metadata": {
+      "document_date": "2024-10-04",
+      "geographic_location": "Dawson City",
+      "settlement_type": "Supply Post",
+      "main_occupations": [
+        "Law Enforcement"
+      ],
+      "event_year": 1899,
+      "population_estimate": 9670,
+      "record_id": "LOC-000069"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.0
+    }
+  },
+  {
+    "id": "query_00000002",
+    "text": "What law enforcement efforts were in place in Hunker Creek during the Klondike gold rush?",
+    "filters": {
+      "main_occupations": [
+        "Law Enforcement"
+      ]
+    },
+    "category": "Search by Occupation",
+    "relevant_doc_ids": [
+      "doc_00000047"
+    ],
+    "metadata": {
+      "document_date": "2020-08-15",
+      "geographic_location": "Klondike River",
+      "settlement_type": "Trail Stop",
+      "main_occupations": [
+        "Law Enforcement"
+      ],
+      "event_year": 1900,
+      "population_estimate": 13644,
+      "record_id": "LOC-000041"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.0
+    }
+  }
+]

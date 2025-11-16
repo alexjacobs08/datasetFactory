@@ -1,0 +1,2928 @@
+[
+  {
+    "id": "query_00000004",
+    "text": "What environmental challenges did the laundress in Skagway face while providing food services?",
+    "filters": {
+      "environmental_factors": [
+        "Harsh Terrain"
+      ]
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000411"
+    ],
+    "metadata": {
+      "primary_social_role": "Laundress",
+      "settlement_name": "Skagway",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "economic_activity": "Food Service",
+      "record_id": "PRO-000408"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.6
+    }
+  },
+  {
+    "id": "query_00000000",
+    "text": "What challenges did residents face in Skagway during the economic expansion of 1899?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000361"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "economic_activity": "Gold Panning",
+      "population_estimate": 1858,
+      "environmental_factors": [
+        "Food Scarcity",
+        "Harsh Terrain",
+        "Isolation",
+        "Wildlife Encounters",
+        "Thawing Rivers"
+      ],
+      "primary_social_role": "Cook",
+      "record_id": "YUK-000358"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000001",
+    "text": "What economic activities were observed during a routine patrol in the Bennett Trading Post on March 10, 1899?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000758"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Food Service",
+      "environmental_factors": [
+        "River Freezing",
+        "Thawing Rivers",
+        "Extreme Cold"
+      ],
+      "population_estimate": 10308,
+      "record_id": "NWM-000755"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000002",
+    "text": "What trade activities occurred in the settlement of Bennett during the 1899-1900 period, and what were the primary goods traded?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000418"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 26079,
+      "environmental_factors": [
+        "River Freezing",
+        "Mosquito Infestations",
+        "Landslides",
+        "Extreme Cold"
+      ],
+      "primary_social_role": "Laundress",
+      "record_id": "YUK-000415"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000003",
+    "text": "What happened at the Monte Carlo Theatre in Dawson City on the night of August 15, 1898?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000666"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Mosquito Infestations"
+      ],
+      "population_estimate": 24976,
+      "record_id": "NWM-000663"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000006",
+    "text": "What explains the fluctuations in sales of staple goods in Dawson City during the gold rush era, and what do these fluctuations reveal about the local economy?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000111"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Saloon Keeping",
+      "primary_social_role": "Doctor",
+      "population_estimate": 21594,
+      "record_id": "MER-000108"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000008",
+    "text": "What economic activities drove the growth of the settlement of Bennett in the Yukon Territory during the 1899-1900 period?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000418"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 26079,
+      "environmental_factors": [
+        "River Freezing",
+        "Mosquito Infestations",
+        "Landslides",
+        "Extreme Cold"
+      ],
+      "primary_social_role": "Laundress",
+      "record_id": "YUK-000415"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000007",
+    "text": "How did freight hauling operations develop in Bennett during the gold rush era?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000378"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Freight Hauling",
+      "population_estimate": 23789,
+      "primary_social_role": "Prospector",
+      "record_id": "KLO-000375"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000005",
+    "text": "What challenges did the author of this document experience while gold panning in the Bonanza Creek area, and how did they assess the risk of more landslides or ice jams?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000651"
+    ],
+    "metadata": {
+      "primary_social_role": "Entertainer",
+      "settlement_name": "Dawson City",
+      "environmental_factors": [
+        "Heavy Snowfall",
+        "Landslides",
+        "Ice Jams"
+      ],
+      "economic_activity": "Gold Panning",
+      "record_id": "PRO-000648"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000009",
+    "text": "What are the daily life struggles and triumphs of law enforcement officers in Bennett, Yukon, during the gold rush era?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000255"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Services & Entertainment",
+      "population_estimate": 3335,
+      "primary_social_role": "Law Enforcement Officer",
+      "record_id": "KLO-000252"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000010",
+    "text": "How did harsh terrain affect food service operations in Skagway during the Yukon gold rush?",
+    "filters": {
+      "environmental_factors": [
+        "Harsh Terrain"
+      ]
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000411"
+    ],
+    "metadata": {
+      "primary_social_role": "Laundress",
+      "settlement_name": "Skagway",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "economic_activity": "Food Service",
+      "record_id": "PRO-000408"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.6
+    }
+  },
+  {
+    "id": "query_00000014",
+    "text": "What are the daily struggles and triumphs of a prospector during the Yukon gold rush?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000935"
+    ],
+    "metadata": {
+      "primary_social_role": "Prospector",
+      "settlement_name": "Carcross",
+      "environmental_factors": [
+        "Water Contamination",
+        "Disease Outbreaks"
+      ],
+      "economic_activity": "Gold Panning",
+      "record_id": "PRO-000932"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000013",
+    "text": "What is the primary economic driver in Fort Selkirk and what is the population of the settlement?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000040"
+    ],
+    "metadata": {
+      "settlement_name": "Fort Selkirk",
+      "economic_activity": "Gold Panning",
+      "population_estimate": 11698,
+      "primary_social_role": "Indigenous Person",
+      "record_id": "KLO-000037"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000012",
+    "text": "What daily struggles did Riverboat Captains face in navigating the Whitehorse Rapids during the gold rush?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000615"
+    ],
+    "metadata": {
+      "primary_social_role": "Riverboat Captain",
+      "settlement_name": "Bennett",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "economic_activity": "Transportation",
+      "record_id": "PRO-000612"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000011",
+    "text": "What were the details of gold panning disputes encountered by the NWMP during an incident on July 21, 1898?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000516"
+    ],
+    "metadata": {
+      "settlement_name": "Whitehorse",
+      "primary_social_role": "Law Enforcement Officer",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Short Summers",
+        "Wildlife Encounters",
+        "Rocky Soil",
+        "Thawing Rivers",
+        "Permafrost"
+      ],
+      "population_estimate": 4136,
+      "record_id": "NWM-000513"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000015",
+    "text": "How has the gold panning industry contributed to the economic development of the territory?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000851"
+    ],
+    "metadata": {
+      "settlement_name": "Bonanza Creek",
+      "economic_activity": "Gold Panning",
+      "population_estimate": 23437,
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "primary_social_role": "Prospector",
+      "record_id": "YUK-000848"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000016",
+    "text": "What daily activities were observed by NWMP during their patrol in Dawson City?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000460"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Short Summers",
+        "Extreme Cold",
+        "Dense Forests"
+      ],
+      "population_estimate": 11854,
+      "record_id": "NWM-000457"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000018",
+    "text": "What challenges did the community in Bennett face due to the river freezing and flooding?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000504"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "primary_social_role": "Cook",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "River Freezing",
+        "Flooding"
+      ],
+      "population_estimate": 5806,
+      "record_id": "NWM-000501"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000017",
+    "text": "What environmental factors were observed during a specific patrol in Skagway in February 1899?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000052"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Harsh Terrain",
+        "Dense Forests",
+        "Heavy Snowfall",
+        "Rapids and Strong Currents",
+        "Avalanches",
+        "Long Winters",
+        "Water Contamination"
+      ],
+      "population_estimate": 21594,
+      "record_id": "NWM-000049"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000019",
+    "text": "What daily struggles and triumphs did a merchant experience while living in Whitehorse during the gold rush era?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000314"
+    ],
+    "metadata": {
+      "settlement_name": "Whitehorse",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Wolf Encounters",
+        "Permafrost"
+      ],
+      "record_id": "PER-000311"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000022",
+    "text": "What daily struggles and triumphs do prospectors experience in the Yukon gold rush?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000309"
+    ],
+    "metadata": {
+      "primary_social_role": "Prospector",
+      "settlement_name": "Bennett",
+      "environmental_factors": [
+        "River Travel"
+      ],
+      "economic_activity": "Law Enforcement",
+      "record_id": "PRO-000306"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000020",
+    "text": "What daily life and challenges did saloon keepers experience in Bennett during the gold rush era?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000367"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Saloon Keeping",
+      "population_estimate": 24823,
+      "primary_social_role": "Indigenous Person",
+      "record_id": "KLO-000364"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000023",
+    "text": "What were the primary concerns and observations made by the NWMP patrol during their visit to Skagway in February 1899?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000052"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Harsh Terrain",
+        "Dense Forests",
+        "Heavy Snowfall",
+        "Rapids and Strong Currents",
+        "Avalanches",
+        "Long Winters",
+        "Water Contamination"
+      ],
+      "population_estimate": 21594,
+      "record_id": "NWM-000049"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000021",
+    "text": "What are the struggles and challenges faced by gold prospectors in the Yukon during the early stages of the gold rush?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000016"
+    ],
+    "metadata": {
+      "primary_social_role": "Indigenous Person",
+      "settlement_name": "Dawson City",
+      "environmental_factors": [
+        "Rocky Soil",
+        "Ice Jams",
+        "Wildlife Encounters",
+        "Water Contamination",
+        "Flooding",
+        "Mosquito Infestations"
+      ],
+      "economic_activity": "Gold Panning",
+      "record_id": "PRO-000012"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000024",
+    "text": "How did indigenous persons engage in gold panning in the Yukon gold rush?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Life of a specific social role",
+    "relevant_doc_ids": [
+      "doc_00000648"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "primary_social_role": "Indigenous Person",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Isolation"
+      ],
+      "record_id": "MIN-000645"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000025",
+    "text": "What specific challenges and observations did a Mining Recorder note during the flooding in Bennett?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000563"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "primary_social_role": "Government Official",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Flooding"
+      ],
+      "record_id": "PER-000560"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000026",
+    "text": "What are some common challenges faced by claim owners in Dawson City during the gold rush era?",
+    "filters": {
+      "primary_social_role": "Miner"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000556"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Miner",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Rocky Soil",
+        "Extreme Cold",
+        "Blizzards"
+      ],
+      "record_id": "MIN-000553"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.6
+    }
+  },
+  {
+    "id": "query_00000029",
+    "text": "What's the estimated cost and potential savings of upgrading the icehouse insulation at Fort Selkirk's saloon?",
+    "filters": {
+      "primary_social_role": "Miner"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000821"
+    ],
+    "metadata": {
+      "primary_social_role": "Miner",
+      "settlement_name": "Fort Selkirk",
+      "environmental_factors": [
+        "Extreme Cold",
+        "Blizzards",
+        "Forest Fires",
+        "Bear Encounters",
+        "River Travel",
+        "Dense Forests",
+        "Lack of Sunlight"
+      ],
+      "economic_activity": "Saloon Keeping",
+      "record_id": "PRO-000818"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.6
+    }
+  },
+  {
+    "id": "query_00000027",
+    "text": "What kind of challenges did riverboat captains face while navigating the Whitehorse Rapids during the expansion era?",
+    "filters": {
+      "environmental_factors": [
+        "Harsh Terrain"
+      ]
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000615"
+    ],
+    "metadata": {
+      "primary_social_role": "Riverboat Captain",
+      "settlement_name": "Bennett",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "economic_activity": "Transportation",
+      "record_id": "PRO-000612"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.6
+    }
+  },
+  {
+    "id": "query_00000028",
+    "text": "What environmental factors were observed during a patrol of Skagway's mining activities in February 1899?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000052"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Harsh Terrain",
+        "Dense Forests",
+        "Heavy Snowfall",
+        "Rapids and Strong Currents",
+        "Avalanches",
+        "Long Winters",
+        "Water Contamination"
+      ],
+      "population_estimate": 21594,
+      "record_id": "NWM-000049"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000030",
+    "text": "What were some of the challenges faced by riverboat captains like myself while navigating the Whitehorse River during the gold rush era?",
+    "filters": {
+      "environmental_factors": [
+        "Harsh Terrain"
+      ]
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000615"
+    ],
+    "metadata": {
+      "primary_social_role": "Riverboat Captain",
+      "settlement_name": "Bennett",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "economic_activity": "Transportation",
+      "record_id": "PRO-000612"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.6
+    }
+  },
+  {
+    "id": "query_00000032",
+    "text": "What are the key details and summary of the mining claim registration for Bennett's Bounty in Bennett, Yukon Territory, Canada?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000752"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "primary_social_role": "Doctor",
+      "economic_activity": "Saloon Keeping",
+      "environmental_factors": [
+        "Extreme Cold",
+        "Ice Jams",
+        "Blizzards"
+      ],
+      "record_id": "MIN-000749"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000033",
+    "text": "What daily life was like for a prospector in Bennett during a particularly harsh February in 1898?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000832"
+    ],
+    "metadata": {
+      "primary_social_role": "Prospector",
+      "settlement_name": "Bennett",
+      "environmental_factors": [
+        "Blizzards",
+        "Mudslides",
+        "Long Winters",
+        "Bear Encounters"
+      ],
+      "economic_activity": "Services & Entertainment",
+      "record_id": "PRO-000829"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000034",
+    "text": "What role did merchants play in Bennett's growth and economic success during the gold rush era?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000766"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Mining",
+      "population_estimate": 22546,
+      "primary_social_role": "Merchant",
+      "record_id": "KLO-000763"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000035",
+    "text": "What economic activities were common in the Bennett settlement during the gold rush era, and how do the claimants' signatures and recorder's stamp relate to the registration process?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000648"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "primary_social_role": "Indigenous Person",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Isolation"
+      ],
+      "record_id": "MIN-000645"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000036",
+    "text": "What economic activity was identified in an incident report on January 15, 1899, near Fort Selkirk, as violating territorial regulations?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000973"
+    ],
+    "metadata": {
+      "settlement_name": "Fort Selkirk",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Blizzards"
+      ],
+      "population_estimate": 24407,
+      "record_id": "NWM-000970"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000037",
+    "text": "How do fluctuations in staple goods sales relate to major infrastructure project completions in Dawson City?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000111"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Saloon Keeping",
+      "primary_social_role": "Doctor",
+      "population_estimate": 21594,
+      "record_id": "MER-000108"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000038",
+    "text": "What were the weather conditions and technical challenges faced during gold panning operations on March 20, 1899, at Eldorado Creek?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000558"
+    ],
+    "metadata": {
+      "primary_social_role": "Riverboat Captain",
+      "settlement_name": "Eldorado Creek",
+      "environmental_factors": [
+        "Erosion",
+        "Food Scarcity",
+        "Mosquito Infestations",
+        "Blizzards",
+        "Mudslides",
+        "Ice Jams",
+        "Wolf Encounters"
+      ],
+      "economic_activity": "Gold Panning",
+      "record_id": "PRO-000555"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000039",
+    "text": "What economic activities did the merchant experience during the gold rush at Bonanza Creek?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000417"
+    ],
+    "metadata": {
+      "settlement_name": "Bonanza Creek",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Wildlife Encounters",
+        "River Travel",
+        "Erosion",
+        "River Freezing"
+      ],
+      "record_id": "PER-000414"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000041",
+    "text": "What are the current inventory levels and sales trends for staple and essential goods in the Skagway General Store?",
+    "filters": {
+      "economic_activity": "Gold Panning"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000281"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "economic_activity": "Gold Panning",
+      "primary_social_role": "Merchant",
+      "population_estimate": 21824,
+      "record_id": "MER-000278"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.3999999999999995
+    }
+  },
+  {
+    "id": "query_00000040",
+    "text": "What is the name of the settlement where journalist Gene Allen staked his claim?",
+    "filters": {
+      "environmental_factors": [
+        "Harsh Terrain"
+      ]
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000912"
+    ],
+    "metadata": {
+      "settlement_name": "Fort Selkirk",
+      "primary_social_role": "Journalist",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "record_id": "MIN-000909"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.6
+    }
+  },
+  {
+    "id": "query_00000042",
+    "text": "What economic activities drove the settlement of Bennett in the Yukon Territory during the 1899-1900 period?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000418"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 26079,
+      "environmental_factors": [
+        "River Freezing",
+        "Mosquito Infestations",
+        "Landslides",
+        "Extreme Cold"
+      ],
+      "primary_social_role": "Laundress",
+      "record_id": "YUK-000415"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000043",
+    "text": "What are the unexplained fluctuations in sales of staple goods in Dawson City, and why do they coincide with the completion of major infrastructure projects?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000111"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Saloon Keeping",
+      "primary_social_role": "Doctor",
+      "population_estimate": 21594,
+      "record_id": "MER-000108"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000044",
+    "text": "What environmental hazards did the NWMP patrol encounter while monitoring Skagway's mining activities?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Details on a specific gold town",
+    "relevant_doc_ids": [
+      "doc_00000052"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Harsh Terrain",
+        "Dense Forests",
+        "Heavy Snowfall",
+        "Rapids and Strong Currents",
+        "Avalanches",
+        "Long Winters",
+        "Water Contamination"
+      ],
+      "population_estimate": 21594,
+      "record_id": "NWM-000049"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000045",
+    "text": "What specific economic activities are prevalent in Forty Mile during its rapid population growth?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "population_estimate": 18760
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000007"
+    ],
+    "metadata": {
+      "settlement_name": "Forty Mile",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 18760,
+      "primary_social_role": "Merchant",
+      "record_id": "KLO-000003"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000047",
+    "text": "What economic activities are prevalent in Skagway during the gold rush era, and how do they impact the local population?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "economic_activity": "Mining"
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000200"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Miner",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Rocky Soil"
+      ],
+      "population_estimate": 1857,
+      "record_id": "NWM-000197"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.8
+    }
+  },
+  {
+    "id": "query_00000046",
+    "text": "What challenges are facing the trade and supply network in Whitehorse during the expansion era?",
+    "filters": {
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply"
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000801"
+    ],
+    "metadata": {
+      "settlement_name": "Whitehorse",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 23574,
+      "primary_social_role": "Prospector",
+      "record_id": "KLO-000798"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.9
+    }
+  },
+  {
+    "id": "query_00000049",
+    "text": "What trade challenges did a prospector face in Forty Mile during the expansion era?",
+    "filters": {
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply"
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000616"
+    ],
+    "metadata": {
+      "primary_social_role": "Prospector",
+      "settlement_name": "Forty Mile",
+      "environmental_factors": [
+        "Wildlife Encounters",
+        "Wolf Encounters",
+        "River Travel",
+        "Avalanches",
+        "Ice Jams",
+        "Food Scarcity",
+        "Water Contamination"
+      ],
+      "economic_activity": "Trade & Supply",
+      "record_id": "PRO-000613"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.9
+    }
+  },
+  {
+    "id": "query_00000048",
+    "text": "What types of businesses and trade networks were prevalent in the area around Dawson City during the gold rush era?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000052",
+    "text": "What types of economic activities were prevalent in Skagway during the gold rush era, particularly for prospectors?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector"
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000522"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Disease Outbreaks",
+        "Thawing Rivers"
+      ],
+      "record_id": "MIN-000519"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 5.1
+    }
+  },
+  {
+    "id": "query_00000050",
+    "text": "What types of economic activities and environmental factors were prevalent in Dawson City during the gold rush era?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000051",
+    "text": "What were the trade and supply operations like in Dawson City during the gold rush era?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000054",
+    "text": "What are the details of a specific mining claim registration in Skagway, including the claimants and boundaries of the claim?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector"
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000797"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Heavy Snowfall"
+      ],
+      "record_id": "MIN-000794"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 5.1
+    }
+  },
+  {
+    "id": "query_00000053",
+    "text": "What types of economic activities were prevalent in Dawson City during its peak population of 4245?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "population_estimate": 4245
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000055",
+    "text": "What types of businesses were prevalent in Dawson City during the gold rush era, and how did trade networks develop in the settlement?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000056",
+    "text": "What types of businesses and economic activities were prevalent in Dawson City during the gold rush era?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000057",
+    "text": "What are the most productive mining claims in Dawson City during the 1898 mining season?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "population_estimate": 4245
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000059",
+    "text": "What are the most productive gold claims in Dawson City during the mining season?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "population_estimate": 4245
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000058",
+    "text": "What types of businesses and trade operations were prevalent in Dawson City during the gold rush era?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Economic activities in a specific town",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000061",
+    "text": "What are the main causes of trade and supply shortage in Forty Mile as described in a recent news bulletin?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "population_estimate": 18760
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000007"
+    ],
+    "metadata": {
+      "settlement_name": "Forty Mile",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 18760,
+      "primary_social_role": "Merchant",
+      "record_id": "KLO-000003"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000060",
+    "text": "How did the primary social role of merchants in Dawson City, Yukon Territory, Canada experience the impact of environmental factors such as avalanches, blizzards, food scarcity, heavy snowfall, ice jams, isolation, and river travel on their economic activities in the expansion era?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000062",
+    "text": "What items were stocked and sold daily in the ledger for the merchant in Skagway during the mining season?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "economic_activity": "Mining"
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000953"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "economic_activity": "Mining",
+      "primary_social_role": "Prospector",
+      "population_estimate": 20453,
+      "record_id": "MER-000950"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.8
+    }
+  },
+  {
+    "id": "query_00000063",
+    "text": "How did the harsh environmental conditions affect the daily life and work of a law enforcement officer in Skagway during the expansion era?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector"
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000529"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Law Enforcement",
+      "environmental_factors": [
+        "Food Scarcity",
+        "River Freezing",
+        "Permafrost",
+        "Extreme Cold"
+      ],
+      "record_id": "PER-000526"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 5.1
+    }
+  },
+  {
+    "id": "query_00000064",
+    "text": "What environmental factors affected a merchant's economic activities during the Klondike Gold Rush?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000065",
+    "text": "How did environmental challenges like avalanches, blizzards, food scarcity, heavy snowfall, ice jams, isolation, and river travel affect merchants in Dawson City during the expansion era?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000066",
+    "text": "What environmental challenges did merchants like Belinda Mulrooney face while operating trade and supply services in Dawson City during the expansion era?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000067",
+    "text": "What environmental factors did the merchant Belinda Mulrooney have to contend with near her claim on the Bonanza Creek in Dawson City?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000068",
+    "text": "What were the environmental challenges faced by merchants like Belinda Mulrooney during the expansion era in Dawson City?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000069",
+    "text": "What environmental factors did a prospector in Skagway, Yukon Territory, encounter in their daily activities?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector"
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000036"
+    ],
+    "metadata": {
+      "primary_social_role": "Prospector",
+      "settlement_name": "Skagway",
+      "environmental_factors": [
+        "River Travel",
+        "Harsh Terrain",
+        "Mudslides",
+        "Wildlife Encounters",
+        "Short Summers"
+      ],
+      "economic_activity": "Trade & Supply",
+      "record_id": "PRO-000033"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 5.1
+    }
+  },
+  {
+    "id": "query_00000070",
+    "text": "How did the harsh winter conditions affect prospectors in Skagway during the gold rush era?",
+    "filters": {
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply"
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000892"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 9033,
+      "primary_social_role": "Prospector",
+      "record_id": "KLO-000889"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.9
+    }
+  },
+  {
+    "id": "query_00000071",
+    "text": "What economic activities drove the community in Dawson City during the mining season in 1898?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "population_estimate": 4245
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000072",
+    "text": "How did environmental factors like avalanches, blizzards, food scarcity, heavy snowfall, ice jams, isolation, and river travel affect the daily activities and operations of merchants in Dawson City during the gold rush era?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000073",
+    "text": "How did harsh environmental factors affect the economic activities of merchants in Dawson City during the gold rush era?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000074",
+    "text": "What environmental factors are mentioned in a patrol log from Skagway related to prospectors during the mining season?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector"
+    },
+    "category": "Environmental challenges faced by a social role",
+    "relevant_doc_ids": [
+      "doc_00000052"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Harsh Terrain",
+        "Dense Forests",
+        "Heavy Snowfall",
+        "Rapids and Strong Currents",
+        "Avalanches",
+        "Long Winters",
+        "Water Contamination"
+      ],
+      "population_estimate": 21594,
+      "record_id": "NWM-000049"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 5.1
+    }
+  },
+  {
+    "id": "query_00000075",
+    "text": "What economic activities and settlement patterns are described in this document related to a merchant in Dawson City during the gold rush era?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000076",
+    "text": "What gold finds were made by an entertainer in the Whitehorse area on March 15, 1899, and what were the weather conditions like at that time?",
+    "filters": {
+      "environmental_factors": [
+        "Harsh Terrain"
+      ]
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000093"
+    ],
+    "metadata": {
+      "primary_social_role": "Entertainer",
+      "settlement_name": "Whitehorse",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "economic_activity": "Services & Entertainment",
+      "record_id": "PRO-000090"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.6
+    }
+  },
+  {
+    "id": "query_00000077",
+    "text": "What can be inferred about the economic conditions of Dawson City in 1898 from the anomalous sales patterns and credit account inconsistencies recorded in a merchant's comprehensive inventory and sales ledger?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000111"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Saloon Keeping",
+      "primary_social_role": "Doctor",
+      "population_estimate": 21594,
+      "record_id": "MER-000108"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000078",
+    "text": "What is a notable aspect of the commercial and entertainment scene in Bennett during the Klondike Gold Rush?",
+    "filters": {
+      "settlement_name": "Bennett"
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000367"
+    ],
+    "metadata": {
+      "settlement_name": "Bennett",
+      "economic_activity": "Saloon Keeping",
+      "population_estimate": 24823,
+      "primary_social_role": "Indigenous Person",
+      "record_id": "KLO-000364"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.5
+    }
+  },
+  {
+    "id": "query_00000079",
+    "text": "What specific environmental factors affect the permafrost zone of a mining claim in Carcross, Yukon Territory?",
+    "filters": {
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply"
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000922"
+    ],
+    "metadata": {
+      "settlement_name": "Carcross",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Permafrost",
+        "Forest Fires",
+        "Rocky Soil",
+        "Isolation",
+        "Wildlife Encounters",
+        "Thawing Rivers",
+        "Flooding"
+      ],
+      "record_id": "MIN-000919"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.9
+    }
+  },
+  {
+    "id": "query_00000080",
+    "text": "What specific techniques and equipment were being used by prospectors on Eldorado Creek during the 1898-1899 winter for gold separation and recovery?",
+    "filters": {
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply"
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000833"
+    ],
+    "metadata": {
+      "primary_social_role": "Prospector",
+      "settlement_name": "Eldorado Creek",
+      "environmental_factors": [
+        "River Travel",
+        "Lack of Sunlight",
+        "River Freezing",
+        "Ice Jams"
+      ],
+      "economic_activity": "Trade & Supply",
+      "record_id": "PRO-000830"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.9
+    }
+  },
+  {
+    "id": "query_00000081",
+    "text": "What specific conditions contributed to the presence of disease outbreaks in the area of the 'Prosperity Strike' claim in Skagway?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "economic_activity": "Mining"
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000693"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Disease Outbreaks"
+      ],
+      "record_id": "MIN-000690"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.8
+    }
+  },
+  {
+    "id": "query_00000082",
+    "text": "What factors led to the shortage of essential goods in Forty Mile, and how did local merchants and traders respond?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 18760
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000007"
+    ],
+    "metadata": {
+      "settlement_name": "Forty Mile",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 18760,
+      "primary_social_role": "Merchant",
+      "record_id": "KLO-000003"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000083",
+    "text": "What are the economic activities and environmental factors associated with a placer claim in Dawson City?",
+    "filters": {
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000084",
+    "text": "What environmental hazards were observed in the Skagway mining settlement in February 1899, and how did the NWMP respond to these issues?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Comprehensive historical context of a period/location",
+    "relevant_doc_ids": [
+      "doc_00000052"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Harsh Terrain",
+        "Dense Forests",
+        "Heavy Snowfall",
+        "Rapids and Strong Currents",
+        "Avalanches",
+        "Long Winters",
+        "Water Contamination"
+      ],
+      "population_estimate": 21594,
+      "record_id": "NWM-000049"
+    },
+    "query_info": {
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000085",
+    "text": "What economic trends can be inferred from the sales fluctuations of staple goods in Dawson City?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Population estimates for a settlement over time",
+    "relevant_doc_ids": [
+      "doc_00000111"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Saloon Keeping",
+      "primary_social_role": "Doctor",
+      "population_estimate": 21594,
+      "record_id": "MER-000108"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000086",
+    "text": "What is the estimated population of Skagway during the expansion era and how does the settlement's mining activities affect the environment?",
+    "filters": {
+      "population_estimate": 21594
+    },
+    "category": "Population estimates for a settlement over time",
+    "relevant_doc_ids": [
+      "doc_00000052"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Mining",
+      "environmental_factors": [
+        "Harsh Terrain",
+        "Dense Forests",
+        "Heavy Snowfall",
+        "Rapids and Strong Currents",
+        "Avalanches",
+        "Long Winters",
+        "Water Contamination"
+      ],
+      "population_estimate": 21594,
+      "record_id": "NWM-000049"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.2
+    }
+  },
+  {
+    "id": "query_00000087",
+    "text": "What is the estimated population of Dawson City during the mining season?",
+    "filters": {
+      "primary_social_role": "Miner"
+    },
+    "category": "Population estimates for a settlement over time",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 4.6
+    }
+  },
+  {
+    "id": "query_00000089",
+    "text": "What services and entertainment activities were taking place in Whitehorse during the winter of 1899?",
+    "filters": {
+      "environmental_factors": [
+        "Harsh Terrain"
+      ]
+    },
+    "category": "Population estimates for a settlement over time",
+    "relevant_doc_ids": [
+      "doc_00000093"
+    ],
+    "metadata": {
+      "primary_social_role": "Entertainer",
+      "settlement_name": "Whitehorse",
+      "environmental_factors": [
+        "Harsh Terrain"
+      ],
+      "economic_activity": "Services & Entertainment",
+      "record_id": "PRO-000090"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.6
+    }
+  },
+  {
+    "id": "query_00000090",
+    "text": "What mining claims were registered in Dawson City during the expansion era, particularly those associated with prominent merchants like Belinda Mulrooney?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "environmental_factors": [
+        "Avalanches",
+        "Blizzards",
+        "Food Scarcity",
+        "Heavy Snowfall",
+        "Ice Jams",
+        "Isolation",
+        "River Travel"
+      ]
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000000"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "primary_social_role": "Merchant",
+      "economic_activity": "Trade & Supply",
+      "environmental_factors": [
+        "Food Scarcity",
+        "Isolation",
+        "Blizzards",
+        "Avalanches",
+        "Heavy Snowfall",
+        "River Travel",
+        "Ice Jams"
+      ],
+      "record_id": "MIN-000000"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000091",
+    "text": "What mining claims are producing the most gold in Dawson City in April 1898?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "population_estimate": 4245
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000092",
+    "text": "What are some of the most productive mining claims in Dawson City, and how much gold are they producing?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "population_estimate": 4245
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000093",
+    "text": "What gold recovery techniques did prospector use in their Eldorado Creek operation?",
+    "filters": {
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply"
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000833"
+    ],
+    "metadata": {
+      "primary_social_role": "Prospector",
+      "settlement_name": "Eldorado Creek",
+      "environmental_factors": [
+        "River Travel",
+        "Lack of Sunlight",
+        "River Freezing",
+        "Ice Jams"
+      ],
+      "economic_activity": "Trade & Supply",
+      "record_id": "PRO-000830"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.9
+    }
+  },
+  {
+    "id": "query_00000094",
+    "text": "What are the top claim producers in Dawson City and how much gold are they producing?",
+    "filters": {
+      "settlement_name": "Dawson City",
+      "population_estimate": 4245
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000006"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Mining",
+      "population_estimate": 4245,
+      "primary_social_role": "Miner",
+      "record_id": "KLO-000004"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000095",
+    "text": "What are the complex causes behind the trade and supply shortage in Forty Mile, and how are local merchants struggling to meet the growing demand?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "population_estimate": 18760
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000007"
+    ],
+    "metadata": {
+      "settlement_name": "Forty Mile",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 18760,
+      "primary_social_role": "Merchant",
+      "record_id": "KLO-000003"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000096",
+    "text": "What are the complex causes behind the trade and supply shortage in Forty Mile, and how do local merchants, traders, and residents perceive the issue?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "population_estimate": 18760
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000007"
+    ],
+    "metadata": {
+      "settlement_name": "Forty Mile",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 18760,
+      "primary_social_role": "Merchant",
+      "record_id": "KLO-000003"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000097",
+    "text": "What are the primary causes behind the trade and supply shortage in Forty Mile, and how are local merchants responding to the crisis?",
+    "filters": {
+      "primary_social_role": "Merchant",
+      "population_estimate": 18760
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000007"
+    ],
+    "metadata": {
+      "settlement_name": "Forty Mile",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 18760,
+      "primary_social_role": "Merchant",
+      "record_id": "KLO-000003"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 0.1
+    }
+  },
+  {
+    "id": "query_00000098",
+    "text": "What are the specific boundaries of mining claim 001 in Skagway?",
+    "filters": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector"
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000797"
+    ],
+    "metadata": {
+      "settlement_name": "Skagway",
+      "primary_social_role": "Prospector",
+      "economic_activity": "Gold Panning",
+      "environmental_factors": [
+        "Heavy Snowfall"
+      ],
+      "record_id": "MIN-000794"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 5.1
+    }
+  },
+  {
+    "id": "query_00000099",
+    "text": "What are the dynamics behind Dawson City's trade and supply sector, particularly in relation to its suppliers and merchants?",
+    "filters": {
+      "primary_social_role": "Prospector",
+      "economic_activity": "Trade & Supply"
+    },
+    "category": "Specific document types about a topic",
+    "relevant_doc_ids": [
+      "doc_00000606"
+    ],
+    "metadata": {
+      "settlement_name": "Dawson City",
+      "economic_activity": "Trade & Supply",
+      "population_estimate": 27485,
+      "primary_social_role": "Prospector",
+      "record_id": "KLO-000603"
+    },
+    "query_info": {
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 3.9
+    }
+  }
+]

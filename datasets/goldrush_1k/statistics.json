@@ -1,0 +1,312 @@
+{
+  "overall": {
+    "total_documents": 1000,
+    "num_metadata_fields": 7,
+    "num_filter_combinations": 1253
+  },
+  "field_cardinalities": {
+    "document_date": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "document_type": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "settlement_name": {
+      "cardinality": 12,
+      "sample_values": [
+        "Dawson City",
+        "Skagway",
+        "Bonanza Creek",
+        "Whitehorse",
+        "Dyea",
+        "Forty Mile",
+        "Bennett",
+        "Hunker Creek",
+        "Fort Selkirk",
+        "Eldorado Creek"
+      ]
+    },
+    "primary_social_role": {
+      "cardinality": 15,
+      "sample_values": [
+        "Prospector",
+        "Merchant",
+        "Government Official",
+        "Indigenous Person",
+        "Entertainer",
+        "Miner",
+        "Cook",
+        "Laundress",
+        "Saloon Keeper",
+        "Doctor"
+      ]
+    },
+    "economic_activity": {
+      "cardinality": 15,
+      "sample_values": [
+        "Mining",
+        "Trade & Supply",
+        "Transportation",
+        "Services & Entertainment",
+        "Law Enforcement",
+        "Gold Panning",
+        "Freight Hauling",
+        "Claim Staking",
+        "Saloon Keeping",
+        "Medical Services"
+      ]
+    },
+    "population_estimate": {
+      "cardinality": 427,
+      "sample_values": [
+        "21594",
+        "29242",
+        "23365",
+        "4245",
+        "18760",
+        "10304",
+        "11279",
+        "24538",
+        "19650",
+        "9630"
+      ]
+    },
+    "environmental_factors": {
+      "cardinality": 693,
+      "sample_values": [
+        "('Harsh Terrain',)",
+        "('River Freezing',)",
+        "('Thawing Rivers',)",
+        "('Wolf Encounters',)",
+        "('Rocky Soil',)",
+        "('Resource Depletion',)",
+        "('Landslides',)",
+        "('Disease Outbreaks',)",
+        "('Permafrost',)",
+        "('Water Contamination',)"
+      ]
+    }
+  },
+  "selectivity_buckets": {
+    "ultra_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "very_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "specific": {
+      "num_combinations": 1183,
+      "avg_selectivity_percent": 0.11783601014370246,
+      "sample_combinations": [
+        {
+          "filters": {
+            "population_estimate": 4245
+          },
+          "selectivity": 0.001,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "population_estimate": 18760
+          },
+          "selectivity": 0.001,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "population_estimate": 10304
+          },
+          "selectivity": 0.001,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "population_estimate": 11279
+          },
+          "selectivity": 0.001,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "population_estimate": 24538
+          },
+          "selectivity": 0.001,
+          "matching_docs": 1
+        }
+      ]
+    },
+    "moderate": {
+      "num_combinations": 49,
+      "avg_selectivity_percent": 2.73265306122449,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement_name": "Fort Selkirk"
+          },
+          "selectivity": 0.036,
+          "matching_docs": 36
+        },
+        {
+          "filters": {
+            "settlement_name": "Carcross"
+          },
+          "selectivity": 0.025,
+          "matching_docs": 25
+        },
+        {
+          "filters": {
+            "settlement_name": "Bennett"
+          },
+          "selectivity": 0.045,
+          "matching_docs": 45
+        },
+        {
+          "filters": {
+            "settlement_name": "Hunker Creek"
+          },
+          "selectivity": 0.041,
+          "matching_docs": 41
+        },
+        {
+          "filters": {
+            "settlement_name": "Eldorado Creek"
+          },
+          "selectivity": 0.036,
+          "matching_docs": 36
+        }
+      ]
+    },
+    "broad": {
+      "num_combinations": 18,
+      "avg_selectivity_percent": 9.25,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement_name": "Bonanza Creek"
+          },
+          "selectivity": 0.089,
+          "matching_docs": 89
+        },
+        {
+          "filters": {
+            "settlement_name": "Skagway"
+          },
+          "selectivity": 0.166,
+          "matching_docs": 166
+        },
+        {
+          "filters": {
+            "settlement_name": "Forty Mile"
+          },
+          "selectivity": 0.059,
+          "matching_docs": 59
+        },
+        {
+          "filters": {
+            "settlement_name": "Whitehorse"
+          },
+          "selectivity": 0.087,
+          "matching_docs": 87
+        },
+        {
+          "filters": {
+            "settlement_name": "Dyea"
+          },
+          "selectivity": 0.068,
+          "matching_docs": 68
+        }
+      ]
+    },
+    "very_broad": {
+      "num_combinations": 3,
+      "avg_selectivity_percent": 31.3,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement_name": "Dawson City"
+          },
+          "selectivity": 0.32,
+          "matching_docs": 320
+        },
+        {
+          "filters": {
+            "primary_social_role": "Prospector"
+          },
+          "selectivity": 0.317,
+          "matching_docs": 317
+        },
+        {
+          "filters": {
+            "economic_activity": "Mining"
+          },
+          "selectivity": 0.302,
+          "matching_docs": 302
+        }
+      ]
+    }
+  },
+  "document_lengths": {
+    "total_documents": 1000,
+    "min_length": 268,
+    "max_length": 12631,
+    "mean_length": 606,
+    "median_length": 572,
+    "by_document_type": {
+      "Mining Claim Registration": {
+        "count": 250,
+        "min": 268,
+        "max": 691,
+        "mean": 454,
+        "median": 449
+      },
+      "Prospector's Daily Journal Entry": {
+        "count": 200,
+        "min": 314,
+        "max": 1028,
+        "mean": 584,
+        "median": 574
+      },
+      "Klondike News Bulletin Article": {
+        "count": 180,
+        "min": 462,
+        "max": 1983,
+        "mean": 680,
+        "median": 662
+      },
+      "NWMP Patrol Log & Incident Report": {
+        "count": 150,
+        "min": 352,
+        "max": 1753,
+        "mean": 586,
+        "median": 553
+      },
+      "Personal Correspondence from the Frontier": {
+        "count": 120,
+        "min": 437,
+        "max": 1542,
+        "mean": 643,
+        "median": 609
+      },
+      "Merchant's Comprehensive Inventory & Sales Ledger": {
+        "count": 50,
+        "min": 493,
+        "max": 12631,
+        "mean": 975,
+        "median": 682
+      },
+      "Yukon Territory Administrator's Annual Review": {
+        "count": 50,
+        "min": 553,
+        "max": 1217,
+        "mean": 797,
+        "median": 779
+      }
+    }
+  }
+}

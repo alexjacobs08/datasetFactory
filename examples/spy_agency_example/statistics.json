@@ -1,0 +1,281 @@
+{
+  "overall": {
+    "total_documents": 100,
+    "num_metadata_fields": 8,
+    "num_filter_combinations": 484
+  },
+  "field_cardinalities": {
+    "event_date": {
+      "cardinality": 97,
+      "sample_values": [
+        "2020-04-27",
+        "2024-10-05",
+        "2020-06-14",
+        "2023-01-06",
+        "2021-11-02",
+        "2024-08-30",
+        "2024-09-18",
+        "2021-01-17",
+        "2023-03-05",
+        "2022-06-26"
+      ]
+    },
+    "document_creation_date": {
+      "cardinality": 97,
+      "sample_values": [
+        "2023-05-10",
+        "2024-09-05",
+        "2023-04-29",
+        "2020-03-14",
+        "2024-02-06",
+        "2022-03-14",
+        "2020-02-24",
+        "2021-06-07",
+        "2024-02-25",
+        "2022-09-09"
+      ]
+    },
+    "document_type": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "classification_level": {
+      "cardinality": 5,
+      "sample_values": [
+        "Top Secret",
+        "Confidential",
+        "Secret",
+        "Restricted",
+        "Eyes Only"
+      ]
+    },
+    "originating_division": {
+      "cardinality": 8,
+      "sample_values": [
+        "Covert Operations",
+        "Signals Intelligence",
+        "Human Intelligence",
+        "Technical Operations",
+        "Research & Analysis",
+        "Counter-Espionage",
+        "Logistics & Support",
+        "Special Projects"
+      ]
+    },
+    "target_entity": {
+      "cardinality": 12,
+      "sample_values": [
+        "Soviet Union",
+        "East Germany",
+        "Czechoslovakia",
+        "KGB",
+        "Comecon",
+        "Warsaw Pact",
+        "People's Republic of China",
+        "Stasi",
+        "Poland",
+        "GRU"
+      ]
+    },
+    "authoring_agent_id": {
+      "cardinality": 8,
+      "sample_values": [
+        "Ghost-1",
+        "Raven-9",
+        "Nightingale-7",
+        "Shadow-12",
+        "Phoenix-11",
+        "Orion-5",
+        "Viper-6",
+        "Sparrowhawk-3"
+      ]
+    },
+    "mission_priority": {
+      "cardinality": 5,
+      "sample_values": [
+        "2",
+        "4",
+        "1",
+        "3",
+        "5"
+      ]
+    }
+  },
+  "selectivity_buckets": {
+    "ultra_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "very_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "moderate": {
+      "num_combinations": 417,
+      "avg_selectivity_percent": 1.486810551558753,
+      "sample_combinations": [
+        {
+          "filters": {
+            "event_date": "2023-01-06"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "event_date": "2021-11-02"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "event_date": "2024-08-30"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "event_date": "2024-09-18"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "event_date": "2021-01-17"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        }
+      ]
+    },
+    "broad": {
+      "num_combinations": 61,
+      "avg_selectivity_percent": 9.147540983606557,
+      "sample_combinations": [
+        {
+          "filters": {
+            "classification_level": "Restricted"
+          },
+          "selectivity": 0.12,
+          "matching_docs": 12
+        },
+        {
+          "filters": {
+            "classification_level": "Secret"
+          },
+          "selectivity": 0.17,
+          "matching_docs": 17
+        },
+        {
+          "filters": {
+            "classification_level": "Confidential"
+          },
+          "selectivity": 0.18,
+          "matching_docs": 18
+        },
+        {
+          "filters": {
+            "classification_level": "Eyes Only"
+          },
+          "selectivity": 0.09,
+          "matching_docs": 9
+        },
+        {
+          "filters": {
+            "originating_division": "Counter-Espionage"
+          },
+          "selectivity": 0.07,
+          "matching_docs": 7
+        }
+      ]
+    },
+    "very_broad": {
+      "num_combinations": 6,
+      "avg_selectivity_percent": 31.16666666666667,
+      "sample_combinations": [
+        {
+          "filters": {
+            "classification_level": "Top Secret"
+          },
+          "selectivity": 0.44,
+          "matching_docs": 44
+        },
+        {
+          "filters": {
+            "originating_division": "Covert Operations"
+          },
+          "selectivity": 0.43,
+          "matching_docs": 43
+        },
+        {
+          "filters": {
+            "target_entity": "Soviet Union"
+          },
+          "selectivity": 0.25,
+          "matching_docs": 25
+        },
+        {
+          "filters": {
+            "mission_priority": 2
+          },
+          "selectivity": 0.27,
+          "matching_docs": 27
+        },
+        {
+          "filters": {
+            "mission_priority": 4
+          },
+          "selectivity": 0.26,
+          "matching_docs": 26
+        }
+      ]
+    }
+  },
+  "document_lengths": {
+    "total_documents": 100,
+    "min_length": 269,
+    "max_length": 881,
+    "mean_length": 542,
+    "median_length": 554,
+    "by_document_type": {
+      "Operational Debriefing": {
+        "count": 30,
+        "min": 461,
+        "max": 881,
+        "mean": 599,
+        "median": 588
+      },
+      "Field Contact Report": {
+        "count": 35,
+        "min": 269,
+        "max": 600,
+        "mean": 428,
+        "median": 435
+      },
+      "Strategic Intelligence Brief": {
+        "count": 15,
+        "min": 513,
+        "max": 822,
+        "mean": 630,
+        "median": 613
+      },
+      "Agent Profile Dossier": {
+        "count": 20,
+        "min": 437,
+        "max": 731,
+        "mean": 590,
+        "median": 597
+      }
+    }
+  }
+}

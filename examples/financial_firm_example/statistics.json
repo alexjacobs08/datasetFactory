@@ -1,0 +1,274 @@
+{
+  "overall": {
+    "total_documents": 100,
+    "num_metadata_fields": 8,
+    "num_filter_combinations": 293
+  },
+  "field_cardinalities": {
+    "document_date": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "document_type": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "author": {
+      "cardinality": 8,
+      "sample_values": [
+        "Evelyn Reed (Head of Risk Management)",
+        "Internal Audit Team",
+        "CEO Office (Arthur Sterling)",
+        "Marcus Thorne (Chief Investment Officer)",
+        "Veridian Legal Dept.",
+        "Sarah Chen (Compliance Officer)",
+        "Board of Directors",
+        "David Miller (HR Director)"
+      ]
+    },
+    "department": {
+      "cardinality": 8,
+      "sample_values": [
+        "Finance",
+        "Legal",
+        "Executive Office",
+        "Internal Audit",
+        "Risk Management",
+        "Human Resources",
+        "Compliance",
+        "Investments"
+      ]
+    },
+    "issue_category": {
+      "cardinality": 8,
+      "sample_values": [
+        "Investment Fraud",
+        "Corporate Espionage",
+        "Internal Power Struggle",
+        "Regulatory Non-Compliance",
+        "Market Manipulation",
+        "Data Breach",
+        "Whistleblower Report",
+        "Financial Misconduct"
+      ]
+    },
+    "confidentiality_level": {
+      "cardinality": 6,
+      "sample_values": [
+        "Internal Only",
+        "Confidential",
+        "Privileged & Confidential",
+        "Legal Privilege",
+        "Highly Restricted",
+        "Public Disclosure (Draft)"
+      ]
+    },
+    "risk_assessment_score": {
+      "cardinality": 41,
+      "sample_values": [
+        "43",
+        "55",
+        "31",
+        "56",
+        "62",
+        "51",
+        "57",
+        "70",
+        "46",
+        "35"
+      ]
+    },
+    "financial_impact_usd": {
+      "cardinality": 45,
+      "sample_values": [
+        "268352524",
+        "517766431",
+        "854430634",
+        "438579058",
+        "453297717",
+        "879473005",
+        "534030065",
+        "750947515",
+        "163408618",
+        "498243541"
+      ]
+    }
+  },
+  "selectivity_buckets": {
+    "ultra_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "very_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "moderate": {
+      "num_combinations": 236,
+      "avg_selectivity_percent": 1.521186440677966,
+      "sample_combinations": [
+        {
+          "filters": {
+            "author": "Board of Directors"
+          },
+          "selectivity": 0.04,
+          "matching_docs": 4
+        },
+        {
+          "filters": {
+            "author": "David Miller (HR Director)"
+          },
+          "selectivity": 0.03,
+          "matching_docs": 3
+        },
+        {
+          "filters": {
+            "issue_category": "Financial Misconduct"
+          },
+          "selectivity": 0.04,
+          "matching_docs": 4
+        },
+        {
+          "filters": {
+            "risk_assessment_score": 62
+          },
+          "selectivity": 0.02,
+          "matching_docs": 2
+        },
+        {
+          "filters": {
+            "risk_assessment_score": 51
+          },
+          "selectivity": 0.02,
+          "matching_docs": 2
+        }
+      ]
+    },
+    "broad": {
+      "num_combinations": 50,
+      "avg_selectivity_percent": 8.42,
+      "sample_combinations": [
+        {
+          "filters": {
+            "author": "Internal Audit Team"
+          },
+          "selectivity": 0.11,
+          "matching_docs": 11
+        },
+        {
+          "filters": {
+            "author": "CEO Office (Arthur Sterling)"
+          },
+          "selectivity": 0.11,
+          "matching_docs": 11
+        },
+        {
+          "filters": {
+            "author": "Marcus Thorne (Chief Investment Officer)"
+          },
+          "selectivity": 0.11,
+          "matching_docs": 11
+        },
+        {
+          "filters": {
+            "author": "Sarah Chen (Compliance Officer)"
+          },
+          "selectivity": 0.06,
+          "matching_docs": 6
+        },
+        {
+          "filters": {
+            "author": "Veridian Legal Dept."
+          },
+          "selectivity": 0.1,
+          "matching_docs": 10
+        }
+      ]
+    },
+    "very_broad": {
+      "num_combinations": 7,
+      "avg_selectivity_percent": 31.428571428571434,
+      "sample_combinations": [
+        {
+          "filters": {
+            "author": "Evelyn Reed (Head of Risk Management)"
+          },
+          "selectivity": 0.44,
+          "matching_docs": 44
+        },
+        {
+          "filters": {
+            "department": "Legal"
+          },
+          "selectivity": 0.22,
+          "matching_docs": 22
+        },
+        {
+          "filters": {
+            "department": "Finance"
+          },
+          "selectivity": 0.26,
+          "matching_docs": 26
+        },
+        {
+          "filters": {
+            "issue_category": "Investment Fraud"
+          },
+          "selectivity": 0.41,
+          "matching_docs": 41
+        },
+        {
+          "filters": {
+            "confidentiality_level": "Internal Only"
+          },
+          "selectivity": 0.38,
+          "matching_docs": 38
+        }
+      ]
+    }
+  },
+  "document_lengths": {
+    "total_documents": 100,
+    "min_length": 365,
+    "max_length": 17574,
+    "mean_length": 778,
+    "median_length": 590,
+    "by_document_type": {
+      "Urgent Internal Memo": {
+        "count": 35,
+        "min": 365,
+        "max": 764,
+        "mean": 512,
+        "median": 506
+      },
+      "Executive Committee Meeting Minutes": {
+        "count": 20,
+        "min": 486,
+        "max": 712,
+        "mean": 607,
+        "median": 607
+      },
+      "Preliminary Investigation Brief": {
+        "count": 30,
+        "min": 443,
+        "max": 879,
+        "mean": 625,
+        "median": 611
+      },
+      "Comprehensive Fraud Audit Report": {
+        "count": 15,
+        "min": 555,
+        "max": 17574,
+        "mean": 1930,
+        "median": 750
+      }
+    }
+  }
+}

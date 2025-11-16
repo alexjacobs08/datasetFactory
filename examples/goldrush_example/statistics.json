@@ -1,0 +1,263 @@
+{
+  "overall": {
+    "total_documents": 100,
+    "num_metadata_fields": 7,
+    "num_filter_combinations": 447
+  },
+  "field_cardinalities": {
+    "document_date": {
+      "cardinality": 97,
+      "sample_values": [
+        "2024-12-03",
+        "2023-06-05",
+        "2020-08-25",
+        "2023-03-03",
+        "2021-10-15",
+        "2022-01-02",
+        "2024-03-30",
+        "2024-01-25",
+        "2023-09-03",
+        "2024-09-24"
+      ]
+    },
+    "settlement_type": {
+      "cardinality": 6,
+      "sample_values": [
+        "Supply Post",
+        "Trail Stop",
+        "Port City",
+        "Native Village",
+        "Boomtown",
+        "Mining Camp"
+      ]
+    },
+    "document_originator_type": {
+      "cardinality": 8,
+      "sample_values": [
+        "Newspaper",
+        "Personal Diary",
+        "Government Report",
+        "Photographer",
+        "Mining Claim Record",
+        "Memoir",
+        "Business Ledger",
+        "Letter"
+      ]
+    },
+    "geographic_location": {
+      "cardinality": 9,
+      "sample_values": [
+        "Dawson City",
+        "Skagway",
+        "Bonanza Creek",
+        "Yukon Territory",
+        "Chilkoot Pass",
+        "White Pass",
+        "Klondike River",
+        "Forty Mile",
+        "Dyea"
+      ]
+    },
+    "event_year": {
+      "cardinality": 10,
+      "sample_values": [
+        "1902",
+        "1901",
+        "1899",
+        "1903",
+        "1897",
+        "1905",
+        "1898",
+        "1900",
+        "1896",
+        "1904"
+      ]
+    },
+    "population_estimate": {
+      "cardinality": 55,
+      "sample_values": [
+        "15720",
+        "32624",
+        "34883",
+        "31452",
+        "22849",
+        "25363",
+        "3554",
+        "18102",
+        "20577",
+        "12853"
+      ]
+    },
+    "main_occupations": {
+      "cardinality": 96,
+      "sample_values": [
+        "('Law Enforcement',)",
+        "('Blacksmith',)",
+        "('Saloon Owner',)",
+        "('Blacksmith', 'Clerk', 'Entertainer', 'Nurse')",
+        "('Missionary',)",
+        "('Bartender', 'Miner', 'Nurse')",
+        "('Bartender', 'Cook', 'Saloon Owner', 'Surveyor', 'Teamster/Packer')",
+        "('Baker', 'Doctor', 'Journalist', 'Steamboat Captain')",
+        "('Gold Buyer', 'Hotelier', 'Missionary', 'Prospector', 'Saloon Owner')",
+        "('Bartender', 'Hotelier', 'Miner', 'Missionary')"
+      ]
+    }
+  },
+  "selectivity_buckets": {
+    "ultra_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "very_specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "specific": {
+      "num_combinations": 0,
+      "avg_selectivity_percent": 0.0,
+      "sample_combinations": []
+    },
+    "moderate": {
+      "num_combinations": 412,
+      "avg_selectivity_percent": 1.2378640776699028,
+      "sample_combinations": [
+        {
+          "filters": {
+            "document_date": "2023-03-03"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "document_date": "2024-12-03"
+          },
+          "selectivity": 0.02,
+          "matching_docs": 2
+        },
+        {
+          "filters": {
+            "document_date": "2021-10-15"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "document_date": "2022-01-02"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "document_date": "2024-03-30"
+          },
+          "selectivity": 0.01,
+          "matching_docs": 1
+        }
+      ]
+    },
+    "broad": {
+      "num_combinations": 32,
+      "avg_selectivity_percent": 9.6875,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement_type": "Native Village"
+          },
+          "selectivity": 0.16,
+          "matching_docs": 16
+        },
+        {
+          "filters": {
+            "settlement_type": "Trail Stop"
+          },
+          "selectivity": 0.18,
+          "matching_docs": 18
+        },
+        {
+          "filters": {
+            "settlement_type": "Boomtown"
+          },
+          "selectivity": 0.15,
+          "matching_docs": 15
+        },
+        {
+          "filters": {
+            "settlement_type": "Port City"
+          },
+          "selectivity": 0.17,
+          "matching_docs": 17
+        },
+        {
+          "filters": {
+            "settlement_type": "Mining Camp"
+          },
+          "selectivity": 0.15,
+          "matching_docs": 15
+        }
+      ]
+    },
+    "very_broad": {
+      "num_combinations": 3,
+      "avg_selectivity_percent": 25.0,
+      "sample_combinations": [
+        {
+          "filters": {
+            "document_originator_type": "Newspaper"
+          },
+          "selectivity": 0.2,
+          "matching_docs": 20
+        },
+        {
+          "filters": {
+            "geographic_location": "Dawson City"
+          },
+          "selectivity": 0.35,
+          "matching_docs": 35
+        },
+        {
+          "filters": {
+            "geographic_location": "Skagway"
+          },
+          "selectivity": 0.2,
+          "matching_docs": 20
+        }
+      ]
+    }
+  },
+  "document_lengths": {
+    "total_documents": 100,
+    "min_length": 410,
+    "max_length": 1326,
+    "mean_length": 677,
+    "median_length": 655,
+    "by_document_type": {
+      "Prospector's Personal Correspondence": {
+        "count": 45,
+        "min": 410,
+        "max": 972,
+        "mean": 588,
+        "median": 538
+      },
+      "Local Newspaper Article": {
+        "count": 35,
+        "min": 534,
+        "max": 976,
+        "mean": 696,
+        "median": 673
+      },
+      "Gold Commissioner's Annual Report": {
+        "count": 20,
+        "min": 513,
+        "max": 1326,
+        "mean": 843,
+        "median": 823
+      }
+    }
+  }
+}

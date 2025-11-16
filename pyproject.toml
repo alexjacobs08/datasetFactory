@@ -1,0 +1,77 @@
+[project]
+name = "dataset-factory"
+version = "0.1.0"
+description = "Generate custom RAG evaluation datasets from a single text prompt"
+readme = "README.md"
+license = {text = "AGPL-3.0-or-later"}
+authors = [
+    { name = "Alex Jacobs", email = "jacobsad@g.cofc.edu" }
+]
+maintainers = [
+    { name = "Alex Jacobs", email = "jacobsad@g.cofc.edu" }
+]
+keywords = [
+    "rag",
+    "evaluation",
+    "dataset",
+    "llm",
+    "retrieval",
+    "generation",
+    "synthetic-data",
+    "benchmarking"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: Free for non-commercial use",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Testing",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pydantic-ai>=0.0.49",
+    "python-dotenv>=1.0.0",
+    "genai-prices>=0.0.38",
+    "markdown>=3.5.0",
+    "weasyprint>=60.0",
+    "pygments>=2.17.0",
+    "tqdm>=4.66.0",
+    "pyyaml>=6.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/alexjacobs08/dataset-factory"
+Documentation = "https://github.com/alexjacobs08/dataset-factory/wiki"
+Repository = "https://github.com/alexjacobs08/dataset-factory"
+Issues = "https://github.com/alexjacobs08/dataset-factory/issues"
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.scripts]
+dataset-factory = "dataset_factory.cli.main:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+ignore = []
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"

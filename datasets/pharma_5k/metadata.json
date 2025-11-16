@@ -1,0 +1,31 @@
+{
+  "domain": "Biomedical Literature and Clinical Trials",
+  "generation_date": "2025-11-13T00:31:48.208421",
+  "statistics": {
+    "total_documents": 5000,
+    "total_queries": 453
+  },
+  "cost_breakdown": {
+    "config_generation": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "world_building": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "template_generation": {
+      "tokens": 0,
+      "cost_usd": 0.0
+    },
+    "document_generation": {
+      "tokens": 1468358,
+      "cost_usd": 0.09
+    },
+    "query_generation": {
+      "tokens": 1934666,
+      "cost_usd": 0.1
+    },
+    "total_cost_usd": 0.18
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "query_00000001",
+    "text": "What was the mission objective of Operation Nightingale-7, which took place on 2023-03-24, and how did the agents breach the Soviet Union's perimeter?",
+    "filters": {
+      "document_creation_date": "2023-05-10"
+    },
+    "category": "Search by Document Type",
+    "relevant_doc_ids": [
+      "doc_00000060"
+    ],
+    "metadata": {
+      "document_creation_date": "2023-05-10",
+      "authoring_agent_id": "Orion-5",
+      "mission_priority": 2,
+      "originating_division": "Covert Operations",
+      "classification_level": "Secret",
+      "event_date": "2023-03-24",
+      "target_entity": "Soviet Union"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 2.0
+    }
+  },
+  {
+    "id": "query_00000000",
+    "text": "What technical specifications were used in Operation Nightshade to support its objectives?",
+    "filters": {
+      "originating_division": "Counter-Espionage"
+    },
+    "category": "Search by Document Type",
+    "relevant_doc_ids": [
+      "doc_00000045"
+    ],
+    "metadata": {
+      "document_creation_date": "2020-11-04",
+      "authoring_agent_id": "Nightingale-7",
+      "mission_priority": 4,
+      "originating_division": "Counter-Espionage",
+      "classification_level": "Top Secret",
+      "event_date": "2021-05-28",
+      "target_entity": "Czechoslovakia"
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 7.000000000000001
+    }
+  },
+  {
+    "id": "query_00000002",
+    "text": "What is the recruitment history of NIGHTINGALE-14, alias 'Aurora-1', and what operations have they been involved in as a recruited asset?",
+    "filters": {
+      "authoring_agent_id": "Sparrowhawk-3"
+    },
+    "category": "Search by Document Type",
+    "relevant_doc_ids": [
+      "doc_00000029"
+    ],
+    "metadata": {
+      "document_creation_date": "2022-11-06",
+      "authoring_agent_id": "Sparrowhawk-3",
+      "originating_division": "Human Intelligence",
+      "classification_level": "Top Secret",
+      "event_date": "2021-08-29",
+      "mission_priority": 3
+    },
+    "query_info": {
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "target_selectivity": {},
+      "actual_selectivity": 8.0
+    }
+  }
+]

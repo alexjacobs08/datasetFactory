@@ -1,0 +1,267 @@
+{
+  "domain": {
+    "name": "Klondike Gold Rush Town Life",
+    "description": "This dataset explores the daily life, challenges, and unique culture of a gold rush town in the Yukon during the late 1800s. It encompasses the experiences of prospectors, merchants, and other inhabitants, detailing their pursuit of fortune, the harsh environment, and the rapid establishment of communities.",
+    "time_span": null,
+    "scale": {
+      "target_documents": 100,
+      "target_queries": 10
+    }
+  },
+  "metadata_schema": {
+    "temporal": [
+      {
+        "name": "document_date",
+        "type": "date",
+        "range": "1896 to 1900",
+        "distribution": "uniform",
+        "description": "The date the document was created, published, or recorded."
+      }
+    ],
+    "hierarchical": [],
+    "categorical": [
+      {
+        "name": "settlement_type",
+        "type": "enum",
+        "values": [
+          "Boomtown",
+          "Mining Camp",
+          "Supply Post",
+          "Trail Stop",
+          "Port City",
+          "Native Village"
+        ],
+        "distribution": "uniform",
+        "description": "The type of settlement or community discussed in the document."
+      },
+      {
+        "name": "document_originator_type",
+        "type": "enum",
+        "values": [
+          "Newspaper",
+          "Personal Diary",
+          "Letter",
+          "Government Report",
+          "Photographer",
+          "Business Ledger",
+          "Memoir",
+          "Mining Claim Record"
+        ],
+        "distribution": "zipfian",
+        "description": "The type of entity or individual that created or published the document."
+      },
+      {
+        "name": "geographic_location",
+        "type": "enum",
+        "values": [
+          "Dawson City",
+          "Skagway",
+          "Bonanza Creek",
+          "White Pass",
+          "Yukon Territory",
+          "Dyea",
+          "Chilkoot Pass",
+          "Klondike River",
+          "Forty Mile"
+        ],
+        "distribution": "zipfian",
+        "description": "The primary geographic location or settlement discussed in the document."
+      }
+    ],
+    "numerical": [
+      {
+        "name": "event_year",
+        "type": "int",
+        "range": [
+          1896.0,
+          1905.0
+        ],
+        "distribution": "uniform",
+        "description": "The primary year or period of the events described in the document."
+      },
+      {
+        "name": "population_estimate",
+        "type": "int",
+        "range": [
+          100.0,
+          35000.0
+        ],
+        "distribution": "exponential",
+        "description": "An estimated population figure for the described location at the time of the document's events."
+      }
+    ],
+    "multi_valued": [
+      {
+        "name": "main_occupations",
+        "type": "array",
+        "element_type": "string",
+        "min_items": 1,
+        "max_items": 5,
+        "possible_values": [
+          "Prospector",
+          "Miner",
+          "Merchant",
+          "Saloon Owner",
+          "Gambler",
+          "Entertainer",
+          "Cook",
+          "Blacksmith",
+          "Carpenter",
+          "Law Enforcement",
+          "Teamster/Packer",
+          "Journalist",
+          "Doctor",
+          "Nurse",
+          "Laundress",
+          "Banker",
+          "Surveyor",
+          "Bartender",
+          "Hotelier",
+          "Gold Buyer",
+          "Steamboat Captain",
+          "Telegraph Operator",
+          "Baker",
+          "Clerk",
+          "Missionary"
+        ],
+        "description": "The primary occupations or roles of individuals featured in the document."
+      }
+    ]
+  },
+  "document_types": [
+    {
+      "name": "Prospector's Personal Correspondence",
+      "weight": 0.45,
+      "length_range": [
+        400,
+        1500
+      ],
+      "avg_length_tokens": 950,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "geographic_location",
+        "document_originator_type",
+        "settlement_type"
+      ],
+      "optional_metadata": [
+        "main_occupations",
+        "event_year"
+      ],
+      "content_description": "Informal letters exchanged between prospectors, their families, or business associates. These letters provide a personal glimpse into the daily struggles and triumphs of gold seekers, detailing their experiences in the camps, accounts of gold finds (or the disheartening lack thereof), the harsh realities of the Yukon environment, and requests for essential supplies or news from home. They often reflect the emotional toll and the dreams of striking it rich.",
+      "template_instructions": "Generate a letter with a date and salutation (e.g., 'My Dearest [Recipient's Name],' or 'To Mr. [Business Associate's Name],'). Follow with paragraphs detailing experiences, news, or requests. Conclude with a closing (e.g., 'Yours in hope,' 'With deepest affection,' 'Sincerely,') and the prospector's signature. The tone should be personal, often reflective, hopeful, sometimes desperate or weary, using period-appropriate language. Content should describe daily life, arduous labor, weather, food scarcity, health issues, loneliness, gold finds (or lack thereof), social interactions, requests for supplies/news, and expressions of hopes/fears. Incorporate 'document_date' prominently at the top. Mention 'geographic_location' (e.g., 'from Dawson City'). The letter should clearly reflect the 'document_originator_type' (Prospector) perspective. Describe the 'settlement_type' (e.g., a bustling town, a remote camp). If 'main_occupations' is present, briefly mention other temporary jobs. If 'event_year' is present, refer to specific events happening in that year. Examples: A letter detailing a harsh winter, a prospector boasting of a small find, a letter expressing loneliness and asking for news from home."
+    },
+    {
+      "name": "Local Newspaper Article",
+      "weight": 0.35,
+      "length_range": [
+        2000,
+        8000
+      ],
+      "avg_length_tokens": 5000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "geographic_location",
+        "settlement_type",
+        "main_occupations",
+        "event_year"
+      ],
+      "optional_metadata": [
+        "population_estimate"
+      ],
+      "content_description": "Articles from local gold rush newspapers, providing a comprehensive view of town life. This includes reports on significant local events, detailed advertisements for a wide array of goods and services catering to the gold rush population, crime reports and legal proceedings, social news and gossip, and crucial updates on mining claims, new strikes, and overall developments within the Klondike region. The tone often balances sensationalism with practical information.",
+      "template_instructions": "Generate a newspaper article beginning with a masthead and the 'document_date'. Include various sections: front-page headlines (1-2 prominent articles), local news & happenings, mining updates, advertisements (a significant portion), editorials/opinion, and crime & justice reports. The tone should be informative, sometimes sensationalist, often promoting the town's growth, using formal journalistic language mixed with local color. Advertisements should be persuasive and descriptive. Content should cover events (fires, openings, meetings), specific advertisements (products, services, venues), crime incidents (theft, brawls, scams), mining news (new strikes, techniques, disputes), and social notes. Display 'document_date' as the publication date. Mention 'geographic_location' prominently. Describe the 'settlement_type' in editorials or news. Feature 'main_occupations' in ads and workforce news. Ensure all content is consistent with the 'event_year'. If 'population_estimate' is present, quote it in articles about town growth. Examples: A front-page story about a massive gold discovery, a section of classified ads, a report on a saloon brawl, an editorial praising town citizens."
+    },
+    {
+      "name": "Gold Commissioner's Annual Report",
+      "weight": 0.2,
+      "length_range": [
+        10000,
+        20000
+      ],
+      "avg_length_tokens": 15000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "geographic_location",
+        "event_year",
+        "settlement_type",
+        "population_estimate"
+      ],
+      "optional_metadata": [
+        "main_occupations"
+      ],
+      "content_description": "Comprehensive yearly reports compiled by the appointed Gold Commissioner, providing an authoritative overview of the administration and development of the goldfields and settlements. These reports detail claim registrations and transfers, summaries of legal disputes and their resolutions, enforcement of mining regulations, official population counts and demographics, revenue collected through fees and royalties, infrastructure developments (roads, telegraphs), and the Commissioner's observations on the overall economic and social conditions of the region.",
+      "template_instructions": "Generate a formal report. Start with a title page including the report name, 'event_year', and author (Gold Commissioner). Follow with: Introduction, Mining Operations & Claims (statistics, new claims, production), Legal & Regulatory Affairs (disputes, enforcement, recommendations), Population & Demographics (official counts, breakdown, health), Revenue & Expenditures (fees, spending), Infrastructure & Development (roads, telegraphs), General Observations & Recommendations (Commissioner's insights, challenges, future policy). The tone should be formal, objective, authoritative, statistical, and administrative. Content should include specific numbers, analysis of trends, discussions of challenges (illegal mining, order, supplies), achievements, and recommendations. Display 'document_date' on the title page and in the introduction. Clearly define the 'geographic_location' covered. The entire report should focus on the 'event_year'. Describe 'settlement_type' for administrative centers. Provide detailed 'population_estimate' figures. If 'main_occupations' is present, discuss it in demographics or economic sections. Examples: A section detailing new claims in Bonanza Creek, a summary of a major legal dispute, a table showing revenue from mining licenses, a discussion on maintaining law and order."
+    }
+  ],
+  "query_patterns": [
+    {
+      "category": "Search by Occupation",
+      "weight": 0.25,
+      "description": "Users want to find documents and stories related to a specific profession or role (e.g., \"prospectors\", \"merchants\") during the gold rush.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Search by Geographic Location",
+      "weight": 0.2,
+      "description": "Users are looking for information pertaining to a particular gold rush town or area (e.g., \"Dawson City\", \"Skagway\").",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Specific Year and Settlement Type",
+      "weight": 0.15,
+      "description": "Users are interested in understanding the characteristics of a certain type of community (e.g., \"boomtowns\", \"trading posts\") during a particular year of the gold rush.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Document Originator and Location",
+      "weight": 0.15,
+      "description": "Users want to find records originating from a specific type of individual (e.g., \"diaries of prospectors\", \"business ledgers of merchants\") within a particular geographic location.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Comprehensive Town Life Details",
+      "weight": 0.15,
+      "description": "Users seek detailed insights into the daily life and challenges within a specific gold rush settlement, involving particular occupations, during a precise period, and located in a defined geographic area.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Demographic Impact and Originator Context",
+      "weight": 0.1,
+      "description": "Users aim to analyze the impact of population size on a specific gold rush town during a given year, potentially through the lens of a particular type of document originator.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    }
+  ]
+}

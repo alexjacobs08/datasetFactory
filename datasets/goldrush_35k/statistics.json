@@ -1,0 +1,452 @@
+{
+  "overall": {
+    "total_documents": 35034,
+    "num_metadata_fields": 7,
+    "num_filter_combinations": 22978
+  },
+  "field_cardinalities": {
+    "event_start_date": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "document_creation_date": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "document_type": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "settlement": {
+      "cardinality": 40,
+      "sample_values": [
+        "Dawson City",
+        "Skagway",
+        "Whitehorse",
+        "Dyea",
+        "Bonanza Creek",
+        "Hunker Creek",
+        "Eldorado Creek",
+        "Klondike River",
+        "Yukon River",
+        "Chilkoot Pass"
+      ]
+    },
+    "stakeholder_role": {
+      "cardinality": 40,
+      "sample_values": [
+        "Prospector",
+        "Merchant",
+        "Government Official",
+        "Indigenous Person",
+        "Journalist",
+        "Transport Worker",
+        "Miner",
+        "Saloon Keeper",
+        "Banker",
+        "Lawyer"
+      ]
+    },
+    "estimated_population": {
+      "cardinality": 0,
+      "sample_values": []
+    },
+    "primary_themes": {
+      "cardinality": 22857,
+      "sample_values": [
+        "('Historical Figures',)",
+        "('Entrepreneurship',)",
+        "('Technological Innovations (Mining)',)",
+        "('Cultural Exchange',)",
+        "('Transportation Routes',)",
+        "('Social Dynamics',)",
+        "('Wildlife and Nature',)",
+        "('Mining Techniques',)",
+        "('Gender Roles',)",
+        "('Government Regulations',)"
+      ]
+    }
+  },
+  "selectivity_buckets": {
+    "ultra_specific": {
+      "num_combinations": 22273,
+      "avg_selectivity_percent": 0.0031284910622488447,
+      "sample_combinations": [
+        {
+          "filters": {
+            "primary_themes": [
+              "Economic Activities",
+              "Historical Figures",
+              "Infrastructure Development",
+              "Transportation Routes",
+              "Winter Survival Strategies"
+            ]
+          },
+          "selectivity": 2.8543700405320545e-05,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Entrepreneurship",
+              "Gender Roles",
+              "Law and Order",
+              "Wildlife and Nature"
+            ]
+          },
+          "selectivity": 5.708740081064109e-05,
+          "matching_docs": 2
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Boomtown Development",
+              "Economic Activities",
+              "Government Regulations",
+              "Health and Disease",
+              "Legacy of the Gold Rush",
+              "Transportation Routes",
+              "Wildlife and Nature"
+            ]
+          },
+          "selectivity": 2.8543700405320545e-05,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Boomtown Development",
+              "Daily Life in a Gold Rush Town",
+              "Entrepreneurship",
+              "Mining Techniques",
+              "Technological Innovations (Mining)"
+            ]
+          },
+          "selectivity": 2.8543700405320545e-05,
+          "matching_docs": 1
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Boomtown Development",
+              "Cultural Exchange",
+              "Economic Activities",
+              "Legacy of the Gold Rush",
+              "Technological Innovations (Mining)",
+              "Wildlife and Nature"
+            ]
+          },
+          "selectivity": 2.8543700405320545e-05,
+          "matching_docs": 1
+        }
+      ]
+    },
+    "very_specific": {
+      "num_combinations": 578,
+      "avg_selectivity_percent": 0.02839554971117528,
+      "sample_combinations": [
+        {
+          "filters": {
+            "primary_themes": [
+              "Gold Discovery and Claims",
+              "Resource Management"
+            ]
+          },
+          "selectivity": 0.0003710681052691671,
+          "matching_docs": 13
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Economic Activities",
+              "Entrepreneurship"
+            ]
+          },
+          "selectivity": 0.00039961180567448765,
+          "matching_docs": 14
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Hardship and Survival",
+              "Social Dynamics",
+              "Supply Chains"
+            ]
+          },
+          "selectivity": 0.00014271850202660273,
+          "matching_docs": 5
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Daily Life in a Gold Rush Town",
+              "Health and Disease"
+            ]
+          },
+          "selectivity": 0.0003710681052691671,
+          "matching_docs": 13
+        },
+        {
+          "filters": {
+            "primary_themes": [
+              "Entertainment and Leisure",
+              "Technological Innovations (Mining)"
+            ]
+          },
+          "selectivity": 0.0004281555060798082,
+          "matching_docs": 15
+        }
+      ]
+    },
+    "specific": {
+      "num_combinations": 78,
+      "avg_selectivity_percent": 0.5921354054596049,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement": "Lousetown"
+          },
+          "selectivity": 0.00627961408917052,
+          "matching_docs": 220
+        },
+        {
+          "filters": {
+            "settlement": "Quartz Creek"
+          },
+          "selectivity": 0.00573728378146943,
+          "matching_docs": 201
+        },
+        {
+          "filters": {
+            "settlement": "Bear Creek"
+          },
+          "selectivity": 0.009590683336187704,
+          "matching_docs": 336
+        },
+        {
+          "filters": {
+            "settlement": "Rink Rapids"
+          },
+          "selectivity": 0.0072215562025460985,
+          "matching_docs": 253
+        },
+        {
+          "filters": {
+            "settlement": "Dominion Creek"
+          },
+          "selectivity": 0.00890563452646001,
+          "matching_docs": 312
+        }
+      ]
+    },
+    "moderate": {
+      "num_combinations": 40,
+      "avg_selectivity_percent": 2.073557115944511,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement": "Klondike River"
+          },
+          "selectivity": 0.029086030713021637,
+          "matching_docs": 1019
+        },
+        {
+          "filters": {
+            "settlement": "Lake Bennett"
+          },
+          "selectivity": 0.01835359936062111,
+          "matching_docs": 643
+        },
+        {
+          "filters": {
+            "settlement": "Bonanza Creek"
+          },
+          "selectivity": 0.04595535765256608,
+          "matching_docs": 1610
+        },
+        {
+          "filters": {
+            "settlement": "Mayo Landing"
+          },
+          "selectivity": 0.01407204429982303,
+          "matching_docs": 493
+        },
+        {
+          "filters": {
+            "settlement": "White Pass"
+          },
+          "selectivity": 0.021464862704801052,
+          "matching_docs": 752
+        }
+      ]
+    },
+    "broad": {
+      "num_combinations": 7,
+      "avg_selectivity_percent": 7.872352571787407,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement": "Skagway"
+          },
+          "selectivity": 0.11551635554033225,
+          "matching_docs": 4047
+        },
+        {
+          "filters": {
+            "settlement": "Whitehorse"
+          },
+          "selectivity": 0.07840954501341554,
+          "matching_docs": 2747
+        },
+        {
+          "filters": {
+            "settlement": "Dyea"
+          },
+          "selectivity": 0.0586287606325284,
+          "matching_docs": 2054
+        },
+        {
+          "filters": {
+            "stakeholder_role": "Government Official"
+          },
+          "selectivity": 0.0764114859850431,
+          "matching_docs": 2677
+        },
+        {
+          "filters": {
+            "stakeholder_role": "Merchant"
+          },
+          "selectivity": 0.1121196551920991,
+          "matching_docs": 3928
+        }
+      ]
+    },
+    "very_broad": {
+      "num_combinations": 2,
+      "avg_selectivity_percent": 23.335902266369814,
+      "sample_combinations": [
+        {
+          "filters": {
+            "settlement": "Dawson City"
+          },
+          "selectivity": 0.2345150425301136,
+          "matching_docs": 8216
+        },
+        {
+          "filters": {
+            "stakeholder_role": "Prospector"
+          },
+          "selectivity": 0.23220300279728265,
+          "matching_docs": 8135
+        }
+      ]
+    }
+  },
+  "document_lengths": {
+    "total_documents": 35099,
+    "min_length": 37,
+    "max_length": 30057,
+    "mean_length": 611,
+    "median_length": 555,
+    "by_document_type": {
+      "Mining Claim Application": {
+        "count": 4733,
+        "min": 119,
+        "max": 705,
+        "mean": 443,
+        "median": 441
+      },
+      "Personal Letter/Telegram": {
+        "count": 4090,
+        "min": 37,
+        "max": 1352,
+        "mean": 551,
+        "median": 539
+      },
+      "Public Notice/Wanted Poster": {
+        "count": 2642,
+        "min": 187,
+        "max": 657,
+        "mean": 422,
+        "median": 418
+      },
+      "Prospector's Journal Entry": {
+        "count": 3154,
+        "min": 360,
+        "max": 4775,
+        "mean": 704,
+        "median": 656
+      },
+      "Court Summons & Brief Testimony": {
+        "count": 1882,
+        "min": 361,
+        "max": 3067,
+        "mean": 641,
+        "median": 616
+      },
+      "Mining Company Business Plan/Investment Proposal": {
+        "count": 805,
+        "min": 467,
+        "max": 12623,
+        "mean": 774,
+        "median": 744
+      },
+      "General Store Ledger Entry": {
+        "count": 5379,
+        "min": 250,
+        "max": 941,
+        "mean": 505,
+        "median": 498
+      },
+      "Assay Report": {
+        "count": 3616,
+        "min": 250,
+        "max": 828,
+        "mean": 499,
+        "median": 489
+      },
+      "Personal Memoir/Extended Correspondence": {
+        "count": 988,
+        "min": 557,
+        "max": 18464,
+        "mean": 1642,
+        "median": 1120
+      },
+      "Merchant's Inventory & Order List": {
+        "count": 3280,
+        "min": 379,
+        "max": 1876,
+        "mean": 653,
+        "median": 635
+      },
+      "Official Government Report (Yukon Commissioner)": {
+        "count": 1465,
+        "min": 440,
+        "max": 12709,
+        "mean": 830,
+        "median": 787
+      },
+      "Geological Survey & Prospecting Analysis": {
+        "count": 198,
+        "min": 515,
+        "max": 1421,
+        "mean": 789,
+        "median": 773
+      },
+      "Full Trial Transcript (Major Case)": {
+        "count": 251,
+        "min": 559,
+        "max": 30057,
+        "mean": 1621,
+        "median": 1002
+      },
+      "Local Newspaper Article": {
+        "count": 2616,
+        "min": 384,
+        "max": 3133,
+        "mean": 716,
+        "median": 687
+      }
+    }
+  }
+}

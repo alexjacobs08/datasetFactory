@@ -1,0 +1,395 @@
+{
+  "domain": {
+    "name": "Klondike Echoes: Life in a Yukon Gold Town",
+    "description": "This dataset captures the raw, rugged existence of a gold rush town in the Yukon during the late 19th century. It delves into the daily lives of prospectors, merchants, and adventurers, detailing their struggles, triumphs, and the harsh realities of the unforgiving northern frontier, including the social dynamics, economic activities, and environmental challenges of the era.",
+    "time_span": null,
+    "scale": {
+      "target_documents": 1000,
+      "target_queries": 100
+    }
+  },
+  "metadata_schema": {
+    "temporal": [
+      {
+        "name": "document_date",
+        "type": "date",
+        "range": "1896-01-01 to 1900-12-31",
+        "distribution": "uniform",
+        "description": "The specific date when the document was created or the event it describes primarily occurred."
+      }
+    ],
+    "hierarchical": [],
+    "categorical": [
+      {
+        "name": "document_type",
+        "type": "enum",
+        "values": [
+          "Journal Entry",
+          "Personal Letter",
+          "Newspaper Article",
+          "Official Report",
+          "Photograph Caption",
+          "Telegram",
+          "Legal Document",
+          "Advertisement",
+          "Ledger Entry",
+          "Diary Entry",
+          "Memoir Excerpt",
+          "Government Correspondence"
+        ],
+        "distribution": "zipfian",
+        "description": "The original format or nature of the historical record."
+      },
+      {
+        "name": "settlement_name",
+        "type": "enum",
+        "values": [
+          "Dawson City",
+          "Skagway",
+          "Bonanza Creek",
+          "Whitehorse",
+          "Dyea",
+          "Forty Mile",
+          "Hunker Creek",
+          "Eldorado Creek",
+          "Circle City",
+          "Bennett",
+          "Carcross",
+          "Fort Selkirk"
+        ],
+        "distribution": "zipfian",
+        "description": "The specific gold rush settlement or location primarily featured in the document."
+      },
+      {
+        "name": "primary_social_role",
+        "type": "enum",
+        "values": [
+          "Prospector",
+          "Merchant",
+          "Government Official",
+          "Indigenous Person",
+          "Entertainer",
+          "Miner",
+          "Saloon Keeper",
+          "Cook",
+          "Laundress",
+          "Doctor",
+          "Law Enforcement Officer",
+          "Journalist",
+          "Teamster",
+          "Riverboat Captain",
+          "Gambler"
+        ],
+        "distribution": "zipfian",
+        "description": "The main social or professional role of the individuals or groups central to the document's content."
+      },
+      {
+        "name": "economic_activity",
+        "type": "enum",
+        "values": [
+          "Mining",
+          "Trade & Supply",
+          "Transportation",
+          "Services & Entertainment",
+          "Law Enforcement",
+          "Gold Panning",
+          "Claim Staking",
+          "Freight Hauling",
+          "Saloon Keeping",
+          "Banking",
+          "Medical Services",
+          "Food Service",
+          "Construction",
+          "Government Administration",
+          "Mail Service"
+        ],
+        "distribution": "zipfian",
+        "description": "The primary economic activity or industry that the document addresses."
+      }
+    ],
+    "numerical": [
+      {
+        "name": "population_estimate",
+        "type": "int",
+        "range": [
+          50.0,
+          30000.0
+        ],
+        "distribution": "zipfian",
+        "description": "An estimated population count for the primary settlement or region at the time the document's events occurred."
+      }
+    ],
+    "multi_valued": [
+      {
+        "name": "environmental_factors",
+        "type": "array",
+        "element_type": "string",
+        "min_items": 1,
+        "max_items": 7,
+        "possible_values": [
+          "Extreme Cold",
+          "River Travel",
+          "Food Scarcity",
+          "Harsh Terrain",
+          "Wildlife Encounters",
+          "Flooding",
+          "Blizzards",
+          "Permafrost",
+          "Avalanches",
+          "Forest Fires",
+          "Mosquito Infestations",
+          "Bear Encounters",
+          "Wolf Encounters",
+          "Isolation",
+          "Long Winters",
+          "Short Summers",
+          "Ice Jams",
+          "Thawing Rivers",
+          "Mudslides",
+          "Disease Outbreaks",
+          "Lack of Sunlight",
+          "Rapids and Strong Currents",
+          "Heavy Snowfall",
+          "Resource Depletion",
+          "Water Contamination",
+          "Landslides",
+          "Dense Forests",
+          "Rocky Soil",
+          "River Freezing",
+          "Erosion"
+        ],
+        "description": "Key environmental challenges, conditions, or natural elements prominently discussed in the document."
+      }
+    ]
+  },
+  "document_types": [
+    {
+      "name": "Mining Claim Registration",
+      "weight": 0.25,
+      "length_range": [
+        400,
+        1000
+      ],
+      "avg_length_tokens": 700,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "settlement_name",
+        "primary_social_role",
+        "economic_activity"
+      ],
+      "optional_metadata": [
+        "environmental_factors"
+      ],
+      "content_description": "Official legal documents detailing the location, boundaries, and ownership of a gold claim. Includes names of claimants, dates, and sometimes disputes.",
+      "template_instructions": "Generate a formal, legalistic document titled 'Mining Claim Registration Form'. Include a 'Claim Number', 'Registration Date' (from document_date), 'Claimant(s) Information' (Name, and primary_social_role, e.g., 'Prospector'), 'Claim Location' (detailed description using settlement_name as a reference point, e.g., 'near Dawson City on Bonanza Creek'), and 'Claim Boundaries' (measurements, landmarks). If optional_metadata includes 'environmental_factors', subtly incorporate terrain descriptions. The economic_activity should be evident from the context of 'gold claim'. Conclude with sections for 'Witness Signatures' and 'Registrar's Seal'. The tone should be precise and factual, resembling a government record from the late 19th century."
+    },
+    {
+      "name": "Prospector's Daily Journal Entry",
+      "weight": 0.2,
+      "length_range": [
+        700,
+        1500
+      ],
+      "avg_length_tokens": 1100,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "primary_social_role",
+        "settlement_name"
+      ],
+      "optional_metadata": [
+        "environmental_factors",
+        "economic_activity"
+      ],
+      "content_description": "Individual entries from a prospector's personal journal, detailing daily activities, gold finds, challenges, weather conditions, and personal reflections on life in the Yukon.",
+      "template_instructions": "Generate a first-person journal entry from the perspective of a prospector. Begin with the document_date prominently displayed. Detail the day's activities related to gold prospecting (e.g., digging, panning, sluicing), mentioning specific locations relative to the settlement_name. Describe the challenges faced (e.g., harsh weather, lack of success, loneliness, supply issues) and any small triumphs (e.g., finding a nugget, meeting fellow prospectors). The primary_social_role 'Prospector' should be clear throughout. If optional_metadata includes 'environmental_factors', describe the weather and landscape vividly. If 'economic_activity' is present, elaborate on the efforts and results of gold-seeking. The tone should be personal, reflective, and gritty, using period-appropriate language."
+    },
+    {
+      "name": "Klondike News Bulletin Article",
+      "weight": 0.18,
+      "length_range": [
+        2000,
+        5000
+      ],
+      "avg_length_tokens": 3500,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "settlement_name",
+        "economic_activity"
+      ],
+      "optional_metadata": [
+        "population_estimate",
+        "primary_social_role"
+      ],
+      "content_description": "Articles from local newspapers covering town events, social happenings, advertisements for goods and services, and opinion pieces reflecting the daily life and concerns of the gold rush community.",
+      "template_instructions": "Generate a newspaper-style document, including a masthead (e.g., 'The Dawson Daily News') with the settlement_name and document_date. Include 2-3 distinct articles covering town events (e.g., social gatherings, crimes, arrivals/departures), news related to economic_activity (e.g., new gold strikes, business openings, market prices), and possibly an opinion piece or advertisement section. The tone should be informative, sometimes sensationalist, and reflect the community's concerns and optimism. If optional_metadata includes 'population_estimate', an article might discuss town growth. If 'primary_social_role' is present, feature individuals or groups in news stories."
+    },
+    {
+      "name": "NWMP Patrol Log & Incident Report",
+      "weight": 0.15,
+      "length_range": [
+        4000,
+        8000
+      ],
+      "avg_length_tokens": 6000,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "settlement_name",
+        "primary_social_role",
+        "economic_activity"
+      ],
+      "optional_metadata": [
+        "environmental_factors",
+        "population_estimate"
+      ],
+      "content_description": "Combined daily patrol logs and detailed incident reports filed by the North-West Mounted Police, documenting law enforcement activities, investigations, arrests, and community observations.",
+      "template_instructions": "Generate a formal document from the North-West Mounted Police. Start with a header like 'NORTH-WEST MOUNTED POLICE - [settlement_name] DETACHMENT'. Include a 'PATROL LOG' section with chronological entries for several days, each marked with 'document_date', 'Time', 'Location' (within or near settlement_name), 'Activity' (e.g., 'Street Patrol', 'Inspection'), and 'Observations'. The primary_social_role 'NWMP Officer' should be implied as the author. Also include at least one 'INCIDENT REPORT' detailing a specific event (e.g., theft, assault, claim dispute related to economic_activity). The report should include 'Case Number', 'Date/Time of Incident', 'Location', 'Reporting Officer', 'Nature of Incident', 'Details' (witnesses, evidence), 'Actions Taken', and 'Outcome'. If optional_metadata includes 'environmental_factors', describe weather conditions during patrols. If 'population_estimate' is present, observations might include notes on public order in relation to crowd sizes. The tone should be factual, objective, and professional."
+    },
+    {
+      "name": "Personal Correspondence from the Frontier",
+      "weight": 0.12,
+      "length_range": [
+        1000,
+        2500
+      ],
+      "avg_length_tokens": 1750,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "settlement_name",
+        "primary_social_role"
+      ],
+      "optional_metadata": [
+        "economic_activity",
+        "environmental_factors"
+      ],
+      "content_description": "Letters written by gold seekers, merchants, or residents to family and friends outside the Yukon, sharing personal experiences, hardships, successes, and news from the goldfields.",
+      "template_instructions": "Generate a personal letter. Begin with the settlement_name and document_date. Address a family member or friend. The letter should be written from the perspective of a primary_social_role (e.g., 'Prospector', 'Merchant'). Detail personal experiences, the journey to the Klondike, daily life, hardships (e.g., cold, hunger, illness), successes or failures, and news from the goldfields. If optional_metadata includes 'economic_activity', discuss financial fortunes or business ventures. If 'environmental_factors' is present, describe the Yukon's landscape or weather. The tone should be intimate, emotional (hopeful, lonely, weary), and descriptive, reflecting the challenges and allure of the frontier. Conclude with a personal closing and signature."
+    },
+    {
+      "name": "Merchant's Comprehensive Inventory & Sales Ledger",
+      "weight": 0.05,
+      "length_range": [
+        15000,
+        30000
+      ],
+      "avg_length_tokens": 22500,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "settlement_name",
+        "economic_activity",
+        "primary_social_role"
+      ],
+      "optional_metadata": [
+        "population_estimate"
+      ],
+      "content_description": "Extensive records kept by a general store or trading post, detailing all incoming goods, stock levels, daily sales, credit accounts, and profits over an extended period.",
+      "template_instructions": "Generate a detailed, tabular ledger document from a merchant's perspective (primary_social_role 'Merchant'). The document should cover an extended period (implied by document_date range). Include sections for 'Inventory Log' (Date, Item, Quantity Received, Supplier, Cost), 'Sales Ledger' (Date, Customer Name/Cash Sale, Item, Quantity, Unit Price, Total, Payment Method), and 'Credit Accounts' (Customer, Running Balance, Payments). The economic_activity should be clearly 'Retail' or 'Trade'. Entries should reflect goods common in the Klondike (e.g., flour, tools, clothing). Show fluctuating prices and stock. The settlement_name should be where the store operates. If optional_metadata includes 'population_estimate', the volume and diversity of sales can subtly reflect town size. The tone should be factual, precise, and meticulous."
+    },
+    {
+      "name": "Yukon Territory Administrator's Annual Review",
+      "weight": 0.05,
+      "length_range": [
+        25000,
+        40000
+      ],
+      "avg_length_tokens": 32500,
+      "length_variance": 0.2,
+      "required_metadata": [
+        "document_date",
+        "settlement_name",
+        "economic_activity",
+        "population_estimate",
+        "environmental_factors"
+      ],
+      "optional_metadata": [
+        "primary_social_role"
+      ],
+      "content_description": "A formal, comprehensive report compiled by the head administrator of the Yukon Territory, summarizing the year's governance, economic development, social conditions, infrastructure projects, and challenges for the entire region.",
+      "template_instructions": "Generate a formal, comprehensive annual review from the perspective of the Territorial Administrator. Start with a title page including the document_date (year) and originating settlement_name. Include an 'Executive Summary' and detailed sections such as 'Economic Overview' (discussing gold production, trade, related economic_activity), 'Law and Order', 'Public Works' (infrastructure projects), 'Social Conditions' (health, education), and 'Challenges and Recommendations'. Integrate 'population_estimate' into demographic discussions. Discuss the impact of 'environmental_factors' on development and daily life. If optional_metadata includes 'primary_social_role', discuss contributions or issues related to different social groups. The tone should be authoritative, objective, and analytical, reflecting bureaucratic reporting of the era."
+    }
+  ],
+  "query_patterns": [
+    {
+      "category": "Life of a specific social role",
+      "weight": 0.25,
+      "description": "Users want to find information about the daily life, struggles, and triumphs of a particular group of people (e.g., prospectors, merchants, adventurers) in the Yukon gold rush.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Details on a specific gold town",
+      "weight": 0.2,
+      "description": "Users are interested in general information, social dynamics, or economic activities within a particular gold rush settlement like Dawson City or Whitehorse.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Economic activities in a specific town",
+      "weight": 0.15,
+      "description": "Users want to understand the types of businesses, trade, or gold mining operations prevalent in a particular gold rush settlement during a specific period.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Environmental challenges faced by a social role",
+      "weight": 0.15,
+      "description": "Users are looking for how specific environmental factors (e.g., harsh winters, difficult terrain, disease) affected a particular social role or their economic activities.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Comprehensive historical context of a period/location",
+      "weight": 0.1,
+      "description": "Users seek a detailed understanding of the social dynamics, economic activities, and environmental conditions experienced by a specific group in a particular town during a defined historical period, drawing from various document types.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "complex",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Population estimates for a settlement over time",
+      "weight": 0.05,
+      "description": "Users want to find information about the estimated number of people in a specific town or region, potentially looking at how it changed over time.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "single",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    },
+    {
+      "category": "Specific document types about a topic",
+      "weight": 0.1,
+      "description": "Users want to find specific kinds of records (e.g., diaries, official reports, newspaper articles) related to certain events, social roles, or economic activities within the gold rush era.",
+      "templates": [],
+      "filter_specifications": {},
+      "selectivity_target": {},
+      "filter_complexity": "multi",
+      "query_specificity": "moderate",
+      "ground_truth_count": 1
+    }
+  ]
+}

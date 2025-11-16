@@ -1,0 +1,62 @@
+{
+  "start_time": "2025-11-16T12:17:24.521938",
+  "last_update": "2025-11-16T12:21:20.095767",
+  "phases": {
+    "config_generation": {
+      "phase": "config_generation",
+      "num_batches": 1,
+      "num_calls": 10,
+      "input_tokens": 5732,
+      "output_tokens": 15991,
+      "total_tokens": 21723,
+      "input_cost": 0.011002521622243704,
+      "output_cost": 0.03069457837775629,
+      "total_cost": 0.041697099999999994,
+      "duration_seconds": 0.0
+    },
+    "world_building": {
+      "phase": "world_building",
+      "num_batches": 1,
+      "num_calls": 1,
+      "input_tokens": 1714,
+      "output_tokens": 3382,
+      "total_tokens": 5096,
+      "input_cost": 0.018792113029827317,
+      "output_cost": 0.037079886970172685,
+      "total_cost": 0.055872,
+      "duration_seconds": 91.78688597679138
+    },
+    "document_generation": {
+      "phase": "document_generation",
+      "num_batches": 1,
+      "num_calls": 100,
+      "input_tokens": 325962,
+      "output_tokens": 91031,
+      "total_tokens": 416993,
+      "input_cost": 0.018432858628226374,
+      "output_cost": 0.005147721371773628,
+      "total_cost": 0.023580580000000004,
+      "duration_seconds": 195.14780855178833
+    },
+    "query_generation": {
+      "phase": "query_generation",
+      "num_batches": 1,
+      "num_calls": 3,
+      "input_tokens": 11698,
+      "output_tokens": 108,
+      "total_tokens": 11806,
+      "input_cost": 0.0005881103608334746,
+      "output_cost": 5.429639166525496e-06,
+      "total_cost": 0.00059354,
+      "duration_seconds": 2.421344041824341
+    }
+  },
+  "total_calls": 114,
+  "total_input_tokens": 345106,
+  "total_output_tokens": 110512,
+  "total_tokens": 455618,
+  "total_input_cost": 0.04881560364113087,
+  "total_output_cost": 0.07292761635886913,
+  "total_cost": 0.12174322,
+  "total_duration_seconds": 289.35603857040405
+}

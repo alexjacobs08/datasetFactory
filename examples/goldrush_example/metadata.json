@@ -1,0 +1,27 @@
+{
+  "domain": "Klondike Gold Rush Town Life",
+  "generation_date": "2025-11-16T12:17:24.519435",
+  "statistics": {
+    "total_documents": 100,
+    "total_queries": 3
+  },
+  "cost_breakdown": {
+    "config_generation": {
+      "tokens": 21723,
+      "cost_usd": 0.04
+    },
+    "world_building": {
+      "tokens": 5096,
+      "cost_usd": 0.06
+    },
+    "document_generation": {
+      "tokens": 416993,
+      "cost_usd": 0.02
+    },
+    "query_generation": {
+      "tokens": 11806,
+      "cost_usd": 0.0
+    },
+    "total_cost_usd": 0.12
+  }
+}

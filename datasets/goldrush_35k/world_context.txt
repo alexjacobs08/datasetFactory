@@ -1,0 +1,83 @@
+# KLONDIKE GOLD RUSH ERA: WORLD-BUILDING CONTEXT
+
+## 1. TEMPORAL STRUCTURE
+
+The Klondike Gold Rush began with George Carmack's August 16, 1896 discovery on Bonanza Creek, though word didn't reach the outside world until July 1897 when the steamships Excelsior and Portland arrived in San Francisco and Seattle laden with gold. This triggered the greatest stampede in North American history.
+
+The rush peaked in 1898 when Dawson City swelled to 40,000 inhabitants, making it briefly the largest Canadian city west of Winnipeg. By 1899, the easiest claims were exhausted, and individual prospecting gave way to industrial operations. The 1899 Nome, Alaska gold strike drained population. By 1901, Dawson stabilized at 9,000 residents as hydraulic mining and dredging operations dominated. The era effectively ended by 1903, though mining continued for decades.
+
+Documents from 1896-1898 reflect chaos and discovery; 1899-1901 show consolidation and disillusionment. Contemporary documents (1896-1903) differ markedly from retrospective accounts (1904-1910), which romanticize hardships and emphasize survival narratives.
+
+## 2. ORGANIZATIONS & HIERARCHY
+
+**Government Bodies**: The North-West Mounted Police (NWMP) under Superintendent Samuel Steele maintained order, requiring stampeders carry a year's supplies (the "Ton of Goods" regulation). The Canadian Department of the Interior administered mineral rights through Gold Commissioner Thomas Fawcett. The Yukon Territory was established in 1898 with Commissioner William Ogilvie overseeing civil administration.
+
+**Financial Institutions**: The Canadian Bank of Commerce opened Dawson's first bank in 1898, followed by the Bank of British North America. These institutions assayed gold, provided credit, and transferred funds Outside. Independent gold buyers like Joe Boyle competed with banks, often offering better rates.
+
+**Transportation Monopolies**: The White Pass & Yukon Route railway (completed 1900) revolutionized access, replacing treacherous trails. The British Yukon Navigation Company and Alaska Commercial Company controlled riverboat traffic. The Chilkoot Tramway operated aerial tramways over the pass.
+
+**Mining Operations**: Individual prospectors initially dominated, but by 1899, consolidated companies emerged. The Yukon Gold Company and Canadian Klondike Mining Company employed hydraulic and dredging technology. The Big Alex McDonald holdings represented the transition from individual to corporate mining.
+
+**Social Infrastructure**: The Dawson Daily News and Klondike Nugget provided information networks. St. Mary's Hospital (operated by Sisters of Saint Ann) and Good Samaritan Hospital served medical needs. The Arctic Brotherhood fraternal organization provided mutual aid. Saloons like the Monte Carlo and Palace Grand Theatre anchored social life.
+
+## 3. KEY ENTITIES & CATEGORIES
+
+**Major Settlements**: **Dawson City** emerged as the metropolis, featuring two-story false-front buildings along Front Street, electric lights by 1899, and a cosmopolitan population. It housed government offices, banks, newspapers, theaters, and dozens of saloons. **Skagway** served as the primary American gateway, controlled initially by con-man Jefferson "Soapy" Smith until his 1898 death. A lawless transit point where stampeders were frequently swindled. **Whitehorse** developed at the head of navigation on the Yukon River, becoming the railway terminus and transshipment hub.
+
+Secondary locations follow patterns: **Creek settlements** (Bonanza, Eldorado, Hunker, Dominion) were working mining camps with minimal infrastructure—canvas tents, rough cabins, and seasonal populations. **Trail waypoints** (Dyea, Lake Bennett, Lake Lindeman) were temporary tent cities where stampeders built boats for river navigation. **Indigenous settlements** (Moosehide, Tagish) maintained traditional lifeways while engaging in wage labor and trade. **Older posts** (Forty Mile, Circle City) declined rapidly as populations shifted to Dawson.
+
+**Stakeholder Roles—Primary Categories**: **Prospectors** ranged from experienced miners to naive office clerks. Most arrived too late for good claims and worked as wage laborers. **Merchants** wielded enormous power, controlling scarce supplies and charging inflated prices—flour at $100 per sack in 1897-98. The Ladue Company, Alaska Commercial Company stores, and independent outfitters like Gandolfo's dominated. **Transport Workers** included steamboat captains, packers, dog mushers, and trail guides. Packers charged $1 per pound over Chilkoot Pass.
+
+**Secondary Roles—Patterns**: **Service workers** (cooks, laundry workers, waitresses) were often women who earned more than miners. Belinda Mulrooney built hotels and became wealthy. **Entertainment sector** included dance hall girls, musicians, gamblers, and saloon keepers. **Legal/administrative** roles encompassed lawyers handling claim disputes, doctors treating scurvy and frostbite, and NWMP officers. **Skilled trades** (blacksmiths, carpenters, photographers) commanded premium wages. **Indigenous peoples** worked as guides, packers, and fish suppliers while facing displacement from traditional lands.
+
+**Document Types—Major Patterns**: **Mining Claims** followed strict legal formats established by the Gold Commissioner's office, using Dominion Land Survey coordinates. **Business records** (ledgers, inventories, receipts) reveal economic patterns—seasonal price fluctuations, credit networks, and supply chain challenges. **Personal correspondence** ranges from terse telegrams (charged by word via the Yukon Telegraph Line completed 1899) to lengthy letters describing hardships. **Newspapers** mixed boosterism with genuine reporting, carrying advertisements for outfitters, saloons, and professional services. **Government reports** document administrative challenges, Indigenous relations, and infrastructure development.
+
+**Thematic Patterns**: **Mining techniques** evolved from simple panning and rocking to sluicing, drift mining (thawing permafrost with fires), and eventually hydraulic operations. **Environmental challenges** included -60°F winters, permafrost, mosquito plagues, and scurvy from vitamin deficiency. **Social dynamics** featured rigid class distinctions despite frontier egalitarianism myths, ethnic tensions (especially anti-Chinese sentiment), and surprising gender diversity. **Transportation** dominated concerns—the Chilkoot and White Pass trails claimed lives, while spring ice breakup isolated communities for weeks.
+
+## 4. MEASUREMENTS & METRICS
+
+**Gold Measurements**: The troy ounce (31.1 grams) was standard for assaying. Gold dust served as currency, valued at $16-17 per ounce. Pokes (small leather bags) held typical transactions. Assay reports from the Canadian Government Assay Office measured purity in fineness (parts per thousand)—Klondike gold typically ran 750-850 fine. Annual production peaked at $22 million (1900).
+
+**Distance & Territory**: The Dominion Land Survey system divided claims into 500-foot sections along creek beds. The standard claim was 500 feet along the creek by 1,000-1,500 feet wide. Trail distances measured in miles—Skagway to Dawson was 600 miles. The NWMP mandated supplies for the journey: 150 pounds flour, 50 pounds bacon, 10 pounds tea.
+
+**Population Metrics**: Census efforts were irregular, but estimates tracked boom-bust cycles. Dawson's population fluctuated from 500 (1896) to 40,000 (1898) to 9,000 (1901). Smaller settlements ranged from 100 (creek camps) to 5,000 (Skagway at peak).
+
+**Economic Indicators**: Wages for laborers ran $15 per day (1898), versus $2-3 Outside. A meal cost $1-5. Passage from Seattle to Skagway cost $50-150. Mining operations measured yield in dollars per cubic yard of gravel processed.
+
+**Temperature & Weather**: Recorded in Fahrenheit, winter temperatures regularly reached -40°F to -60°F. The Yukon River froze October-May. Breakup dates were wagered upon—typically mid-May. Growing season lasted 90 days.
+
+## 5. TERMINOLOGY & STANDARDS
+
+**Mining Terms**: "Paydirt" designated gold-bearing gravel. "Bedrock" was the underlying layer where gold concentrated. "Sluicing" involved running water through gravel in wooden boxes with riffles to catch gold. "Rocker" or "cradle" described small-scale washing devices. "Hydraulicking" used high-pressure water to blast hillsides. "Dredging" employed floating factories processing riverbed gravel.
+
+**Legal Framework**: The Yukon Placer Mining Act (1898) governed claims. The Miner's License cost $10 annually. Free Miner's Certificates entitled holders to stake claims. Recording fees ($15) secured claims at the Mining Recorder's office. The "representation work" requirement mandated $200 annual labor per claim to maintain ownership. Claim-jumping was prosecuted by the NWMP and tried in Gold Commissioner's Court.
+
+**Navigation Standards**: The Yukon River navigation system used steamboat ratings—vessels drew 18-36 inches. The White Pass & Yukon Route railway used narrow gauge (3 feet). Trail standards included the NWMP checkpoints at Chilkoot Summit and Tagish Post requiring supply verification.
+
+**Communication**: The Yukon Telegraph Line (1899-1901) connected Dawson to Outside at $1 per word minimum. Postal service via dogsled carried letters at 2 cents per half-ounce. The Dawson Daily News published six days weekly.
+
+**Measurement Standards**: The British Imperial system governed—pounds, feet, miles. Temperature in Fahrenheit. Gold fineness expressed in parts per thousand. Timber claims measured in square feet. Water rights allocated by "miner's inches" of flow.
+
+## 6. RELATIONSHIPS & RULES
+
+**Co-occurrence Patterns**: Mining claims correlate with assay reports and legal disputes. Merchant ledgers peak during spring when river navigation reopened. Government reports reference NWMP activities, Indigenous relations, and infrastructure projects. Personal correspondence intensifies during winter isolation and spring departures.
+
+**Temporal Dependencies**: Documents cluster around the navigation season (May-October). Mining claim documents precede assay reports by weeks. Court transcripts reference earlier claim registrations. Newspaper articles about gold strikes trigger subsequent claim-staking frenzies. Winter survival narratives peak January-March.
+
+**Funding Sources**: Individual prospectors relied on personal savings, family loans, or grubstakes (backers providing supplies for percentage of findings). Mining companies raised capital through stock offerings in Vancouver, Seattle, and London. The Yukon Consolidated Gold Corporation represented British investment. The Canadian government funded infrastructure—trails, telegraph, administrative buildings. Banks extended credit against proven claims.
+
+**Career Trajectories**: Successful prospectors became claim owners, then often sold to companies and became mine managers or investors. Failed prospectors worked wage labor, left the territory, or entered service industries. Women transitioned from dance halls to legitimate businesses. Indigenous peoples moved between traditional subsistence and wage labor.
+
+## 7. DOCUMENT TYPES
+
+**Publication Venues—Top Tier**: The Dawson Daily News (circulation 3,000) and Klondike Nugget were primary newspapers, mixing news, advertisements, and boosterism. The Yukon Sun served as government mouthpiece. Outside publications like Harper's Weekly and The Illustrated London News sent correspondents, romanticizing conditions for distant audiences.
+
+**Official Records**: The Gold Commissioner's Office in Dawson maintained claim registries, mining regulations, and dispute resolutions. The Territorial Commissioner's reports went to Ottawa. NWMP detachment records documented law enforcement. The Canadian Government Assay Office certified gold purity.
+
+**Business Publications**: Mining company prospectuses circulated in financial districts. Trade journals like The Mining Record covered Yukon developments. Outfitter catalogs from Seattle's Cooper & Levy or Vancouver's Hudson's Bay Company stores advertised supplies.
+
+**Personal Archives**: Letters home appeared in hometown newspapers. Diaries remained private until posthumous publication. Photographs by Larss & Duclos Studio or Hegg Photography documented daily life for commercial sale.
+
+**Specialized Documents**: Mining Claim Applications followed standardized formats with witness signatures and survey descriptions. Assay Reports from the government office or private assayers like Joe Ladue's operation certified gold content. Court records from Territorial Court Judge Charles Dugas documented claim disputes, theft, and occasional murders. Business ledgers tracked credit networks and seasonal price variations. Medical records from St. Mary's Hospital documented scurvy, frostbite, typhoid, and mining accidents.
+
+The document ecosystem reflects the tension between frontier chaos and imposed order, individual ambition and corporate consolidation, optimistic boosterism and harsh reality. Each document type serves specific social functions—legitimating claims, facilitating commerce, maintaining social bonds with Outside, or constructing retrospective narratives of adventure and survival.

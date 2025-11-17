@@ -11,9 +11,9 @@ default_model:
   model: groq:llama-3.1-8b-instant
   temperature: 0.7
   rate_limiting:
-    rpm: 1000      # Auto-detect (typically 60 for Gemini)
-    tpm: 250000      # Auto-detect (typically 500k for Gemini)
-    max_retries: null  # Auto-detect (3 for most providers)
+    rpm: 1000
+    tpm: 250000
+    max_retries: null
 
 # Medium model - Used for balanced quality/speed tasks
 medium_model:

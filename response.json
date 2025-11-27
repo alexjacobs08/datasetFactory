@@ -1,0 +1,252 @@
+{
+  "scored_chunks": [
+    {
+      "text": "doc_00000028.pdf\ndisputes involved claim ownership, boundary disputes, and non-payment of royalties. In one notable\ncase, a group of miners was found guilty of obstructing a public road, resulting in a fine of $100.\nEnforcement of Mining Regulations:\nWe continued to enforce the Dominion Mining Regulations, ensuring that all miners comply with the\nrequirements for claim registration, representation work, and royalty payments. In 1903, we\ncollected a total of $12,500 in royalties, a 3% increase from the previous year.\nPopulation Demographics:\nThe population of Forty Mile remains diverse, with a mix of miners, merchants, and support staff.\nThe most common occupations are bartender, cook, and merchant. Women make up 22% of the\npopulation, with many working as cooks, laundresses, or proprietresses of local businesses.\nPage 1 of 3\nRevenue Collection:\nIn 1903, we collected a total of $23,100 in revenue, a 10% increase from the previous year. This\nincludes royalties, registration fees, and other charges. The majority of revenue comes from royalties,\nwhich account for 60% of total revenue.\nInfrastructure Developments:\nWe continued to develop the infrastructure of Forty Mile, including the construction of a new\ntelegraph office and the extension of the local road network. The telegraph office has greatly\nimproved communication with the Outside, allowing for faster transmission of news and\ninformation.\nEconomic and Social Conditions:\nThe economic conditions in Forty Mile remain challenging, with many miners struggling to make\nends meet. However, the settlement has seen a slight increase in economic activity, with more\nbusinesses opening and a greater sense of optimism among residents. Social conditions also remain a\nconcern, with reports of drunkenness and other social problems.\nComparative Analysis:\nForty Mile's economic and social conditions are similar to those of other supply posts in the region.\nHowever, the settlement's unique location and history set it apart from other communities. For",
+      "score": 0.1,
+      "id": "3251e23b-15ad-4d60-8e19-2ba87113d72f",
+      "index": 1,
+      "metadata": {
+        "end_page": 2,
+        "start_page": 1
+      },
+      "document_id": "ad7046af-a5e4-495e-a3c3-e4b37396c178",
+      "document_name": "doc_00000028.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/3251e23b-15ad-4d60-8e19-2ba87113d72f",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/3251e23b-15ad-4d60-8e19-2ba87113d72f/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    },
+    {
+      "text": "doc_00000060.pdf\nwe have to make do with what we have here. I've also been hearing rumors about a new strike on the\nYukon River, but I don't have any details yet.\nI know I've been gone for a while, and I promise to come back to you as soon as I can. I'll be writing\nmore often, and I hope to hear from you too. Until then, take care of the kids and give them a hug\nfrom me.\nYours truly,\nJames\nPage 1 of 2\nP.S. I've included a small map of the creek where I'm prospecting. I hope you can make out the\ndetails. I've also included a small sketch of the saloon. I'm proud of what we've built here, and I know\nyou'd love it.\nGeographic Location: Dawson City\nDocument Originator Type: Newspaper\nSettlement Type: Mining Camp\nMain Occupations: Saloon Owner, Missionary, Steamboat Captain, Blacksmith\nEvent Year: 1899\nDocument Date: 2022-03-17\nEvent Year (1899): Tracks the lifecycle of the rush. 1896-1897: discovery and initial staking.\n1897-1898: mass stampede (estimated 100,000 set out; 30,000-40,000 reached Dawson).\n1898-1899: peak operations. 1900+: decline and consolidation.\nPopulation Estimates (100-35,000): Dramatic fluctuations characterized settlements. Dawson:\n500 (fall 1897), 5,000 (spring 1898), 30,000-40,000 (summer 1898), 8,000 (1900).\nKey Measurement Systems:\nTroy ounces: Gold measured in ounces, with prices around $16-17/oz\nClaim dimensions: 500 feet along creek, bank to bank\nDistances: Miles on trails (Dyea to Lake Bennett: 33 miles; Skagway to Bennett: 45 miles)\nFreight rates: Cents per pound (peaked at $1/lb over Chilkoot Pass in winter 1897-98)\nWages: Daily rates ($15/day for skilled labor in 1898, $1.50/day Outside)\nTemperature: Fahrenheit readings (-60°F common in winter; working conditions ceased\nbelow -50°F)\nRoyalty rates: 10% on gold output initially, later 2.5%\nOutfit requirements: Canadian government mandated 1,150 pounds of provisions per person\nPage 2 of 2",
+      "score": 0.1,
+      "id": "e28170ac-4cb7-4872-b7c0-b99b64429c7c",
+      "index": 2,
+      "metadata": {
+        "end_page": 2,
+        "start_page": 1
+      },
+      "document_id": "033cdbd3-2434-460a-9dd7-d8058744a2f1",
+      "document_name": "doc_00000060.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/033cdbd3-2434-460a-9dd7-d8058744a2f1/chunks/e28170ac-4cb7-4872-b7c0-b99b64429c7c",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/033cdbd3-2434-460a-9dd7-d8058744a2f1/chunks/e28170ac-4cb7-4872-b7c0-b99b64429c7c/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/033cdbd3-2434-460a-9dd7-d8058744a2f1",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/033cdbd3-2434-460a-9dd7-d8058744a2f1/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    },
+    {
+      "text": "doc_00000028.pdf\nother water-based activities. This has led to the development of a thriving fishing industry, which\nprovides a vital source of income for many residents.\nIn comparison to other settlements, Forty Mile has a higher proportion of women and a greater\ndiversity of occupations. This is likely due to the settlement's role as a supply post, which requires a\nrange of skills and services. However, the settlement's economic challenges remain a concern, and\nefforts must be made to support the local economy and improve the standard of living for residents.\nRecommendations:\nBased on our analysis, we recommend the following:\nContinue to enforce the Dominion Mining Regulations and ensure that all miners comply with\nthe requirements for claim registration, representation work, and royalty payments.\nDevelop the infrastructure of Forty Mile, including the construction of new buildings and the\nextension of the local road network.\nPage 2 of 3\nSupport the local economy by providing training and resources for residents and promoting\neconomic development initiatives.\nAddress social problems such as drunkenness and other social issues through education and\ncommunity programs.\nBy implementing these recommendations, we can improve the economic and social conditions of\nForty Mile and ensure the continued growth and development of the settlement.\nConclusion:\nIn conclusion, the 1903 Gold Commissioner's Annual Report highlights the continued growth and\nchallenges of the Forty Mile settlement. As a supply post, Forty Mile plays a crucial role in supporting\nthe mining operations in the region, and its unique location and history set it apart from other\ncommunities. By continuing to enforce the Dominion Mining Regulations, developing the\ninfrastructure of the settlement, supporting the local economy, and addressing social problems, we\ncan improve the economic and social conditions of Forty Mile and ensure its continued growth and\ndevelopment.\nAppendix:\nTable 1: Claim Registrations and Transfers",
+      "score": 0.09090909090909091,
+      "id": "10fc50ef-2278-4a92-86ce-b42c741d4a06",
+      "index": 3,
+      "metadata": {
+        "end_page": 3,
+        "start_page": 2
+      },
+      "document_id": "ad7046af-a5e4-495e-a3c3-e4b37396c178",
+      "document_name": "doc_00000028.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/10fc50ef-2278-4a92-86ce-b42c741d4a06",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/10fc50ef-2278-4a92-86ce-b42c741d4a06/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    },
+    {
+      "text": "doc_00000074.pdf\nwhat I've heard, it's got a good reputation for producing gold, and the terrain's relatively easy to\nnavigate. The only problem is, I don't have enough grubstake to cover the costs of outfitting the\nclaim. I've been trying to scrape together what little I can from my baking business, but it's not\nenough.\nHere's where I need your help, brother. I know you've got connections with some of the suppliers in\nSeattle. Can you see what you can do about getting me a better deal on some of the essential\nequipment? I'm thinking of a good pan, a sluice box, and maybe some spare tools in case we need\nthem. And if you could get your hands on some decent flour and baking powder, I'd be eternally\ngrateful.\nI know I'm not the only one struggling up here, but I'm starting to feel like I'm running out of\noptions. I've heard rumors of a new shipment coming in from Outside, but I don't know if it's true. If\nit is, I'll be sure to get my order in, but I'm not counting on it.\nI know this is a lot to ask, but I'd be forever in your debt if you could help me out. I'll make sure to\nsend you a batch of my famous sourdough bread as soon as I get back to Dawson.\nYours in the struggle for gold,\nEdmund\nP.S. If you could also look into getting me a better map of the area, I'd appreciate it. The ones I've got\nare a bit outdated, and I don't want to get lost in the wilderness.\nPage 1 of 2\n[Sketch of Chilkoot Pass terrain and Eldorado Creek location]\nIn this letter, Edmund is posing several questions and challenges related to his mining operation:\n1.\nHow to get his claim staked and equipment in place before winter sets in?\n2.\nWhich spot on Eldorado Creek is the most promising for gold production?\n3.\nHow to obtain a better deal on essential equipment?\n4.\nHow to get decent flour and baking powder for his baking business?\nHe is seeking help from his brother John in the following areas:\n1.\nConnections with suppliers in Seattle to get a better deal on equipment.\n2.\nAssistance in getting a decent map of the area to avoid getting lost.",
+      "score": 0.09090909090909091,
+      "id": "345e9e6e-5ba8-4f0f-a9d0-fad56c0a4e85",
+      "index": 1,
+      "metadata": {
+        "end_page": 2,
+        "start_page": 1
+      },
+      "document_id": "3fe7bf13-54f1-490e-a78e-1b38c2b523d2",
+      "document_name": "doc_00000074.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2/chunks/345e9e6e-5ba8-4f0f-a9d0-fad56c0a4e85",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2/chunks/345e9e6e-5ba8-4f0f-a9d0-fad56c0a4e85/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    },
+    {
+      "text": "doc_00000028.pdf\nGold Commissioner's Annual Report\nDate: 2020-03-25\nGeographic Location: Forty Mile\nEvent Year: 1903\nSettlement Type: Supply Post\nPopulation Estimate: 4253\nMain Occupations: Bartender, Cook\nExecutive Summary:\nThe 1903 Gold Commissioner's Annual Report highlights the continued growth and challenges of the\nForty Mile settlement. As a supply post, Forty Mile plays a crucial role in supporting the mining\noperations in the region. Despite the decline in gold prices, the settlement has seen a slight increase\nin population, reaching 4253 residents.\nClaim Registrations and Transfers:\nIn 1903, we recorded 123 new claims, with a total of 456 claims in operation. This represents a 5%\nincrease from the previous year. The most significant claim transfers occurred in the summer\nmonths, with a total of 217 claims changing hands. This trend is consistent with previous years, as\nminers seek to consolidate their operations or sell their claims due to economic pressures.\nLegal Disputes and Resolutions:\nWe resolved 35 legal disputes in 1903, with a total of 12 cases going to trial. The most common\ndisputes involved claim ownership, boundary disputes, and non-payment of royalties. In one notable\ncase, a group of miners was found guilty of obstructing a public road, resulting in a fine of $100.\nEnforcement of Mining Regulations:\nWe continued to enforce the Dominion Mining Regulations, ensuring that all miners comply with the\nrequirements for claim registration, representation work, and royalty payments. In 1903, we\ncollected a total of $12,500 in royalties, a 3% increase from the previous year.\nPopulation Demographics:\nThe population of Forty Mile remains diverse, with a mix of miners, merchants, and support staff.\nThe most common occupations are bartender, cook, and merchant. Women make up 22% of the\npopulation, with many working as cooks, laundresses, or proprietresses of local businesses.\nPage 1 of 3\nRevenue Collection:\nIn 1903, we collected a total of $23,100 in revenue, a 10% increase from the previous year. This",
+      "score": 0.08333333333333333,
+      "id": "3200443c-61a1-46c7-a5bb-49434727e28c",
+      "index": 0,
+      "metadata": {
+        "end_page": 2,
+        "start_page": 1
+      },
+      "document_id": "ad7046af-a5e4-495e-a3c3-e4b37396c178",
+      "document_name": "doc_00000028.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/3200443c-61a1-46c7-a5bb-49434727e28c",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/3200443c-61a1-46c7-a5bb-49434727e28c/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    },
+    {
+      "text": "doc_00000008.pdf\none we've all been waiting for. I'll be keeping an eye on it, and if it pans out, I'll be sure to let you\nknow. Until then, I'll keep panning and hoping for the best.\nThe town is bustling with activity, with the NWMP doing their best to maintain order. I had a run-in\nwith some of the mounted police the other day, but it was all in good fun. It's not every day you see a\ngroup of lawmen playing cards with a bunch of prospectors in a makeshift saloon.\nAs for supplies, I'm managing to scrounge up what I need, but it's getting harder to find decent food\nand clothing. I've heard rumors of a shipment arriving soon, and I'm keeping my fingers crossed that\nit'll bring some much-needed supplies. In the meantime, I've been relying on the local baker, Mr.\nThompson, for some decent bread and pastries. His wife makes a mean pie, and I've been enjoying\nthose whenever I can.\nI've also been keeping an ear out for any news from Outside. The latest reports from the Seattle Post-\nIntelligencer mention a big strike in Nome, Alaska, which has everyone abuzz. I'm not sure what to\nmake of it, but it's certainly got everyone talking.\nWell, Mother, I should wrap this up. I know you're worried about me, and I want to reassure you that\nI'm doing okay. It's not easy out here, but I'm managing. I'll keep writing and let you know how\nthings progress. Take care of yourself and give my love to the family.\nYour loving son,\nJohn\nPage 1 of 2\nComparative Analysis:\nThis letter can be compared to other prospectors' personal correspondence, such as those written by\nJack London or James W. Tilton. Like these letters, this one provides a personal glimpse into the\ndaily struggles and triumphs of gold seekers, detailing their experiences in the camps, accounts of\ngold finds, and the harsh realities of the Yukon environment.\nUnique features of this letter include its more optimistic tone, which is reflected in the writer's\ndetermination to join a grubstake and his enthusiasm for the potential discovery on Bonanza Creek.",
+      "score": 0.08333333333333333,
+      "id": "0559fa02-d9ab-40bf-8b31-7fbb5c71422c",
+      "index": 1,
+      "metadata": {
+        "end_page": 2,
+        "start_page": 1
+      },
+      "document_id": "6789f97b-d2e3-4ed7-a679-7b886514a508",
+      "document_name": "doc_00000008.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/6789f97b-d2e3-4ed7-a679-7b886514a508/chunks/0559fa02-d9ab-40bf-8b31-7fbb5c71422c",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/6789f97b-d2e3-4ed7-a679-7b886514a508/chunks/0559fa02-d9ab-40bf-8b31-7fbb5c71422c/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/6789f97b-d2e3-4ed7-a679-7b886514a508",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/6789f97b-d2e3-4ed7-a679-7b886514a508/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    },
+    {
+      "text": "doc_00000028.pdf\nwhich account for 60% of total revenue.\nInfrastructure Developments:\nWe continued to develop the infrastructure of Forty Mile, including the construction of a new\ntelegraph office and the extension of the local road network. The telegraph office has greatly\nimproved communication with the Outside, allowing for faster transmission of news and\ninformation.\nEconomic and Social Conditions:\nThe economic conditions in Forty Mile remain challenging, with many miners struggling to make\nends meet. However, the settlement has seen a slight increase in economic activity, with more\nbusinesses opening and a greater sense of optimism among residents. Social conditions also remain a\nconcern, with reports of drunkenness and other social problems.\nComparative Analysis:\nForty Mile's economic and social conditions are similar to those of other supply posts in the region.\nHowever, the settlement's unique location and history set it apart from other communities. For\nexample, Forty Mile's proximity to the Forty Mile River makes it an ideal location for fishing and\nother water-based activities. This has led to the development of a thriving fishing industry, which\nprovides a vital source of income for many residents.\nIn comparison to other settlements, Forty Mile has a higher proportion of women and a greater\ndiversity of occupations. This is likely due to the settlement's role as a supply post, which requires a\nrange of skills and services. However, the settlement's economic challenges remain a concern, and\nefforts must be made to support the local economy and improve the standard of living for residents.\nRecommendations:\nBased on our analysis, we recommend the following:\nContinue to enforce the Dominion Mining Regulations and ensure that all miners comply with\nthe requirements for claim registration, representation work, and royalty payments.\nDevelop the infrastructure of Forty Mile, including the construction of new buildings and the\nextension of the local road network.\nPage 2 of 3",
+      "score": 0.07692307692307693,
+      "id": "b40eea43-85bb-43f9-9077-a1476813f976",
+      "index": 2,
+      "metadata": {
+        "end_page": 2,
+        "start_page": 2
+      },
+      "document_id": "ad7046af-a5e4-495e-a3c3-e4b37396c178",
+      "document_name": "doc_00000028.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/b40eea43-85bb-43f9-9077-a1476813f976",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/chunks/b40eea43-85bb-43f9-9077-a1476813f976/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/ad7046af-a5e4-495e-a3c3-e4b37396c178/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    },
+    {
+      "text": "doc_00000074.pdf\nMarch 31, 1899\nChilkoot Pass, Yukon Territory\nDear Brother John,\nI hope this letter finds you in good health and spirits. I'm writing to you from the depths of Chilkoot\nPass, where the snow is knee-deep and the wind howls like a pack of wolves. I've been here for nigh\non three weeks now, trying to make my way through the notorious Golden Stairs with a load of\nsupplies for our mining camp. The packers are charging an arm and a leg for the privilege of getting\nour gear up here, and I'm starting to think it's a racket.\nThe question on everyone's mind, of course, is: how do we get our claim staked and our equipment in\nplace before winter sets in? The weather's been unpredictable, to say the least, and I'm starting to\nworry that we'll be stuck here until spring break-up. I've spoken to a few of the old-timers, and\nthey're telling me that the best way to get ahead is to find a good spot with a decent amount of pay\ndirt. But which spot is which?\nI've been doing some research, and I think I've found a promising location on Eldorado Creek. From\nwhat I've heard, it's got a good reputation for producing gold, and the terrain's relatively easy to\nnavigate. The only problem is, I don't have enough grubstake to cover the costs of outfitting the\nclaim. I've been trying to scrape together what little I can from my baking business, but it's not\nenough.\nHere's where I need your help, brother. I know you've got connections with some of the suppliers in\nSeattle. Can you see what you can do about getting me a better deal on some of the essential\nequipment? I'm thinking of a good pan, a sluice box, and maybe some spare tools in case we need\nthem. And if you could get your hands on some decent flour and baking powder, I'd be eternally\ngrateful.\nI know I'm not the only one struggling up here, but I'm starting to feel like I'm running out of\noptions. I've heard rumors of a new shipment coming in from Outside, but I don't know if it's true. If\nit is, I'll be sure to get my order in, but I'm not counting on it.",
+      "score": 0.07692307692307693,
+      "id": "66e76437-0e7f-4b6a-a980-6d8b8d2390bc",
+      "index": 0,
+      "metadata": {
+        "end_page": 1,
+        "start_page": 1
+      },
+      "document_id": "3fe7bf13-54f1-490e-a78e-1b38c2b523d2",
+      "document_name": "doc_00000074.pdf",
+      "document_metadata": {},
+      "links": {
+        "self": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2/chunks/66e76437-0e7f-4b6a-a980-6d8b8d2390bc",
+          "type": "application/json"
+        },
+        "self_text": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2/chunks/66e76437-0e7f-4b6a-a980-6d8b8d2390bc/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        },
+        "document": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2",
+          "type": "application/json"
+        },
+        "document_text": {
+          "href": "https://api.ragie.ai/documents/3fe7bf13-54f1-490e-a78e-1b38c2b523d2/content?media_type=text/plain-text",
+          "type": "text/plain-text"
+        }
+      }
+    }
+  ]
+}

@@ -7,7 +7,7 @@
 
 **Dataset Factory** automatically creates complete RAG (Retrieval-Augmented Generation) evaluation datasets with documents, queries, metadata, and ground truth labels—all from a simple natural language description.
 
-![Dataset Factory](docs/hero.jpg)
+[![Dataset Factory](docs/hero.jpg)](docs/hero.jpg)
 
 ## ✨ Features
 
